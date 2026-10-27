@@ -80,6 +80,17 @@
             text-decoration: none;
         }
         .back-link:hover { text-decoration: underline; }
+        #successMessage {
+            display: none;
+            background-color: #e6f4ea;
+            border: 1px solid #34a853;
+            color: #137333;
+            padding: 20px;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -88,8 +99,8 @@
     <h1>Adaugă Post Radio</h1>
     <p class="subtitle">Completează formularul pentru a propune un post nou în director</p>
 
-    <!-- Folosim acțiunea directă pe webhook fără cod JavaScript intermediar care blochează CORS -->
-    <form action="https://hook.eu1.make.com/y9k74aezseq9xsdcmk6vh3df3223ms52" method="POST">
+    <!-- Formularul trimite datele invizibil în iframe-ul de mai jos, fără să mute utilizatorul -->
+    <form id="addRadioForm" action="https://hook.eu1.make.com/y9k74aezseq9xsdcmk6vh3df3223ms52" method="POST" target="hidden_iframe" onsubmit="showSuccess()">
         
         <div class="form-group">
             <label for="name">Nume Post Radio:</label>
@@ -150,8 +161,32 @@
         <button type="submit" class="btn-submit" id="submitBtn">Trimite Propunerea</button>
     </form>
 
+    <div id="successMessage">
+        Mulțumim! Propunerea ta a fost trimisă cu succes și va fi verificată de administrator.
+    </div>
+
+    <!-- Iframe ascuns care preia răspunsul "Accepted" de la Make.com în culise -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="submitted()"></iframe>
+
     <a href="index.html" class="back-link">← Înapoi la directorul radio</a>
 </div>
+
+<script>
+    let isSubmitted = false;
+
+    function showSuccess() {
+        isSubmitted = true;
+        document.getElementById('submitBtn').disabled = true;
+        document.getElementById('submitBtn').textContent = "Se trimite...";
+    }
+
+    function submitted() {
+        if (isSubmitted) {
+            document.getElementById('addRadioForm').style.display = 'none';
+            document.getElementById('successMessage').style.display = 'block';
+        }
+    }
+</script>
 
 </body>
 </html>
