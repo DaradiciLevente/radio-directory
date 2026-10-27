@@ -97,9 +97,9 @@
 
 <div class="container">
     <h1>Adaugă Post Radio</h1>
-    <p class="subtitle">Completează formularul pentru a propune un post nou în director</p>
+    <p class="subtitle">Completează formularul pentru a propune un post nou prin GitHub Issue</p>
 
-    <form id="addRadioForm" onsubmit="submitProposal(event)">
+    <form id="addRadioForm" onsubmit="submitToIssue(event)">
         
         <div class="form-group">
             <label for="name">Nume Post Radio:</label>
@@ -157,40 +157,40 @@
             </div>
         </div>
 
-        <button type="submit" class="btn-submit" id="submitBtn">Trimite Propunerea</button>
+        <button type="submit" class="btn-submit" id="submitBtn">Trimite Propunerea (Creează Issue)</button>
     </form>
 
     <div id="successMessage">
-        Mulțumim! Propunerea ta a fost trimisă cu succes și va fi verificată de administrator.
+        Mulțumim! Propunerea ta a fost trimisă sub formă de GitHub Issue și va fi procesată.
     </div>
 
     <a href="index.html" class="back-link">← Înapoi la directorul radio</a>
 </div>
 
 <script>
-    async function submitProposal(event) {
+    function submitToIssue(event) {
         event.preventDefault();
 
-        const submitBtn = document.getElementById('submitBtn');
-        submitBtn.disabled = true;
-        submitBtn.textContent = "Se trimite...";
+        const name = document.getElementById('name').value.trim();
+        const id = document.getElementById('id').value.trim();
+        const stream_url = document.getElementById('stream_url').value.trim();
+        const continent = document.getElementById('continent').value;
+        const country = document.getElementById('country').value;
+        const selectedGenres = Array.from(document.querySelectorAll('input[name="genre"]:checked'))
+                                    .map(cb => cb.value);
 
-        const payload = {
-            id: document.getElementById('id').value.trim(),
-            name: document.getElementById('name').value.trim(),
-            country: document.getElementById('country').value,
-            continent: document.getElementById('continent').value,
-            genre: Array.from(document.querySelectorAll('input[name="genre"]:checked')).map(cb => cb.value),
-            stream_url: document.getElementById('stream_url').value.trim(),
-            active: true
-        };
+        // Construim corpul Issue-ului în format JSON sau text clar pe care GitHub Actions îl poate citi ușor
+        const title = `Propunere Radio: ${name} (${id})`;
+        const body = ````json\n{\n  "id": "${id}",\n  "name": "${name}",\n  "country": "${country}",\n  "continent": "${continent}",\n  "genre": ${JSON.stringify(selectedGenres)},\n  "stream_url": "${stream_url}",\n  "active": true\n}\n`````;
 
-        // Notă: Pentru a lăsa vizitatorii să trimită date fără să le expunem tokenul personal în codul public,
-        // putem rida o mică funcție sau folosi un endpoint public/formular securizat.
-        // Însă, dacă vrei ca acest script să declanșeze acțiunea direct, avem nevoie de un token public (Personal Access Token cu drepturi limitate de repo-dispatch).
+        // Deschidem pagina oficială de New Issue de pe GitHub cu datele precompletate automat
+        const repoOwner = "DaradiciLevente";
+        const repoName = "radio-directory";
         
-        // Alternativ, ca să fie extrem de sigur și să folosească secretul tău din repo fără expunere,
-        // cel mai simplu este să trimitem datele printr-un serviciu gratuit de tip backend (cum ar fi Netlify Forms sau un GitHub Action bazat pe Issues).
+        const githubUrl = `https://github.com/${repoOwner}/${repoName}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}&labels=proposal`;
+
+        // Redirecționăm utilizatorul direct către pagina de creare Issue gata completată
+        window.location.href = githubUrl;
     }
 </script>
 
