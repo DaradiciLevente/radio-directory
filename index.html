@@ -51,7 +51,7 @@
         }
         .btn-add:hover { background-color: #2e8b57; }
         
-        /* Stiluri pentru filtre compacte și butoane radio */
+        /* Stiluri pentru filtre compacte și checkbox-uri */
         .filters-container {
             background: #f8f9fa;
             padding: 15px;
@@ -76,13 +76,13 @@
             border-radius: 4px;
             font-size: 13px;
         }
-        .radio-filters {
+        .checkbox-filters {
             display: flex;
             flex-wrap: wrap;
             gap: 12px;
             align-items: center;
         }
-        .radio-filters label {
+        .checkbox-filters label {
             font-size: 13px;
             font-weight: 500;
             display: flex;
@@ -94,7 +94,7 @@
             border: 1px solid #ddd;
             border-radius: 4px;
         }
-        .radio-filters label:hover {
+        .checkbox-filters label:hover {
             background: #f1f3f4;
         }
 
@@ -152,7 +152,7 @@
         <a href="add.html" class="btn-add">➕ Adaugă Post Radio</a>
     </div>
 
-    <!-- Zona de filtre compacte -->
+    <!-- Zona de filtre compacte cu checkbox-uri pentru genuri -->
     <div class="filters-container">
         <div class="dropdown-filters">
             <select id="continentFilter" onchange="onContinentChange()">
@@ -162,15 +162,14 @@
                 <option value="">Toate țările</option>
             </select>
         </div>
-        <div class="radio-filters" id="genreRadioGroup">
-            <label><input type="radio" name="genreFilter" value="" checked onchange="filterChannels()"> Toate genurile</label>
-            <label><input type="radio" name="genreFilter" value="Pop" onchange="filterChannels()"> Pop</label>
-            <label><input type="radio" name="genreFilter" value="Rock" onchange="filterChannels()"> Rock</label>
-            <label><input type="radio" name="genreFilter" value="Dance" onchange="filterChannels()"> Dance</label>
-            <label><input type="radio" name="genreFilter" value="News" onchange="filterChannels()"> News</label>
-            <label><input type="radio" name="genreFilter" value="Hits" onchange="filterChannels()"> Hits</label>
-            <label><input type="radio" name="genreFilter" value="Retro" onchange="filterChannels()"> Retro</label>
-            <label><input type="radio" name="genreFilter" value="Electronic" onchange="filterChannels()"> Electronic</label>
+        <div class="checkbox-filters" id="genreCheckboxGroup">
+            <label><input type="checkbox" name="genreFilter" value="Pop" onchange="filterChannels()"> Pop</label>
+            <label><input type="checkbox" name="genreFilter" value="Rock" onchange="filterChannels()"> Rock</label>
+            <label><input type="checkbox" name="genreFilter" value="Dance" onchange="filterChannels()"> Dance</label>
+            <label><input type="checkbox" name="genreFilter" value="News" onchange="filterChannels()"> News</label>
+            <label><input type="checkbox" name="genreFilter" value="Hits" onchange="filterChannels()"> Hits</label>
+            <label><input type="checkbox" name="genreFilter" value="Retro" onchange="filterChannels()"> Retro</label>
+            <label><input type="checkbox" name="genreFilter" value="Electronic" onchange="filterChannels()"> Electronic</label>
         </div>
     </div>
 
@@ -221,7 +220,6 @@
         const selectedContinent = document.getElementById('continentFilter').value;
         const countrySelect = document.getElementById('countryFilter');
         
-        // Resetăm lista de țări
         countrySelect.innerHTML = '<option value="">Toate țările</option>';
 
         let filteredCountries = allChannels;
@@ -273,15 +271,16 @@
         const selectedContinent = document.getElementById('continentFilter').value;
         const selectedCountry = document.getElementById('countryFilter').value;
         
-        const selectedGenreElement = document.querySelector('input[name="genreFilter"]:checked');
-        const selectedGenre = selectedGenreElement ? selectedGenreElement.value : "";
+        // Colectăm toate genurile bifate în checkbox-uri
+        const checkedGenres = Array.from(document.querySelectorAll('input[name="genreFilter"]:checked'))
+                                    .map(cb => cb.value);
 
         let filtered = allChannels.filter(channel => {
             let matchContinent = !selectedContinent || channel.continent === selectedContinent;
             let matchCountry = !selectedCountry || channel.country === selectedCountry;
             
-            // Verificăm dacă genul bifat se regăsește în lista de genuri a postului radio
-            let matchGenre = !selectedGenre || (channel.genre && channel.genre.includes(selectedGenre));
+            // Dacă nu e bifat niciun gen, trec toate; altfel, postul trebuie să conțină cel puțin unul dintre genurile bifate
+            let matchGenre = checkedGenres.length === 0 || (channel.genre && checkedGenres.some(g => channel.genre.includes(g)));
 
             return matchContinent && matchCountry && matchGenre;
         });
