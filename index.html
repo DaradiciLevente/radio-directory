@@ -217,23 +217,26 @@
 </div>
 
 <script>
-    const availableLanguages = [
-        { code: 'en', flag: '🇬🇧', name: 'English' },
-        { code: 'ro', flag: '🇷🇴', name: 'Română' },
-        { code: 'hu', flag: '🇭🇺', name: 'Magyar' },
-        { code: 'pl', flag: '🇵🇱', name: 'Polski' },
-        { code: 'de', flag: '🇩🇪', name: 'Deutsch' },
-        { code: 'fr', flag: '🇫🇷', name: 'Français' },
-        { code: 'es', flag: '🇪🇸', name: 'Español' },
-        { code: 'it', flag: '🇮🇹', name: 'Italiano' }
-    ];
-
+    let availableLanguages = [];
     let allChannels = [];
     let currentFilteredChannels = [];
     let translations = {};
     let currentLang = localStorage.getItem('radio_lang') || 'en';
 
-    function initLanguageSelector() {
+    async function fetchAvailableLanguages() {
+        try {
+            let response = await fetch(`locales/languages.json?t=` + new Date().getTime());
+            availableLanguages = await response.json();
+            renderLanguageSelector();
+        } catch (error) {
+            console.error('Eroare la încărcarea fișierului languages.json:', error);
+            // Fallback în caz că fișierul languages.json nu este găsit
+            availableLanguages = [{ code: 'en', flag: '🇬🇧', name: 'English' }];
+            renderLanguageSelector();
+        }
+    }
+
+    function renderLanguageSelector() {
         const selector = document.getElementById('langSelector');
         if (!selector) return;
         
@@ -244,6 +247,12 @@
             opt.textContent = `${lang.flag} ${lang.name}`;
             selector.appendChild(opt);
         });
+        
+        // Dacă limba salvată nu există în lista nouă, revenim la prima limbă
+        const hasLang = availableLanguages.some(l => l.code === currentLang);
+        if (!hasLang && availableLanguages.length > 0) {
+            currentLang = availableLanguages[0].code;
+        }
         
         selector.value = currentLang;
     }
@@ -266,12 +275,10 @@
             }
         });
 
-        // Actualizare directă și sigură pentru titlul ferestrei/tab-ului
         if (translations['title_index']) {
             document.title = translations['title_index'];
         }
 
-        // Traducere esențială pentru titlul principal h1
         if (translations['heading_index']) {
             const heading = document.getElementById('mainHeading');
             if (heading) heading.textContent = translations['heading_index'];
@@ -293,18 +300,19 @@
         await loadLanguage(lang);
     }
 
-    async function loadChannels() {
+    async function initApp() {
         try {
-            initLanguageSelector();
+            await fetchAvailableLanguages();
             await loadLanguage(currentLang);
+            
             let response = await fetch(`channels.json?t=` + new Date().getTime());
             allChannels = await response.json();
             populateContinents();
             currentFilteredChannels = allChannels;
             displayChannels(allChannels);
         } catch (error) {
-            console.error('Eroare la încărcarea fișierului channels.json:', error);
-            document.getElementById('channelsTableBody').innerHTML = `<tr><td colspan="5" style="text-align: center; color: red;">${translations['no_channels'] || 'Eroare'}</td></tr>`;
+            console.error('Eroare la inițializarea aplicației:', error);
+            document.getElementById('channelsTableBody').innerHTML = `<tr><td colspan="5" style="text-align: center; color: red;">${translations['no_channels'] || 'Eroare la încărcarea datelor'}</td></tr>`;
         }
     }
 
@@ -415,7 +423,7 @@
 
         const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
         const link = document.createElement("a");
-        const url = URL.createObjectURL(blob);
+        const url = URL.URL.createObjectURL ? URL.createObjectURL(blob) : window.URL.createObjectURL(blob);
         
         link.setAttribute("href", url);
         link.setAttribute("download", "playlist.csv");
@@ -434,7 +442,8 @@
         });
     }
 
-    loadChannels();
+    // Inițializare aplicație
+    initApp();
 </script>
 
 </body>
