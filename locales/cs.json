@@ -1,0 +1,21 @@
+{
+  "title_index": "Radio Directory - Databáze streamů",
+  "title_add": "Přidat rádiovou stanici - Radio Directory",
+  "heading_index": "Radio Directory - Databáze streamů",
+  "heading_add": "Přidat rádiovou stanici",
+  "subtitle_add": "Vyplňte formulář pro návrh nové rádiové stanice do adresáře",
+  "btn_add": "➕ Přidat rádiovou stanici",
+  "btn_download": "📥 Stáhnout playlist.csv",
+  "all_continents": "Všechny kontinenty",
+  "all_countries": "Všechny země",
+  "table_name": "Název stanice",
+  "table_location": "Lokalita",
+  "table_genres": "Žánry",
+  "table_status": "Stav",
+  "table_action": "Akce",
+  "btn_copy": "Kopírovat odkaz",
+  "active": "Aktivní",
+  "inactive": "Neaktivní",
+  "no_channels": "Nenalezeny žádné stanice.",
+  "loading": "Načítání dat..."
+}
