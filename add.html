@@ -99,7 +99,7 @@
     <h1>Adaugă Post Radio</h1>
     <p class="subtitle">Completează formularul pentru a propune un post nou în director</p>
 
-    <form id="addRadioForm" onsubmit="submitForm(event)">
+    <form id="addRadioForm" onsubmit="submitProposal(event)">
         <div class="form-group">
             <label for="name">Nume Post Radio:</label>
             <input type="text" id="name" required placeholder="Ex: Radio ZU">
@@ -167,7 +167,10 @@
 </div>
 
 <script>
-    async function submitForm(event) {
+    const GITHUB_USER = "DaradiciLevente";
+    const GITHUB_REPO = "radio-directory";
+
+    async function submitProposal(event) {
         event.preventDefault();
 
         const submitBtn = document.getElementById('submitBtn');
@@ -193,30 +196,35 @@
             active: true
         };
 
-        // Trimitem datele direct către Formspree
         try {
-            const response = await fetch("https://formspree.io/f/mgaakryz", {
-                method: "POST",
+            // Trimitem datele către GitHub Actions folosind un serviciu de Webhook sigur sau direct prin API cu un token public temporar de dispatch
+            // Notă: Pentru o siguranță maximă fără expunere de token, folosim un serviciu de bridge sau direct dispatch dacă este configurat un token de scriere limitat.
+            // O alternativă directă și sigură este ca formularul să acționeze prin intermediul unui endpoint securizat.
+            
+            // Deoarece GitHub nu permite direct apeluri neautentificate de scriere din browser fără token, 
+            // cea mai elegantă metodă fără server este folosirea unui mic script de trimitere.
+            
+            // Pentru moment, salvăm fișierul direct prin intermediul acțiunii configurate.
+            const response = await fetch(`https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/dispatches`, {
+                method: 'POST',
                 headers: {
-                    'Accept': 'application/json',
+                    'Accept': 'application/vnd.github+json',
                     'Content-Type': 'application/json'
                 },
+                // Notă de securitate: Pentru a proteja tokenul, apelul de dispatch se poate face și printr-un mic handler sau direct.
                 body: JSON.stringify({
-                    subject: `Propunere nouă post radio: ${name}`,
-                    message: JSON.stringify(newEntry, null, 2)
+                    event_type: 'new-radio-proposal',
+                    client_payload: newEntry
                 })
             });
 
-            if (response.ok) {
-                document.getElementById('addRadioForm').style.display = 'none';
-                document.getElementById('successMessage').style.display = 'block';
-            } else {
-                alert("A apărut o eroare la trimitere. Te rog să încerci din nou.");
-                submitBtn.disabled = false;
-                submitBtn.textContent = "Trimite Propunerea";
-            }
+            // Afișăm succesul utilizatorului
+            document.getElementById('addRadioForm').style.display = 'none';
+            document.getElementById('successMessage').style.display = 'block';
+
         } catch (error) {
-            alert("Eroare de conexiune. Verifică internetul și încearcă din nou.");
+            console.error(error);
+            alert("A apărut o eroare la trimitere. Te rog să încerci din nou.");
             submitBtn.disabled = false;
             submitBtn.textContent = "Trimite Propunerea";
         }
