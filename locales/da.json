@@ -1,0 +1,21 @@
+{
+  "title_index": "Radio Directory - Stream-database",
+  "title_add": "Tilføj radiostation - Radio Directory",
+  "heading_index": "Radio Directory - Stream-database",
+  "heading_add": "Tilføj radiostation",
+  "subtitle_add": "Udfyld formularen for at foreslå en ny radiostation",
+  "btn_add": "➕ Tilføj radiostation",
+  "btn_download": "📥 Download playlist.csv",
+  "all_continents": "Alle kontinenter",
+  "all_countries": "Alle lande",
+  "table_name": "Stationsnavn",
+  "table_location": "Placering",
+  "table_genres": "Genrer",
+  "table_status": "Status",
+  "table_action": "Handling",
+  "btn_copy": "Kopier link",
+  "active": "Aktiv",
+  "inactive": "Inaktiv",
+  "no_channels": "Ingen stationer fundet.",
+  "loading": "Indlæser data..."
+}
