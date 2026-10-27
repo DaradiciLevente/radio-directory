@@ -305,10 +305,11 @@
 
         let csvContent = "";
         currentFilteredChannels.forEach(channel => {
-            let name = (channel.name || "").replace(/"/g, '""');
+            let name = (channel.name || "").trim();
             let url = (channel.stream_url || "").trim();
             
-            csvContent += `"${name}","${url}"\r\n`;
+            // Format YoRadio: Nume \t Link \t 0
+            csvContent += `${name}\t${url}\t0\r\n`;
         });
 
         const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
