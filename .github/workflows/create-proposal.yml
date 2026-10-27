@@ -1,0 +1,30 @@
+name: Creează Propunere Radio
+
+on:
+  repository_dispatch:
+    types: [new-radio-proposal]
+
+jobs:
+  create_json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Creează fișierul în folderul proposals
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.MY_GITHUB_TOKEN }}
+          script: |
+            const payload = context.payload.client_payload;
+            const fileName = `proposals/${payload.id}.json`;
+            const fileContent = JSON.stringify(payload, null, 2);
+
+            await github.rest.repos.createOrUpdateFileContents({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              path: fileName,
+              message: `Propunere automată post radio: ${payload.name}`,
+              content: Buffer.from(fileContent).toString('base64'),
+              branch: 'main'
+            });
