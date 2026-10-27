@@ -1,0 +1,21 @@
+{
+  "title_index": "Radio Directory - Stream-databas",
+  "title_add": "Lägg till radiostation - Radio Directory",
+  "heading_index": "Radio Directory - Stream-databas",
+  "heading_add": "Lägg till radiostation",
+  "subtitle_add": "Fyll i formuläret för att föreslå en ny radiostation",
+  "btn_add": "➕ Lägg till radiostation",
+  "btn_download": "📥 Ladda ner playlist.csv",
+  "all_continents": "Alla kontinenter",
+  "all_countries": "Alla länder",
+  "table_name": "Stationsnamn",
+  "table_location": "Plats",
+  "table_genres": "Genrer",
+  "table_status": "Status",
+  "table_action": "Åtgärd",
+  "btn_copy": "Kopiera länk",
+  "active": "Aktiv",
+  "inactive": "Inaktiv",
+  "no_channels": "Inga stationer hittades.",
+  "loading": "Laddar data..."
+}
