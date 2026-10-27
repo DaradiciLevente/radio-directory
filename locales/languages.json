@@ -16,5 +16,9 @@
   { "code": "sk", "flag": "🇸🇰", "name": "Slovenčina" },
   { "code": "bg", "flag": "🇧🇬", "name": "Български" },
   { "code": "hr", "flag": "🇭🇷", "name": "Hrvatski" },
-  { "code": "fi", "flag": "🇫🇮", "name": "Suomi" }
+  { "code": "fi", "flag": "🇫🇮", "name": "Suomi" },
+  { "code": "el", "flag": "🇬🇷", "name": "Ελληνικά" },
+  { "code": "no", "flag": "🇳🇴", "name": "Norsk" },
+  { "code": "sl", "flag": "🇸🇮", "name": "Slovenščina" },
+  { "code": "lt", "flag": "🇱🇹", "name": "Lietuvių" }
 ]
