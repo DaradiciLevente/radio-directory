@@ -1,0 +1,21 @@
+{
+  "title_index": "Radio Directory - База даних стрімів",
+  "title_add": "Додати радіостанцію - Radio Directory",
+  "heading_index": "Radio Directory - База даних стрімів",
+  "heading_add": "Додати радіостанцію",
+  "subtitle_add": "Заповніть форму, щоб запропонувати нову радіостанцію",
+  "btn_add": "➕ Додати радіостанцію",
+  "btn_download": "📥 Завантажити playlist.csv",
+  "all_continents": "Усі континенти",
+  "all_countries": "Усі країни",
+  "table_name": "Назва станції",
+  "table_location": "Локація",
+  "table_genres": "Жанри",
+  "table_status": "Статус",
+  "table_action": "Дія",
+  "btn_copy": "Копіювати посилання",
+  "active": "Активна",
+  "inactive": "Неактивна",
+  "no_channels": "Станцій не знайдено.",
+  "loading": "Завантаження даних..."
+}
