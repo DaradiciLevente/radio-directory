@@ -45,5 +45,17 @@
     ],
     "stream_url": "http://andrewstudios.go.ro:8000/HoldFeny",
     "active": true
+  },
+  {
+    "id": "virgin-radio-ro",
+    "name": "Virgin Radio",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "News",
+      "Hits"
+    ],
+    "stream_url": "http://astreaming.europafm.ro:8000/virgin_mp3_64k",
+    "active": true
   }
 ]
