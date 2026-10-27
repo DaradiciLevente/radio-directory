@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="pageTitle">Radio Directory - Stream Database</title>
+    <title data-i18n="title_index">Radio Directory - Stream Database</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -173,7 +173,7 @@
         <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)"></select>
     </div>
 
-    <h1 id="mainHeading">Radio Directory</h1>
+    <h1>Radio Directory</h1>
     
     <div class="header-actions">
         <button class="btn-download" onclick="downloadCSV()" data-i18n="btn_download">📥 Descarcă playlist.csv</button>
@@ -259,17 +259,13 @@
     }
 
     function applyTranslations() {
+        // Traduce automat toate elementele care au atributul data-i18n (inclusiv titlul paginii)
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const key = el.getAttribute('data-i18n');
             if (translations[key]) {
                 el.textContent = translations[key];
             }
         });
-
-        // Actualizează titlul paginii (browser tab title) în funcție de limba selectată
-        if (translations['title_index']) {
-            document.getElementById('pageTitle').textContent = translations['title_index'];
-        }
 
         const continentDefault = document.querySelector('#continentFilter option[value=""]');
         if (continentDefault && translations['all_continents']) continentDefault.textContent = translations['all_continents'];
