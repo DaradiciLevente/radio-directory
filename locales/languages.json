@@ -20,5 +20,9 @@
   { "code": "el", "flag": "🇬🇷", "name": "Ελληνικά" },
   { "code": "no", "flag": "🇳🇴", "name": "Norsk" },
   { "code": "sl", "flag": "🇸🇮", "name": "Slovenščina" },
-  { "code": "lt", "flag": "🇱🇹", "name": "Lietuvių" }
+  { "code": "lt", "flag": "🇱🇹", "name": "Lietuvių" },
+  { "code": "lv", "flag": "🇱🇻", "name": "Latviešu" },
+  { "code": "et", "flag": "🇪🇪", "name": "Eesti" },
+  { "code": "sq", "flag": "🇦🇱", "name": "Shqip" },
+  { "code": "is", "flag": "🇮🇸", "name": "Íslenska" }
 ]
