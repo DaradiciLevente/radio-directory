@@ -193,22 +193,14 @@
             active: true
         };
 
+        // Trimitem datele direct către Webhook-ul din Make.com
         try {
-            const response = await fetch("https://formspree.io/f/mgaakryz", {
+            const response = await fetch("https://hook.eu1.make.com/y9k74aezseq9xsdcmk6vh3df3223ms52", {
                 method: "POST",
                 headers: {
-                    'Accept': 'application/json',
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({
-                    subject: `Propunere nouă post radio: ${name}`,
-                    // Trimitem structura JSON curată în interiorul mesajului
-                    message: JSON.stringify(newEntry, null, 2),
-                    // Trimitem și câmpurile individuale dacă e nevoie
-                    radio_id: id,
-                    radio_name: name,
-                    stream_url: stream_url
-                })
+                body: JSON.stringify(newEntry)
             });
 
             if (response.ok) {
