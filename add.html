@@ -145,7 +145,7 @@
             </div>
         </div>
 
-        <button type="submit" class="btn-submit">Generează Propunere (Pull Request)</button>
+        <button type="submit" class="btn-submit">Trimite Propunerea (Pull Request)</button>
     </form>
 
     <a href="index.html" class="back-link">← Înapoi la directorul radio</a>
@@ -164,7 +164,6 @@
         const selectedGenres = Array.from(document.querySelectorAll('input[name="genre"]:checked'))
                                     .map(cb => cb.value);
 
-        // Construim obiectul JSON pentru noul post
         const newEntry = {
             id: id,
             name: name,
@@ -175,14 +174,11 @@
             active: true
         };
 
-        // Textul care va fi sugerat în Issue / PR pe GitHub
-        const jsonString = JSON.stringify(newEntry, null, 2);
-        const issueTitle = encodeURIComponent(`Propunere post radio: ${name}`);
-        const issueBody = encodeURIComponent(`Salut! Doresc să adaug un nou post radio în director.\n\nDatele propuse (JSON):\n\`\`\`json\n${jsonString}\n\`\`\`\n\nVă rog să verificați și să aprobați.`);
+        const commitMessage = encodeURIComponent(`Adăugare post radio: ${name}`);
+        const fileContent = encodeURIComponent(JSON.stringify(newEntry, null, 2));
 
-        // Redirecționăm utilizatorul către pagina de Issues / New PR din repository-ul tău 
-        // (Înlocuiește "DaradiciLevente/radio-directory" cu calea exactă a repository-ului tău dacă difere)
-        const githubUrl = `https://github.com/DaradiciLevente/radio-directory/issues/new?title=${issueTitle}&body=${issueBody}`;
+        // Link automat către interfața GitHub de creare a unui fișier nou și propunere PR
+        const githubUrl = `https://github.com/DaradiciLevente/radio-directory/new/main?filename=proposals/${id}.json&value=${fileContent}&message=${commitMessage}&description=Propunere%20nouă%20de%20post%20radio.`;
         
         window.open(githubUrl, '_blank');
     }
