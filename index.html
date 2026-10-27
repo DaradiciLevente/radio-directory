@@ -169,13 +169,9 @@
 <body>
 
 <div class="container">
+    <!-- Selectorul de limbi populat automat prin JS -->
     <div class="top-lang-bar">
-        <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)">
-            <option value="ro">🇷🇴 Română</option>
-            <option value="en">🇬🇧 English</option>
-            <option value="hu">🇭🇺 Magyar</option>
-            <option value="pl">🇵🇱 Polski</option>
-        </select>
+        <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)"></select>
     </div>
 
     <h1 id="mainHeading">Radio Directory</h1>
@@ -222,13 +218,38 @@
 </div>
 
 <script>
+    // Lista centralizată a limbilor suportate. 
+    // Când adaugi un fișier nou în folderul locales/ (ex: de.json), adaugi doar o linie aici.
+    const availableLanguages = [
+        { code: 'en', flag: '🇬🇧', name: 'English' },
+        { code: 'ro', flag: '🇷🇴', name: 'Română' },
+        { code: 'hu', flag: '🇭🇺', name: 'Magyar' },
+        { code: 'pl', flag: '🇵🇱', name: 'Polski' },
+        { code: 'de', flag: '🇩🇪', name: 'Deutsch' },
+        { code: 'fr', flag: '🇫🇷', name: 'Français' },
+        { code: 'es', flag: '🇪🇸', name: 'Español' },
+        { code: 'it', flag: '🇮🇹', name: 'Italiano' }
+    ];
+
     let allChannels = [];
     let currentFilteredChannels = [];
     let translations = {};
     let currentLang = localStorage.getItem('radio_lang') || 'en';
 
-    // Setează corect vizual limba în select
-    document.getElementById('langSelector').value = currentLang;
+    function initLanguageSelector() {
+        const selector = document.getElementById('langSelector');
+        if (!selector) return;
+        
+        selector.innerHTML = '';
+        availableLanguages.forEach(lang => {
+            let opt = document.createElement('option');
+            opt.value = lang.code;
+            opt.textContent = `${lang.flag} ${lang.name}`;
+            selector.appendChild(opt);
+        });
+        
+        selector.value = currentLang;
+    }
 
     async function loadLanguage(lang) {
         try {
@@ -270,6 +291,7 @@
 
     async function loadChannels() {
         try {
+            initLanguageSelector();
             await loadLanguage(currentLang);
             let response = await fetch('channels.json?t=' + new Date().getTime());
             allChannels = await response.json();
