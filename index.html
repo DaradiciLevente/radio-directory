@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radio Directory - Stream Database</title>
+    <title id="pageTitle">Radio Directory - Stream Database</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -35,6 +35,11 @@
             border-bottom: 1px solid #eee;
             padding-bottom: 15px;
         }
+        .header-left, .header-right {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
         .btn-add {
             background-color: #34a853;
             color: white;
@@ -61,7 +66,15 @@
         }
         .btn-download:hover { background-color: #1557b0; }
         
-        /* Stiluri pentru filtre compacte și checkbox-uri */
+        .lang-select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 13px;
+            background: #fff;
+            cursor: pointer;
+        }
+
         .filters-container {
             background: #f8f9fa;
             padding: 15px;
@@ -155,21 +168,30 @@
 <body>
 
 <div class="container">
-    <h1>Radio Directory</h1>
+    <h1 id="mainHeading">Radio Directory</h1>
     
     <div class="header-actions">
-        <a href="add.html" class="btn-add">➕ Adaugă Post Radio</a>
-        <button class="btn-download" onclick="downloadCSV()">📥 Descarcă playlist.csv</button>
+        <div class="header-left">
+            <a href="add.html" class="btn-add" data-i18n="btn_add">➕ Adaugă Post Radio</a>
+            <button class="btn-download" onclick="downloadCSV()" data-i18n="btn_download">📥 Descarcă playlist.csv</button>
+        </div>
+        <div class="header-right">
+            <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)">
+                <option value="ro">🇷🇴 Română</option>
+                <option value="en">🇬🇧 English</option>
+                <option value="hu">🇭🇺 Magyar</option>
+                <option value="pl">🇵🇱 Polski</option>
+            </select>
+        </div>
     </div>
 
-    <!-- Zona de filtre compacte cu checkbox-uri pentru genuri -->
     <div class="filters-container">
         <div class="dropdown-filters">
             <select id="continentFilter" onchange="onContinentChange()">
-                <option value="">Toate continentele</option>
+                <option value="" data-i18n="all_continents">Toate continentele</option>
             </select>
             <select id="countryFilter" onchange="filterChannels()">
-                <option value="">Toate țările</option>
+                <option value="" data-i18n="all_countries">Toate țările</option>
             </select>
         </div>
         <div class="checkbox-filters" id="genreCheckboxGroup">
@@ -186,15 +208,15 @@
     <table>
         <thead>
             <tr>
-                <th>Nume Post</th>
-                <th>Locație</th>
-                <th>Genuri</th>
-                <th>Stare</th>
-                <th>Acțiune</th>
+                <th data-i18n="table_name">Nume Post</th>
+                <th data-i18n="table_location">Locație</th>
+                <th data-i18n="table_genres">Genuri</th>
+                <th data-i18n="table_status">Stare</th>
+                <th data-i18n="table_action">Acțiune</th>
             </tr>
         </thead>
         <tbody id="channelsTableBody">
-            <tr><td colspan="5" style="text-align: center;">Se încarcă datele...</td></tr>
+            <tr><td colspan="5" style="text-align: center;" data-i18n="loading">Se încarcă datele...</td></tr>
         </tbody>
     </table>
 </div>
@@ -202,9 +224,54 @@
 <script>
     let allChannels = [];
     let currentFilteredChannels = [];
+    let translations = {};
+    let currentLang = localStorage.getItem('radio_lang') || 'ro';
+
+    document.getElementById('langSelector').value = currentLang;
+
+    async function loadLanguage(lang) {
+        try {
+            let response = await fetch(`locales/${lang}.json?t=` + new Date().getTime());
+            translations = await response.json();
+            applyTranslations();
+        } catch (error) {
+            console.error('Eroare la încărcarea traducerilor:', error);
+        }
+    }
+
+    function applyTranslations() {
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            if (translations[key]) {
+                el.textContent = translations[key];
+            }
+        });
+
+        // Actualizăm titlul paginii
+        if (translations['title_index']) {
+            document.getElementById('pageTitle').textContent = translations['title_index'];
+        }
+
+        // Actualizăm opțiunile implicite din selecturi
+        const continentDefault = document.querySelector('#continentFilter option[value=""]');
+        if (continentDefault && translations['all_continents']) continentDefault.textContent = translations['all_continents'];
+
+        const countryDefault = document.querySelector('#countryFilter option[value=""]');
+        if (countryDefault && translations['all_countries']) countryDefault.textContent = translations['all_countries'];
+
+        // Reafişăm tabelul pentru a traduce badge-urile de activ/inactiv
+        displayChannels(currentFilteredChannels);
+    }
+
+    async function changeLanguage(lang) {
+        currentLang = lang;
+        localStorage.setItem('radio_lang', lang);
+        await loadLanguage(lang);
+    }
 
     async function loadChannels() {
         try {
+            await loadLanguage(currentLang);
             let response = await fetch('channels.json?t=' + new Date().getTime());
             allChannels = await response.json();
             populateContinents();
@@ -212,7 +279,7 @@
             displayChannels(allChannels);
         } catch (error) {
             console.error('Eroare la încărcarea fișierului channels.json:', error);
-            document.getElementById('channelsTableBody').innerHTML = '<tr><td colspan="5" style="text-align: center; color: red;">Eroare la încărcarea bazei de date.</td></tr>';
+            document.getElementById('channelsTableBody').innerHTML = `<tr><td colspan="5" style="text-align: center; color: red;">${translations['no_channels'] || 'Eroare'}</td></tr>`;
         }
     }
 
@@ -220,6 +287,11 @@
         const continents = [...new Set(allChannels.map(c => c.continent))].filter(Boolean).sort();
         const continentSelect = document.getElementById('continentFilter');
         
+        // Pstrăm prima opțiune
+        const firstOpt = continentSelect.children[0];
+        continentSelect.innerHTML = '';
+        continentSelect.appendChild(firstOpt);
+
         continents.forEach(cont => {
             let opt = document.createElement('option');
             opt.value = cont;
@@ -232,7 +304,9 @@
         const selectedContinent = document.getElementById('continentFilter').value;
         const countrySelect = document.getElementById('countryFilter');
         
-        countrySelect.innerHTML = '<option value="">Toate țările</option>';
+        const firstOpt = countrySelect.children[0];
+        countrySelect.innerHTML = '';
+        countrySelect.appendChild(firstOpt);
 
         let filteredCountries = allChannels;
         if (selectedContinent) {
@@ -255,7 +329,7 @@
         tbody.innerHTML = '';
 
         if (channels.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="5" style="text-align: center;">Niciun post găsit.</td></tr>';
+            tbody.innerHTML = `<tr><td colspan="5" style="text-align: center;">${translations['no_channels'] || 'Niciun post găsit.'}</td></tr>`;
             return;
         }
 
@@ -263,16 +337,21 @@
             let tr = document.createElement('tr');
 
             let genresHtml = (channel.genre || []).map(g => `<span class="genre-tag">${g}</span>`).join('');
+            
+            const activeText = translations['active'] || 'Activ';
+            const inactiveText = translations['inactive'] || 'Inactiv';
+            const copyText = translations['btn_copy'] || 'Copiază Link';
+
             let statusBadge = channel.active 
-                ? '<span class="badge badge-active">Activ</span>' 
-                : '<span class="badge badge-inactive">Inactiv</span>';
+                ? `<span class="badge badge-active">${activeText}</span>` 
+                : `<span class="badge badge-inactive">${inactiveText}</span>`;
 
             tr.innerHTML = `
                 <td><strong>${channel.name}</strong><br><small style="color:#666;">${channel.id}</small></td>
                 <td>${channel.country || 'N/A'} (${channel.continent || 'N/A'})</td>
                 <td>${genresHtml}</td>
                 <td>${statusBadge}</td>
-                <td><button class="btn-copy" onclick="copyUrl('${channel.stream_url}')">Copiază Link</button></td>
+                <td><button class="btn-copy" onclick="copyUrl('${channel.stream_url}')">${copyText}</button></td>
             `;
 
             tbody.appendChild(tr);
@@ -307,8 +386,6 @@
         currentFilteredChannels.forEach(channel => {
             let name = (channel.name || "").trim();
             let url = (channel.stream_url || "").trim();
-            
-            // Format YoRadio: Nume \t Link \t 0
             csvContent += `${name}\t${url}\t0\r\n`;
         });
 
