@@ -5,7 +5,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": ["Pop", "News", "Hits"],
-    "stream_url": "https://astreaming.europafm.ro:8443/europa-fm-live.mp3",
+    "stream_url": "https://live.europafm.ro/europa-fm.aac",
     "active": true
   },
   {
