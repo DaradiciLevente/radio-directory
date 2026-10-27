@@ -106,7 +106,7 @@
 
         <div class="form-group">
             <label for="continent">Continent:</label>
-            <select id="continent" required>
+            <select id="continent" required onchange="updateCountries()">
                 <option value="">Alege continentul...</option>
                 <option value="Europe">Europe</option>
                 <option value="Asia">Asia</option>
@@ -120,15 +120,7 @@
         <div class="form-group">
             <label for="country">Țară:</label>
             <select id="country" required>
-                <option value="">Alege țara...</option>
-                <option value="Romania">Romania</option>
-                <option value="Hungary">Hungary</option>
-                <option value="Moldova">Moldova</option>
-                <option value="Germany">Germany</option>
-                <option value="United Kingdom">United Kingdom</option>
-                <option value="France">France</option>
-                <option value="Italy">Italy</option>
-                <option value="Spain">Spain</option>
+                <option value="">Mai întâi alege continentul...</option>
             </select>
         </div>
 
@@ -152,6 +144,55 @@
 </div>
 
 <script>
+    // Baza de date cu țările grupate pe continente
+    const countriesByContinent = {
+        "Europe": [
+            "Romania", "Hungary", "Moldova", "Germany", "United Kingdom", 
+            "France", "Italy", "Spain", "Poland", "Ukraine", "Netherlands", 
+            "Belgium", "Greece", "Portugal", "Sweden", "Austria", "Switzerland",
+            "Bulgaria", "Serbia", "Croatia", "Czech Republic", "Denmark", "Finland",
+            "Ireland", "Norway", "Slovakia", "Albania", "Estonia", "Latvia", "Lithuania"
+        ],
+        "Asia": [
+            "Japan", "China", "India", "South Korea", "Turkey", "Israel", 
+            "United Arab Emirates", "Saudi Arabia", "Vietnam", "Thailand", 
+            "Indonesia", "Malaysia", "Singapore", "Philippines", "Pakistan", "Iran"
+        ],
+        "North America": [
+            "United States", "Canada", "Mexico", "Cuba", "Dominican Republic", 
+            "Costa Rica", "Panama", "Jamaica", "Guatemala", "Honduras"
+        ],
+        "South America": [
+            "Brazil", "Argentina", "Colombia", "Chile", "Peru", "Venezuela", 
+            "Uruguay", "Ecuador", "Bolivia", "Paraguay"
+        ],
+        "Africa": [
+            "South Africa", "Egypt", "Nigeria", "Kenya", "Morocco", 
+            "Ghana", "Algeria", "Tunisia", "Ethiopia", "Tanzania"
+        ],
+        "Australia": [
+            "Australia", "New Zealand", "Fiji", "Papua New Guinea"
+        ]
+    };
+
+    function updateCountries() {
+        const continentSelect = document.getElementById('continent');
+        const countrySelect = document.getElementById('country');
+        const selectedContinent = continentSelect.value;
+
+        // Resetăm lista de țări
+        countrySelect.innerHTML = '<option value="">Alege țara...</option>';
+
+        if (selectedContinent && countriesByContinent[selectedContinent]) {
+            countriesByContinent[selectedContinent].forEach(country => {
+                const option = document.createElement('option');
+                option.value = country;
+                option.textContent = country;
+                countrySelect.appendChild(option);
+            });
+        }
+    }
+
     function generatePR(event) {
         event.preventDefault();
 
@@ -162,7 +203,7 @@
         const country = document.getElementById('country').value;
 
         const selectedGenres = Array.from(document.querySelectorAll('input[name="genre"]:checked'))
-                                    .map(cb => cb.value);
+                                        .map(cb => cb.value);
 
         const newEntry = {
             id: id,
@@ -177,7 +218,6 @@
         const commitMessage = encodeURIComponent(`Adăugare post radio: ${name}`);
         const fileContent = encodeURIComponent(JSON.stringify(newEntry, null, 2));
 
-        // Link automat către interfața GitHub de creare a unui fișier nou și propunere PR
         const githubUrl = `https://github.com/DaradiciLevente/radio-directory/new/main?filename=proposals/${id}.json&value=${fileContent}&message=${commitMessage}&description=Propunere%20nouă%20de%20post%20radio.`;
         
         window.open(githubUrl, '_blank');
