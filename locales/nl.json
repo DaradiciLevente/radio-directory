@@ -1,0 +1,21 @@
+{
+  "title_index": "Radio Directory - Stream Database",
+  "title_add": "Radio zender toevoegen - Radio Directory",
+  "heading_index": "Radio Directory - Stream Database",
+  "heading_add": "Radio zender toevoegen",
+  "subtitle_add": "Vul het formulier in om een nieuw radiostation voor te stellen",
+  "btn_add": "➕ Radio zender toevoegen",
+  "btn_download": "📥 Afspeellijst downloaden",
+  "all_continents": "Alle continenten",
+  "all_countries": "Alle landen",
+  "table_name": "Zendernaam",
+  "table_location": "Locatie",
+  "table_genres": "Genres",
+  "table_status": "Status",
+  "table_action": "Actie",
+  "btn_copy": "Link kopiëren",
+  "active": "Actief",
+  "inactive": "Inactief",
+  "no_channels": "Geen zenders gevonden.",
+  "loading": "Gegevens laden..."
+}
