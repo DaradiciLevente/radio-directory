@@ -266,6 +266,11 @@
             }
         });
 
+        // Actualizare directă și sigură pentru titlul ferestrei/tab-ului
+        if (translations['title_index']) {
+            document.title = translations['title_index'];
+        }
+
         // Traducere esențială pentru titlul principal h1
         if (translations['heading_index']) {
             const heading = document.getElementById('mainHeading');
