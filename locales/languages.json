@@ -6,5 +6,7 @@
   { "code": "de", "flag": "🇩🇪", "name": "Deutsch" },
   { "code": "fr", "flag": "🇫🇷", "name": "Français" },
   { "code": "es", "flag": "🇪🇸", "name": "Español" },
-  { "code": "it", "flag": "🇮🇹", "name": "Italiano" }
+  { "code": "it", "flag": "🇮🇹", "name": "Italiano" },
+  { "code": "nl", "flag": "🇳🇱", "name": "Nederlands" },
+  { "code": "pt", "flag": "🇵🇹", "name": "Português" }
 ]
