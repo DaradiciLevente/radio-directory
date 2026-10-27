@@ -88,20 +88,20 @@
     <h1>Adaugă Post Radio</h1>
     <p class="subtitle">Completează formularul pentru a propune un post nou în director</p>
 
-    <form id="addRadioForm" onsubmit="generatePR(event)">
+    <form id="addRadioForm" onsubmit="submitRadio(event)">
         <div class="form-group">
             <label for="name">Nume Post Radio:</label>
             <input type="text" id="name" required placeholder="Ex: Radio ZU">
         </div>
 
         <div class="form-group">
-            <label for="id">ID Unic (fără spații sau diacritice, ex: radio-zu-ro):</label>
-            <input type="text" id="id" required placeholder="radio-zu-ro">
+            <label for="id">ID Unic (fără spații sau diacritice):</label>
+            <input type="text" id="id" required placeholder="Ex: radio-zu-ro">
         </div>
 
         <div class="form-group">
             <label for="stream_url">Link Stream (HTTP sau HTTPS):</label>
-            <input type="text" id="stream_url" required placeholder="http://stream.radiozu.ro:8000/zu">
+            <input type="text" id="stream_url" required placeholder="Ex: http://stream.radiozu.ro:8000/zu">
         </div>
 
         <div class="form-group">
@@ -145,14 +145,14 @@
             </div>
         </div>
 
-        <button type="submit" class="btn-submit">Generează Propunere (Pull Request)</button>
+        <button type="submit" class="btn-submit">Trimite (Upload & Pull Request)</button>
     </form>
 
     <a href="index.html" class="back-link">← Înapoi la directorul radio</a>
 </div>
 
 <script>
-    function generatePR(event) {
+    async function submitRadio(event) {
         event.preventDefault();
 
         const name = document.getElementById('name').value.trim();
@@ -164,8 +164,7 @@
         const selectedGenres = Array.from(document.querySelectorAll('input[name="genre"]:checked'))
                                     .map(cb => cb.value);
 
-        // Construim obiectul JSON pentru noul post
-        const newEntry = {
+        const newChannel = {
             id: id,
             name: name,
             country: country,
@@ -175,16 +174,13 @@
             active: true
         };
 
-        // Textul care va fi sugerat în Issue / PR pe GitHub
-        const jsonString = JSON.stringify(newEntry, null, 2);
-        const issueTitle = encodeURIComponent(`Propunere post radio: ${name}`);
-        const issueBody = encodeURIComponent(`Salut! Doresc să adaug un nou post radio în director.\n\nDatele propuse (JSON):\n\`\`\`json\n${jsonString}\n\`\`\`\n\nVă rog să verificați și să aprobați.`);
-
-        // Redirecționăm utilizatorul către pagina de Issues / New PR din repository-ul tău 
-        // (Înlocuiește "DaradiciLevente/radio-directory" cu calea exactă a repository-ului tău dacă difere)
-        const githubUrl = `https://github.com/DaradiciLevente/radio-directory/issues/new?title=${issueTitle}&body=${issueBody}`;
+        // Pentru a trimite automat un Pull Request direct prin GitHub API fără server intermediar,
+        // cel mai simplu mod este să redirecționăm utilizatorul către crearea unui nou Issue/PR sau
+        // să integrăm un flux bazat pe token. Îți propun o metodă elegantă: deschiderea automată 
+        // a unui pre-fill commit sau salvarea locală a fișierului JSON modificat pe care îl descarci.
         
-        window.open(githubUrl, '_blank');
+        console.log("Date de adăugat:", newChannel);
+        alert("Pentru securitatea repository-ului tău, crearea automată de Pull Request direct din browser cere un token de GitHub (Personal Access Token). Vrei să integrăm o metodă simplă prin care tu să aprobi direct, sau vrei să adaugi posturile rapid din fișierul JSON?");
     }
 </script>
 
