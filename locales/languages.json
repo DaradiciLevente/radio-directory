@@ -32,5 +32,9 @@
   { "code": "bs", "flag": "🇧🇦", "name": "Bosanski" },
   { "code": "be", "flag": "🇧🇾", "name": "Беларуская" },
   { "code": "lb", "flag": "🇱🇺", "name": "Lëtzebuergesch" },
-  { "code": "tr", "flag": "🇹🇷", "name": "Türkçe" }
+  { "code": "tr", "flag": "🇹🇷", "name": "Türkçe" },
+  { "code": "ru", "flag": "🇷🇺", "name": "Русский" },
+  { "code": "ka", "flag": "🇬🇪", "name": "ქართული" },
+  { "code": "tt", "flag": "🇷🇺", "name": "Татарча" },
+  { "code": "ba", "flag": "🇷🇺", "name": "Башҡортса" }
 ]
