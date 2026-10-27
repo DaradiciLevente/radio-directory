@@ -169,7 +169,6 @@
 <body>
 
 <div class="container">
-    <!-- Selectorul de limbi populat automat prin JS -->
     <div class="top-lang-bar">
         <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)"></select>
     </div>
@@ -218,8 +217,6 @@
 </div>
 
 <script>
-    // Lista centralizată a limbilor suportate. 
-    // Când adaugi un fișier nou în folderul locales/ (ex: de.json), adaugi doar o linie aici.
     const availableLanguages = [
         { code: 'en', flag: '🇬🇧', name: 'English' },
         { code: 'ro', flag: '🇷🇴', name: 'Română' },
@@ -269,6 +266,7 @@
             }
         });
 
+        // Actualizează titlul paginii (browser tab title) în funcție de limba selectată
         if (translations['title_index']) {
             document.getElementById('pageTitle').textContent = translations['title_index'];
         }
