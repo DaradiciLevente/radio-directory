@@ -173,7 +173,7 @@
         <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)"></select>
     </div>
 
-    <h1 id="mainHeading" data-i18n="heading_index">Radio Directory</h1>
+    <h1 id="mainHeading" data-i18n="title_index">Radio Directory - Stream Database</h1>
     
     <div class="header-actions">
         <button class="btn-download" onclick="downloadCSV()" data-i18n="btn_download">📥 Descarcă playlist.csv</button>
@@ -230,7 +230,6 @@
             renderLanguageSelector();
         } catch (error) {
             console.error('Eroare la încărcarea fișierului languages.json:', error);
-            // Fallback în caz că fișierul languages.json nu este găsit
             availableLanguages = [{ code: 'en', flag: '🇬🇧', name: 'English' }];
             renderLanguageSelector();
         }
@@ -248,7 +247,6 @@
             selector.appendChild(opt);
         });
         
-        // Dacă limba salvată nu există în lista nouă, revenim la prima limbă
         const hasLang = availableLanguages.some(l => l.code === currentLang);
         if (!hasLang && availableLanguages.length > 0) {
             currentLang = availableLanguages[0].code;
@@ -275,13 +273,14 @@
             }
         });
 
+        // Forțăm titlul din tab și titlul h1 din pagină să utilizeze aceeași valoare din title_index
         if (translations['title_index']) {
             document.title = translations['title_index'];
-        }
-
-        if (translations['heading_index']) {
+            
             const heading = document.getElementById('mainHeading');
-            if (heading) heading.textContent = translations['heading_index'];
+            if (heading) {
+                heading.textContent = translations['title_index'];
+            }
         }
 
         const continentDefault = document.querySelector('#continentFilter option[value=""]');
@@ -423,7 +422,7 @@
 
         const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
         const link = document.createElement("a");
-        const url = URL.URL.createObjectURL ? URL.createObjectURL(blob) : window.URL.createObjectURL(blob);
+        const url = URL.createObjectURL ? URL.createObjectURL(blob) : window.URL.createObjectURL(blob);
         
         link.setAttribute("href", url);
         link.setAttribute("download", "playlist.csv");
@@ -442,7 +441,6 @@
         });
     }
 
-    // Inițializare aplicație
     initApp();
 </script>
 
