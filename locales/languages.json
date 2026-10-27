@@ -8,5 +8,9 @@
   { "code": "es", "flag": "🇪🇸", "name": "Español" },
   { "code": "it", "flag": "🇮🇹", "name": "Italiano" },
   { "code": "nl", "flag": "🇳🇱", "name": "Nederlands" },
-  { "code": "pt", "flag": "🇵🇹", "name": "Português" }
+  { "code": "pt", "flag": "🇵🇹", "name": "Português" },
+  { "code": "cs", "flag": "🇨🇿", "name": "Čeština" },
+  { "code": "sv", "flag": "🇸🇪", "name": "Svenska" },
+  { "code": "da", "flag": "🇩🇰", "name": "Dansk" },
+  { "code": "uk", "flag": "🇺🇦", "name": "Українська" }
 ]
