@@ -12,5 +12,9 @@
   { "code": "cs", "flag": "🇨🇿", "name": "Čeština" },
   { "code": "sv", "flag": "🇸🇪", "name": "Svenska" },
   { "code": "da", "flag": "🇩🇰", "name": "Dansk" },
-  { "code": "uk", "flag": "🇺🇦", "name": "Українська" }
+  { "code": "uk", "flag": "🇺🇦", "name": "Українська" },
+  { "code": "sk", "flag": "🇸🇰", "name": "Slovenčina" },
+  { "code": "bg", "flag": "🇧🇬", "name": "Български" },
+  { "code": "hr", "flag": "🇭🇷", "name": "Hrvatski" },
+  { "code": "fi", "flag": "🇫🇮", "name": "Suomi" }
 ]
