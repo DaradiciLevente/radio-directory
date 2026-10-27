@@ -21,7 +21,6 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
             position: relative;
         }
-        /* Selectorul de limbi în colțul din dreapta sus, deasupra titlului */
         .top-lang-bar {
             display: flex;
             justify-content: flex-end;
@@ -170,7 +169,6 @@
 <body>
 
 <div class="container">
-    <!-- Selectorul de limbi sus în dreapta, deasupra titlului -->
     <div class="top-lang-bar">
         <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)">
             <option value="ro">🇷🇴 Română</option>
@@ -229,6 +227,7 @@
     let translations = {};
     let currentLang = localStorage.getItem('radio_lang') || 'en';
 
+    // Setează corect vizual limba în select
     document.getElementById('langSelector').value = currentLang;
 
     async function loadLanguage(lang) {
@@ -265,6 +264,7 @@
     async function changeLanguage(lang) {
         currentLang = lang;
         localStorage.setItem('radio_lang', lang);
+        document.getElementById('langSelector').value = lang;
         await loadLanguage(lang);
     }
 
