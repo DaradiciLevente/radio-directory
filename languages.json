@@ -1,0 +1,10 @@
+[
+  { "code": "en", "flag": "🇬🇧", "name": "English" },
+  { "code": "ro", "flag": "🇷🇴", "name": "Română" },
+  { "code": "hu", "flag": "🇭🇺", "name": "Magyar" },
+  { "code": "pl", "flag": "🇵🇱", "name": "Polski" },
+  { "code": "de", "flag": "🇩🇪", "name": "Deutsch" },
+  { "code": "fr", "flag": "🇫🇷", "name": "Français" },
+  { "code": "es", "flag": "🇪🇸", "name": "Español" },
+  { "code": "it", "flag": "🇮🇹", "name": "Italiano" }
+]
