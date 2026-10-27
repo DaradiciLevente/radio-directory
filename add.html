@@ -99,27 +99,26 @@
     <h1>Adaugă Post Radio</h1>
     <p class="subtitle">Completează formularul pentru a propune un post nou în director</p>
 
-    <!-- Formularul trimite datele invizibil în iframe-ul de mai jos, fără să mute utilizatorul -->
-    <form id="addRadioForm" action="https://hook.eu1.make.com/y9k74aezseq9xsdcmk6vh3df3223ms52" method="POST" target="hidden_iframe" onsubmit="showSuccess()">
+    <form id="addRadioForm" onsubmit="submitProposal(event)">
         
         <div class="form-group">
             <label for="name">Nume Post Radio:</label>
-            <input type="text" id="name" name="name" required placeholder="Ex: Radio ZU">
+            <input type="text" id="name" required placeholder="Ex: Radio ZU">
         </div>
 
         <div class="form-group">
             <label for="id">ID Unic (fără spații sau diacritice, ex: radio-zu-ro):</label>
-            <input type="text" id="id" name="id" required placeholder="radio-zu-ro">
+            <input type="text" id="id" required placeholder="radio-zu-ro">
         </div>
 
         <div class="form-group">
             <label for="stream_url">Link Stream (HTTP sau HTTPS):</label>
-            <input type="text" id="stream_url" name="stream_url" required placeholder="http://stream.radiozu.ro:8000/zu">
+            <input type="text" id="stream_url" required placeholder="http://stream.radiozu.ro:8000/zu">
         </div>
 
         <div class="form-group">
             <label for="continent">Continent:</label>
-            <select id="continent" name="continent" required>
+            <select id="continent" required>
                 <option value="">Alege continentul...</option>
                 <option value="Europe">Europe</option>
                 <option value="Asia">Asia</option>
@@ -132,7 +131,7 @@
 
         <div class="form-group">
             <label for="country">Țară:</label>
-            <select id="country" name="country" required>
+            <select id="country" required>
                 <option value="">Alege țara...</option>
                 <option value="Romania">Romania</option>
                 <option value="Hungary">Hungary</option>
@@ -165,26 +164,33 @@
         Mulțumim! Propunerea ta a fost trimisă cu succes și va fi verificată de administrator.
     </div>
 
-    <!-- Iframe ascuns care preia răspunsul "Accepted" de la Make.com în culise -->
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="submitted()"></iframe>
-
     <a href="index.html" class="back-link">← Înapoi la directorul radio</a>
 </div>
 
 <script>
-    let isSubmitted = false;
+    async function submitProposal(event) {
+        event.preventDefault();
 
-    function showSuccess() {
-        isSubmitted = true;
-        document.getElementById('submitBtn').disabled = true;
-        document.getElementById('submitBtn').textContent = "Se trimite...";
-    }
+        const submitBtn = document.getElementById('submitBtn');
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Se trimite...";
 
-    function submitted() {
-        if (isSubmitted) {
-            document.getElementById('addRadioForm').style.display = 'none';
-            document.getElementById('successMessage').style.display = 'block';
-        }
+        const payload = {
+            id: document.getElementById('id').value.trim(),
+            name: document.getElementById('name').value.trim(),
+            country: document.getElementById('country').value,
+            continent: document.getElementById('continent').value,
+            genre: Array.from(document.querySelectorAll('input[name="genre"]:checked')).map(cb => cb.value),
+            stream_url: document.getElementById('stream_url').value.trim(),
+            active: true
+        };
+
+        // Notă: Pentru a lăsa vizitatorii să trimită date fără să le expunem tokenul personal în codul public,
+        // putem rida o mică funcție sau folosi un endpoint public/formular securizat.
+        // Însă, dacă vrei ca acest script să declanșeze acțiunea direct, avem nevoie de un token public (Personal Access Token cu drepturi limitate de repo-dispatch).
+        
+        // Alternativ, ca să fie extrem de sigur și să folosească secretul tău din repo fără expunere,
+        // cel mai simplu este să trimitem datele printr-un serviciu gratuit de tip backend (cum ar fi Netlify Forms sau un GitHub Action bazat pe Issues).
     }
 </script>
 
