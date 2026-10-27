@@ -88,9 +88,12 @@
     <h1>Adaugă Post Radio</h1>
     <p class="subtitle">Completează formularul pentru a propune un post nou în director</p>
 
-    <!-- Folosim acțiunea directă pe webhook fără cod JavaScript intermediar care blochează CORS -->
+    <!-- Trimitem datele prin POST către Make.com și redirecționăm utilizatorul înapoi la index.html după succes -->
     <form action="https://hook.eu1.make.com/y9k74aezseq9xsdcmk6vh3df3223ms52" method="POST">
         
+        <!-- Acest câmp ascuns îi spune lui Make.com unde să trimită utilizatorul înapoi -->
+        <input type="hidden" name="redirect_url" value="https://daradicilevente.github.io/radio-directory/index.html">
+
         <div class="form-group">
             <label for="name">Nume Post Radio:</label>
             <input type="text" id="name" name="name" required placeholder="Ex: Radio ZU">
@@ -98,60 +101,4 @@
 
         <div class="form-group">
             <label for="id">ID Unic (fără spații sau diacritice, ex: radio-zu-ro):</label>
-            <input type="text" id="id" name="id" required placeholder="radio-zu-ro">
-        </div>
-
-        <div class="form-group">
-            <label for="stream_url">Link Stream (HTTP sau HTTPS):</label>
-            <input type="text" id="stream_url" name="stream_url" required placeholder="http://stream.radiozu.ro:8000/zu">
-        </div>
-
-        <div class="form-group">
-            <label for="continent">Continent:</label>
-            <select id="continent" name="continent" required>
-                <option value="">Alege continentul...</option>
-                <option value="Europe">Europe</option>
-                <option value="Asia">Asia</option>
-                <option value="North America">North America</option>
-                <option value="South America">South America</option>
-                <option value="Africa">Africa</option>
-                <option value="Australia">Australia</option>
-            </select>
-        </div>
-
-        <div class="form-group">
-            <label for="country">Țară:</label>
-            <select id="country" name="country" required>
-                <option value="">Alege țara...</option>
-                <option value="Romania">Romania</option>
-                <option value="Hungary">Hungary</option>
-                <option value="Moldova">Moldova</option>
-                <option value="Germany">Germany</option>
-                <option value="United Kingdom">United Kingdom</option>
-                <option value="France">France</option>
-                <option value="Italy">Italy</option>
-                <option value="Spain">Spain</option>
-            </select>
-        </div>
-
-        <div class="form-group">
-            <label>Gen muzical / Stil:</label>
-            <div class="checkbox-group">
-                <label><input type="checkbox" name="genre" value="Pop"> Pop</label>
-                <label><input type="checkbox" name="genre" value="Rock"> Rock</label>
-                <label><input type="checkbox" name="genre" value="Dance"> Dance</label>
-                <label><input type="checkbox" name="genre" value="News"> News</label>
-                <label><input type="checkbox" name="genre" value="Hits"> Hits</label>
-                <label><input type="checkbox" name="genre" value="Retro"> Retro</label>
-                <label><input type="checkbox" name="genre" value="Electronic"> Electronic</label>
-            </div>
-        </div>
-
-        <button type="submit" class="btn-submit" id="submitBtn">Trimite Propunerea</button>
-    </form>
-
-    <a href="index.html" class="back-link">← Înapoi la directorul radio</a>
-</div>
-
-</body>
-</html>
+            <input type="text" id="id" name="id" required
