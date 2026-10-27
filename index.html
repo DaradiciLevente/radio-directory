@@ -26,10 +26,30 @@
             margin-bottom: 5px;
         }
         p.subtitle {
-            text-align: center;
             color: #666;
-            margin-bottom: 30px;
+            font-size: 14px;
         }
+        .header-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        .btn-add {
+            background-color: #34a853;
+            color: white;
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .btn-add:hover { background-color: #2e8b57; }
         .filters {
             display: flex;
             gap: 15px;
@@ -92,7 +112,11 @@
 
 <div class="container">
     <h1>Radio Directory</h1>
-    <p class="subtitle">Bază de date open-source cu streamuri radio verificate pentru YoRadio și dispozitive hardware</p>
+    
+    <div class="header-actions">
+        <p class="subtitle" style="margin: 0;">Bază de date open-source cu streamuri radio verificate pentru YoRadio și dispozitive hardware</p>
+        <a href="add.html" class="btn-add">➕ Adaugă Post Radio</a>
+    </div>
 
     <div class="filters">
         <select id="continentFilter" onchange="filterChannels()">
@@ -124,7 +148,6 @@
 
     async function loadChannels() {
         try {
-            // Adăugăm un parametru de timp (timestamp) pentru a evita cache-ul browserului
             let response = await fetch('channels.json?t=' + new Date().getTime());
             allChannels = await response.json();
             populateFilters(allChannels);
@@ -174,14 +197,12 @@
                 : '<span class="badge badge-inactive">Inactiv</span>';
 
             tr.innerHTML = `
-                <strong>${channel.name}</strong><br><small style="color:#666;">${channel.id}</small>
+                <td><strong>${channel.name}</strong><br><small style="color:#666;">${channel.id}</small></td>
                 <td>${channel.country || 'N/A'} (${channel.continent || 'N/A'})</td>
                 <td>${genresHtml}</td>
                 <td>${statusBadge}</td>
                 <td><button class="btn-copy" onclick="copyUrl('${channel.stream_url}')">Copiază Link</button></td>
             `;
-            // Corectare pentru prima coloană (Nume)
-            tr.children[0].innerHTML = `<strong>${channel.name}</strong>`;
 
             tbody.appendChild(tr);
         });
@@ -208,7 +229,6 @@
         });
     }
 
-    // Încărcăm canalele la pornirea paginii
     loadChannels();
 </script>
 
