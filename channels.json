@@ -5,7 +5,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": ["Pop", "News", "Hits"],
-    "stream_url_http": "http://astreaming.europafm.ro:8000/europafm_aacp48k",
+    "stream_url": "http://astreaming.europafm.ro:8000/europafm_aacp48k",
     "active": true
   },
   {
