@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Directory - Global Internet Radios</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; background: #f4f4f9; color: #333; }
+        h1 { text-align: center; color: #2c3e50; }
+        .channel-card { background: #fff; padding: 15px; margin-bottom: 10px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; }
+        .info h3 { margin: 0 0 5px 0; color: #2980b9; }
+        .info p { margin: 0; font-size: 14px; color: #666; }
+        audio { width: 250px; }
+        .badge { background: #e0f7fa; color: #00796b; padding: 3px 8px; border-radius: 4px; font-size: 12px; margin-right: 5px; }
+    </style>
+</head>
+<body>
+
+    <h1>Radio Directory</h1>
+    <p style="text-align: center; color: #666;">Un director open-source de posturi radio verificate automat.</p>
+
+    <div id="channels-list">Se încarcă canalele...</div>
+
+    <script>
+        fetch('channels.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('channels-list');
+                container.innerHTML = '';
+                
+                data.forEach(channel => {
+                    const card = document.createElement('div');
+                    card.className = 'channel-card';
+                    
+                    let genres = channel.genre.map(g => `<span class="badge">${g}</span>`).join('');
+                    
+                    card.innerHTML = `
+                        <div class="info">
+                            <h3>${channel.name}</h3>
+                            <p>${channel.country} (${channel.continent})</p>
+                            <div style="margin-top: 8px;">${genres}</div>
+                        </div>
+                        <div>
+                            <audio controls src="${channel.stream_url}"></audio>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+            })
+            .catch(error => {
+                document.getElementById('channels-list').innerHTML = 'Eroare la încărcarea listei de canale.';
+                console.error('Error:', error);
+            });
+    </script>
+
+</body>
+</html>
