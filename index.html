@@ -266,6 +266,12 @@
             }
         });
 
+        // Traducere esențială pentru titlul principal h1
+        if (translations['heading_index']) {
+            const heading = document.getElementById('mainHeading');
+            if (heading) heading.textContent = translations['heading_index'];
+        }
+
         const continentDefault = document.querySelector('#continentFilter option[value=""]');
         if (continentDefault && translations['all_continents']) continentDefault.textContent = translations['all_continents'];
 
