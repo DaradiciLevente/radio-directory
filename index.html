@@ -173,7 +173,6 @@
         <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)"></select>
     </div>
 
-    <!-- Titlul principal actualizat cu data-i18n -->
     <h1 id="mainHeading" data-i18n="heading_index">Radio Directory</h1>
     
     <div class="header-actions">
@@ -287,7 +286,7 @@
         try {
             initLanguageSelector();
             await loadLanguage(currentLang);
-            let response = await fetch('channels.json?t=` + new Date().getTime());
+            let response = await fetch(`channels.json?t=` + new Date().getTime());
             allChannels = await response.json();
             populateContinents();
             currentFilteredChannels = allChannels;
