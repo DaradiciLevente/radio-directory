@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="pageTitle">Adaugă Post Radio - Radio Directory</title>
+    <title id="pageTitle" data-i18n="title_add">Adaugă Post Radio - Radio Directory</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -99,12 +99,7 @@
 
 <div class="container">
     <div class="top-bar">
-        <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)">
-            <option value="ro">🇷🇴 Română</option>
-            <option value="en">🇬🇧 English</option>
-            <option value="hu">🇭🇺 Magyar</option>
-            <option value="pl">🇵🇱 Polski</option>
-        </select>
+        <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)"></select>
     </div>
 
     <h1 data-i18n="heading_add">Adaugă Post Radio</h1>
@@ -166,9 +161,9 @@
 </div>
 
 <script>
+    let availableLanguages = [];
     let translations = {};
-    let currentLang = localStorage.getItem('radio_lang') || 'ro';
-    document.getElementById('langSelector').value = currentLang;
+    let currentLang = localStorage.getItem('radio_lang') || 'en';
 
     const countriesByContinent = {
         "Europe": [
@@ -200,6 +195,38 @@
         ]
     };
 
+    async function fetchAvailableLanguages() {
+        try {
+            let response = await fetch(`locales/languages.json?t=` + new Date().getTime());
+            availableLanguages = await response.json();
+            renderLanguageSelector();
+        } catch (error) {
+            console.error('Eroare la încărcarea fișierului languages.json:', error);
+            availableLanguages = [{ code: 'en', flag: '🇬🇧', name: 'English' }];
+            renderLanguageSelector();
+        }
+    }
+
+    function renderLanguageSelector() {
+        const selector = document.getElementById('langSelector');
+        if (!selector) return;
+        
+        selector.innerHTML = '';
+        availableLanguages.forEach(lang => {
+            let opt = document.createElement('option');
+            opt.value = lang.code;
+            opt.textContent = `${lang.flag} ${lang.name}`;
+            selector.appendChild(opt);
+        });
+        
+        const hasLang = availableLanguages.some(l => l.code === currentLang);
+        if (!hasLang && availableLanguages.length > 0) {
+            currentLang = availableLanguages[0].code;
+        }
+        
+        selector.value = currentLang;
+    }
+
     async function loadLanguage(lang) {
         try {
             let response = await fetch(`locales/${lang}.json?t=` + new Date().getTime());
@@ -219,10 +246,9 @@
         });
 
         if (translations['title_add']) {
-            document.getElementById('pageTitle').textContent = translations['title_add'];
+            document.title = translations['title_add'];
         }
 
-        // Reactualizăm opțiunea de la țări dacă e goală
         const countrySelect = document.getElementById('country');
         if (countrySelect.value === "" && translations['select_continent_first']) {
             countrySelect.children[0].textContent = translations['select_continent_first'];
@@ -232,10 +258,12 @@
     async function changeLanguage(lang) {
         currentLang = lang;
         localStorage.setItem('radio_lang', lang);
+        document.getElementById('langSelector').value = lang;
         await loadLanguage(lang);
     }
 
     async function initPage() {
+        await fetchAvailableLanguages();
         await loadLanguage(currentLang);
     }
 
@@ -266,7 +294,7 @@
         const country = document.getElementById('country').value;
 
         const selectedGenres = Array.from(document.querySelectorAll('input[name="genre"]:checked'))
-                                        .map(cb => cb.value);
+                                    .map(cb => cb.value);
 
         const newEntry = {
             id: id,
