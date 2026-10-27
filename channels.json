@@ -1,0 +1,20 @@
+[
+  {
+    "id": "europa-fm-ro",
+    "name": "Europa FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": ["Pop", "News", "Hits"],
+    "stream_url": "https://astreaming.europafm.ro:8443/europa-fm-live.mp3",
+    "active": true
+  },
+  {
+    "id": "kiss-fm-ro",
+    "name": "Kiss FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": ["Dance", "Pop"],
+    "stream_url": "https://live.kissfm.ro/kissfm.aacp",
+    "active": true
+  }
+]
