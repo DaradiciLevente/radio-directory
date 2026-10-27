@@ -1,0 +1,21 @@
+{
+  "title_index": "Radio Directory - Base de dados de streams",
+  "title_add": "Adicionar Estação de Rádio - Radio Directory",
+  "heading_index": "Radio Directory - Base de dados de streams",
+  "heading_add": "Adicionar Estação de Rádio",
+  "subtitle_add": "Preencha o formulário para propor uma nova estação",
+  "btn_add": "➕ Adicionar Estação",
+  "btn_download": "📥 Descarregar playlist.csv",
+  "all_continents": "Todos os continentes",
+  "all_countries": "Todos os países",
+  "table_name": "Nome da Estação",
+  "table_location": "Localização",
+  "table_genres": "Géneros",
+  "table_status": "Estado",
+  "table_action": "Ação",
+  "btn_copy": "Copiar Link",
+  "active": "Ativo",
+  "inactive": "Inativo",
+  "no_channels": "Nenhuma estação encontrada.",
+  "loading": "A carregar dados..."
+}
