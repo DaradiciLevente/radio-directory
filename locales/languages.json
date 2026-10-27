@@ -24,5 +24,9 @@
   { "code": "lv", "flag": "🇱🇻", "name": "Latviešu" },
   { "code": "et", "flag": "🇪🇪", "name": "Eesti" },
   { "code": "sq", "flag": "🇦🇱", "name": "Shqip" },
-  { "code": "is", "flag": "🇮🇸", "name": "Íslenska" }
+  { "code": "is", "flag": "🇮🇸", "name": "Íslenska" },
+  { "code": "sr", "flag": "🇸🇷", "name": "Srpski" },
+  { "code": "mk", "flag": "🇲🇰", "name": "Македонски" },
+  { "code": "mt", "flag": "🇲🇹", "name": "Malti" },
+  { "code": "ga", "flag": "🇮🇪", "name": "Gaeilge" }
 ]
