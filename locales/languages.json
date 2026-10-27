@@ -28,5 +28,9 @@
   { "code": "sr", "flag": "🇸🇷", "name": "Srpski" },
   { "code": "mk", "flag": "🇲🇰", "name": "Македонски" },
   { "code": "mt", "flag": "🇲🇹", "name": "Malti" },
-  { "code": "ga", "flag": "🇮🇪", "name": "Gaeilge" }
+  { "code": "ga", "flag": "🇮🇪", "name": "Gaeilge" },
+  { "code": "bs", "flag": "🇧🇦", "name": "Bosanski" },
+  { "code": "be", "flag": "🇧🇾", "name": "Беларуская" },
+  { "code": "lb", "flag": "🇱🇺", "name": "Lëtzebuergesch" },
+  { "code": "tr", "flag": "🇹🇷", "name": "Türkçe" }
 ]
