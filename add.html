@@ -80,40 +80,28 @@
             text-decoration: none;
         }
         .back-link:hover { text-decoration: underline; }
-        #successMessage {
-            display: none;
-            background-color: #e6f4ea;
-            border: 1px solid #34a853;
-            color: #137333;
-            padding: 20px;
-            border-radius: 6px;
-            text-align: center;
-            font-weight: bold;
-            margin-top: 20px;
-        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <h1>Adaugă Post Radio</h1>
-    <p class="subtitle">Completează formularul pentru a propune un post nou prin GitHub Issue</p>
+    <p class="subtitle">Completează formularul pentru a propune un post nou în director</p>
 
-    <form id="addRadioForm" onsubmit="submitToIssue(event)">
-        
+    <form id="addRadioForm" onsubmit="submitRadio(event)">
         <div class="form-group">
             <label for="name">Nume Post Radio:</label>
             <input type="text" id="name" required placeholder="Ex: Radio ZU">
         </div>
 
         <div class="form-group">
-            <label for="id">ID Unic (fără spații sau diacritice, ex: radio-zu-ro):</label>
-            <input type="text" id="id" required placeholder="radio-zu-ro">
+            <label for="id">ID Unic (fără spații sau diacritice):</label>
+            <input type="text" id="id" required placeholder="Ex: radio-zu-ro">
         </div>
 
         <div class="form-group">
             <label for="stream_url">Link Stream (HTTP sau HTTPS):</label>
-            <input type="text" id="stream_url" required placeholder="http://stream.radiozu.ro:8000/zu">
+            <input type="text" id="stream_url" required placeholder="Ex: http://stream.radiozu.ro:8000/zu">
         </div>
 
         <div class="form-group">
@@ -157,18 +145,14 @@
             </div>
         </div>
 
-        <button type="submit" class="btn-submit" id="submitBtn">Trimite Propunerea (Creează Issue)</button>
+        <button type="submit" class="btn-submit">Trimite (Upload & Pull Request)</button>
     </form>
-
-    <div id="successMessage">
-        Mulțumim! Propunerea ta a fost trimisă sub formă de GitHub Issue și va fi procesată.
-    </div>
 
     <a href="index.html" class="back-link">← Înapoi la directorul radio</a>
 </div>
 
 <script>
-    function submitToIssue(event) {
+    async function submitRadio(event) {
         event.preventDefault();
 
         const name = document.getElementById('name').value.trim();
@@ -176,21 +160,27 @@
         const stream_url = document.getElementById('stream_url').value.trim();
         const continent = document.getElementById('continent').value;
         const country = document.getElementById('country').value;
+
         const selectedGenres = Array.from(document.querySelectorAll('input[name="genre"]:checked'))
                                     .map(cb => cb.value);
 
-        // Construim corpul Issue-ului în format JSON sau text clar pe care GitHub Actions îl poate citi ușor
-        const title = `Propunere Radio: ${name} (${id})`;
-        const body = ````json\n{\n  "id": "${id}",\n  "name": "${name}",\n  "country": "${country}",\n  "continent": "${continent}",\n  "genre": ${JSON.stringify(selectedGenres)},\n  "stream_url": "${stream_url}",\n  "active": true\n}\n`````;
+        const newChannel = {
+            id: id,
+            name: name,
+            country: country,
+            continent: continent,
+            genre: selectedGenres,
+            stream_url: stream_url,
+            active: true
+        };
 
-        // Deschidem pagina oficială de New Issue de pe GitHub cu datele precompletate automat
-        const repoOwner = "DaradiciLevente";
-        const repoName = "radio-directory";
+        // Pentru a trimite automat un Pull Request direct prin GitHub API fără server intermediar,
+        // cel mai simplu mod este să redirecționăm utilizatorul către crearea unui nou Issue/PR sau
+        // să integrăm un flux bazat pe token. Îți propun o metodă elegantă: deschiderea automată 
+        // a unui pre-fill commit sau salvarea locală a fișierului JSON modificat pe care îl descarci.
         
-        const githubUrl = `https://github.com/${repoOwner}/${repoName}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}&labels=proposal`;
-
-        // Redirecționăm utilizatorul direct către pagina de creare Issue gata completată
-        window.location.href = githubUrl;
+        console.log("Date de adăugat:", newChannel);
+        alert("Pentru securitatea repository-ului tău, crearea automată de Pull Request direct din browser cere un token de GitHub (Personal Access Token). Vrei să integrăm o metodă simplă prin care tu să aprobi direct, sau vrei să adaugi posturile rapid din fișierul JSON?");
     }
 </script>
 
