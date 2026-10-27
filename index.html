@@ -13,7 +13,7 @@
             padding: 20px;
         }
         .container {
-            max-width: 900px;
+            max-width: 950px;
             margin: 0 auto;
             background: #fff;
             padding: 30px;
@@ -33,7 +33,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             flex-wrap: wrap;
             gap: 10px;
             border-bottom: 1px solid #eee;
@@ -50,20 +50,54 @@
             display: inline-block;
         }
         .btn-add:hover { background-color: #2e8b57; }
-        .filters {
+        
+        /* Stiluri pentru filtre compacte și butoane radio */
+        .filters-container {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            border: 1px solid #eee;
+        }
+        .dropdown-filters {
             display: flex;
             gap: 15px;
-            margin-bottom: 25px;
             flex-wrap: wrap;
         }
-        .filters select {
+        .dropdown-filters select {
             flex: 1;
-            min-width: 200px;
-            padding: 10px;
+            min-width: 180px;
+            max-width: 250px;
+            padding: 8px;
             border: 1px solid #ccc;
             border-radius: 4px;
-            font-size: 14px;
+            font-size: 13px;
         }
+        .radio-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            align-items: center;
+        }
+        .radio-filters label {
+            font-size: 13px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            background: #fff;
+            padding: 4px 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .radio-filters label:hover {
+            background: #f1f3f4;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
@@ -118,13 +152,26 @@
         <a href="add.html" class="btn-add">➕ Adaugă Post Radio</a>
     </div>
 
-    <div class="filters">
-        <select id="continentFilter" onchange="filterChannels()">
-            <option value="">Toate continentele</option>
-        </select>
-        <select id="countryFilter" onchange="filterChannels()">
-            <option value="">Toate țările</option>
-        </select>
+    <!-- Zona de filtre compacte -->
+    <div class="filters-container">
+        <div class="dropdown-filters">
+            <select id="continentFilter" onchange="onContinentChange()">
+                <option value="">Toate continentele</option>
+            </select>
+            <select id="countryFilter" onchange="filterChannels()">
+                <option value="">Toate țările</option>
+            </select>
+        </div>
+        <div class="radio-filters" id="genreRadioGroup">
+            <label><input type="radio" name="genreFilter" value="" checked onchange="filterChannels()"> Toate genurile</label>
+            <label><input type="radio" name="genreFilter" value="Pop" onchange="filterChannels()"> Pop</label>
+            <label><input type="radio" name="genreFilter" value="Rock" onchange="filterChannels()"> Rock</label>
+            <label><input type="radio" name="genreFilter" value="Dance" onchange="filterChannels()"> Dance</label>
+            <label><input type="radio" name="genreFilter" value="News" onchange="filterChannels()"> News</label>
+            <label><input type="radio" name="genreFilter" value="Hits" onchange="filterChannels()"> Hits</label>
+            <label><input type="radio" name="genreFilter" value="Retro" onchange="filterChannels()"> Retro</label>
+            <label><input type="radio" name="genreFilter" value="Electronic" onchange="filterChannels()"> Electronic</label>
+        </div>
     </div>
 
     <table>
@@ -150,7 +197,7 @@
         try {
             let response = await fetch('channels.json?t=' + new Date().getTime());
             allChannels = await response.json();
-            populateFilters(allChannels);
+            populateContinents();
             displayChannels(allChannels);
         } catch (error) {
             console.error('Eroare la încărcarea fișierului channels.json:', error);
@@ -158,25 +205,39 @@
         }
     }
 
-    function populateFilters(channels) {
-        const continents = [...new Set(channels.map(c => c.continent))].filter(Boolean);
-        const countries = [...new Set(channels.map(c => c.country))].filter(Boolean);
-
+    function populateContinents() {
+        const continents = [...new Set(allChannels.map(c => c.continent))].filter(Boolean).sort();
         const continentSelect = document.getElementById('continentFilter');
+        
         continents.forEach(cont => {
             let opt = document.createElement('option');
             opt.value = cont;
             opt.textContent = cont;
             continentSelect.appendChild(opt);
         });
+    }
 
+    function onContinentChange() {
+        const selectedContinent = document.getElementById('continentFilter').value;
         const countrySelect = document.getElementById('countryFilter');
+        
+        // Resetăm lista de țări
+        countrySelect.innerHTML = '<option value="">Toate țările</option>';
+
+        let filteredCountries = allChannels;
+        if (selectedContinent) {
+            filteredCountries = allChannels.filter(c => c.continent === selectedContinent);
+        }
+
+        const countries = [...new Set(filteredCountries.map(c => c.country))].filter(Boolean).sort();
         countries.forEach(country => {
             let opt = document.createElement('option');
             opt.value = country;
             opt.textContent = country;
             countrySelect.appendChild(opt);
         });
+
+        filterChannels();
     }
 
     function displayChannels(channels) {
@@ -211,11 +272,18 @@
     function filterChannels() {
         const selectedContinent = document.getElementById('continentFilter').value;
         const selectedCountry = document.getElementById('countryFilter').value;
+        
+        const selectedGenreElement = document.querySelector('input[name="genreFilter"]:checked');
+        const selectedGenre = selectedGenreElement ? selectedGenreElement.value : "";
 
         let filtered = allChannels.filter(channel => {
             let matchContinent = !selectedContinent || channel.continent === selectedContinent;
             let matchCountry = !selectedCountry || channel.country === selectedCountry;
-            return matchContinent && matchCountry;
+            
+            // Verificăm dacă genul bifat se regăsește în lista de genuri a postului radio
+            let matchGenre = !selectedGenre || (channel.genre && channel.genre.includes(selectedGenre));
+
+            return matchContinent && matchCountry && matchGenre;
         });
 
         displayChannels(filtered);
