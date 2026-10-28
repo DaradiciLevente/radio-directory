@@ -222,8 +222,6 @@
         </div>
 
         <!-- Bife pentru Genuri + Stare -->
-<!-- Bife pentru Genuri + Stare -->
-<!-- Bife pentru Genuri + Stare -->
         <div class="checkbox-filters" id="genreCheckboxGroup">
             <label><input type="checkbox" name="genreFilter" value="Pop" onchange="filterChannels()"> Pop</label>
             <label><input type="checkbox" name="genreFilter" value="Rock" onchange="filterChannels()"> Rock</label>
@@ -270,6 +268,20 @@
     let translations = {};
     let currentLang = localStorage.getItem('radio_lang') || 'en';
 
+    // Dictionar de rezerva pentru cheile noi (fallback automat)
+    const defaultNewKeys = {
+        'ro': {
+            'search_placeholder': 'Caută un post radio sau o țară...',
+            'all_formats': 'Toate formatele audio',
+            'only_active': 'Doar posturi active'
+        },
+        'en': {
+            'search_placeholder': 'Search station or country...',
+            'all_formats': 'All audio formats',
+            'only_active': 'Active stations only'
+        }
+    };
+
     async function fetchAvailableLanguages() {
         try {
             let response = await fetch(`locales/languages.json?t=` + new Date().getTime());
@@ -313,10 +325,14 @@
     }
 
     function applyTranslations() {
+        const fallback = defaultNewKeys[currentLang] || defaultNewKeys['en'];
+
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const key = el.getAttribute('data-i18n');
             if (translations[key]) {
                 el.textContent = translations[key];
+            } else if (fallback[key]) {
+                el.textContent = fallback[key];
             }
         });
 
@@ -324,6 +340,8 @@
             const key = el.getAttribute('data-i18n-placeholder');
             if (translations[key]) {
                 el.placeholder = translations[key];
+            } else if (fallback[key]) {
+                el.placeholder = fallback[key];
             }
         });
 
@@ -337,13 +355,19 @@
         }
 
         const continentDefault = document.querySelector('#continentFilter option[value=""]');
-        if (continentDefault && translations['all_continents']) continentDefault.textContent = translations['all_continents'];
+        if (continentDefault && (translations['all_continents'] || fallback['all_continents'])) {
+            continentDefault.textContent = translations['all_continents'] || fallback['all_continents'];
+        }
 
         const countryDefault = document.querySelector('#countryFilter option[value=""]');
-        if (countryDefault && translations['all_countries']) countryDefault.textContent = translations['all_countries'];
+        if (countryDefault && (translations['all_countries'] || fallback['all_countries'])) {
+            countryDefault.textContent = translations['all_countries'] || fallback['all_countries'];
+        }
 
         const formatDefault = document.querySelector('#formatFilter option[value=""]');
-        if (formatDefault && translations['all_formats']) formatDefault.textContent = translations['all_formats'];
+        if (formatDefault) {
+            formatDefault.textContent = translations['all_formats'] || fallback['all_formats'];
+        }
 
         displayChannels(currentFilteredChannels);
     }
