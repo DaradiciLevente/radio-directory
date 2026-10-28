@@ -2018,22 +2018,6 @@
     "active": true
   },
   {
-    "id": "fresh-fm-ro",
-    "name": "Fresh FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Adult Contemporary",
-      "Dance",
-      "Fresh",
-      "News",
-      "Oldies",
-      "Pop"
-    ],
-    "stream_url": "https://radio.onlinehost.ro/listen/freshfm/radio.mp3",
-    "active": false
-  },
-  {
     "id": "fun-radio-romania-ro",
     "name": "FUN Radio Romania",
     "country": "Romania",
