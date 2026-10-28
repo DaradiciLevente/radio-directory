@@ -8326,17 +8326,6 @@
     "active": true
   },
   {
-    "id": "romania-e-teatru-ro",
-    "name": "ROMÂNIA   e-Teatru",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "National"
-    ],
-    "stream_url": "http://stream2.srr.ro:8078/eteatru.mp3",
-    "active": false
-  },
-  {
     "id": "romania-international-1-ro",
     "name": "ROMÂNIA   Internațional 1",
     "country": "Romania",
