@@ -8622,19 +8622,6 @@
     "active": true
   },
   {
-    "id": "sibiu-radio-sibiu-91-1-fm-ro",
-    "name": "Sibiu  Radio -Sibiu 91.1 FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Local News",
-      "Local Radio",
-      "Music"
-    ],
-    "stream_url": "https://asculta.radiosibiu.ro:8443/RS",
-    "active": false
-  },
-  {
     "id": "siculus-radio-ro",
     "name": "Siculus Rádió",
     "country": "Romania",
