@@ -8676,17 +8676,6 @@
     "active": true
   },
   {
-    "id": "simigerie-radio-ro",
-    "name": "Simigerie Radio",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Classic Blues"
-    ],
-    "stream_url": "https://listen.radioking.com/radio/624691/stream/686929",
-    "active": false
-  },
-  {
     "id": "simplu-radio-ro",
     "name": "Simplu Radio",
     "country": "Romania",
