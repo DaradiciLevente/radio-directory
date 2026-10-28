@@ -212,20 +212,6 @@
     "active": true
   },
   {
-    "id": "aeroport-radio-ro",
-    "name": "Aeroport Radio",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Hip-Hop",
-      "House",
-      "Petrecere"
-    ],
-    "stream_url": "http://89.39.189.23:8000/stream",
-    "active": true
-  },
-  {
     "id": "agape-radio-ro",
     "name": "Agape Radio",
     "country": "Romania",
