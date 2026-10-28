@@ -7967,4 +7967,2956 @@
     "stream_url": "https://asculta.muzicaok.de:8060/stream",
     "active": true
   }
+ {
+    "id": "gy-r-r-di-hu",
+    "name": "Győr+ Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Classical",
+      "News"
+    ],
+    "stream_url": "https://stream.42netmedia.com:8443/sc_gyor1",
+    "active": true
+  },
+  {
+    "id": "149fm-hu",
+    "name": "149FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.zeno.fm/6vc4ddpr3ehvv",
+    "active": true
+  },
+  {
+    "id": "adventnet-r-di-hu",
+    "name": "AdventNet rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Religious"
+    ],
+    "stream_url": "https://radio.adventnet.hu:8443/stream",
+    "active": true
+  },
+  {
+    "id": "agnus-r-di-hu",
+    "name": "Agnus Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Religious",
+      "Talk"
+    ],
+    "stream_url": "http://radio2.tirek.hu:8000/agnusradio",
+    "active": true
+  },
+  {
+    "id": "agnus-r-di-cluj-napoca-88-3-fm-hu",
+    "name": "Agnus Rádió -Cluj Napoca 88,3 FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://agnusradio.ro/radio-stream/",
+    "active": true
+  },
+  {
+    "id": "akt-v-r-di-hu",
+    "name": "Aktív Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://aktivradio.hu:8000/aktiv.mp3",
+    "active": true
+  },
+  {
+    "id": "balatonica-radio-hu",
+    "name": "BALATONICA RADIO",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Chillout"
+    ],
+    "stream_url": "http://balatonica.hu:8000/stream_high",
+    "active": true
+  },
+  {
+    "id": "barcas-gi-radi-bra-ov-100-0-fm-hu",
+    "name": "Barcasági Radió -Brașov 100,0 FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "Folk",
+      "Pop",
+      "Rock"
+    ],
+    "stream_url": "http://88.150.230.110:24446/;",
+    "active": true
+  },
+  {
+    "id": "bart-k-r-di-hu",
+    "name": "Bartók Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Classical",
+      "Jazz"
+    ],
+    "stream_url": "http://mr-stream.mediaconnect.hu/4742/mr3hq.mp3",
+    "active": true
+  },
+  {
+    "id": "base-fm-hu",
+    "name": "Base FM",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Hip-Hop"
+    ],
+    "stream_url": "https://icast.connectmedia.hu/5401/live.mp3",
+    "active": true
+  },
+  {
+    "id": "bdpst-rock-hu",
+    "name": "BDPST ROCK",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Rock"
+    ],
+    "stream_url": "http://s2.audiostream.hu/bdpstrock_FLAC",
+    "active": true
+  },
+  {
+    "id": "bdpst-rock-192-kbit-s-hu",
+    "name": "BDPST ROCK -  192 kbit/s",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Rock"
+    ],
+    "stream_url": "http://s2.audiostream.hu/bdpstrock_192k",
+    "active": true
+  },
+  {
+    "id": "bdpst-rock-320-kbit-s-hu",
+    "name": "BDPST ROCK -  320 kbit/s",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Rock"
+    ],
+    "stream_url": "http://s2.audiostream.hu/bdpstrock_320k",
+    "active": true
+  },
+  {
+    "id": "bdpst-rock-96-kbit-s-hu",
+    "name": "BDPST ROCK -  96 kbit/s;",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Rock"
+    ],
+    "stream_url": "http://s2.audiostream.hu/bdpstrock_96k",
+    "active": true
+  },
+  {
+    "id": "bdpst-rock-r-di-hi-fi-lossless-flac-hu",
+    "name": "BDPST ROCK Rádió (Hi-Fi / Lossless / FLAC)",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Rock"
+    ],
+    "stream_url": "http://s2.audiostream.hu:8091/bdpstrock_FLAC",
+    "active": true
+  },
+  {
+    "id": "best-fm-hu",
+    "name": "Best FM",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop",
+      "Rock"
+    ],
+    "stream_url": "http://stream.webthings.hu:8000/fm95-x-128.mp3",
+    "active": true
+  },
+  {
+    "id": "best-fm-budapest-hu",
+    "name": "Best FM - Budapest",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://icast.connectmedia.hu/5101/live.mp3/;",
+    "active": true
+  },
+  {
+    "id": "best-fm-debrecen-hu",
+    "name": "Best FM - Debrecen",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.webthings.hu:8000/fm95-x-128.mp3",
+    "active": true
+  },
+  {
+    "id": "best-fm-eger-hu",
+    "name": "Best FM - Eger",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://icast.connectmedia.hu/5116/live.mp3/;",
+    "active": true
+  },
+  {
+    "id": "best-fm-ny-regyh-za-hu",
+    "name": "Best FM - Nyíregyháza",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://icast.connectmedia.hu/5115/live.mp3",
+    "active": true
+  },
+  {
+    "id": "best-fm-p-cs-hu",
+    "name": "Best FM - Pécs",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://icast.connectmedia.hu/5128/live.mp3",
+    "active": true
+  },
+  {
+    "id": "best-fm-sz-kesfeh-rv-r-hu",
+    "name": "Best FM - Székesfehérvár",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://icast.connectmedia.hu/5113/live.mp3",
+    "active": true
+  },
+  {
+    "id": "best-fm-szolnok-hu",
+    "name": "Best FM - Szolnok",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://icast.connectmedia.hu/5112/live.mp3/;",
+    "active": true
+  },
+  {
+    "id": "best-fm-zalaegerszeg-hu",
+    "name": "Best FM - Zalaegerszeg",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://icast.connectmedia.hu/5111/live.mp3/;",
+    "active": true
+  },
+  {
+    "id": "bithang-yoo-r-di-hu",
+    "name": "Bithang Yoo Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.diazol.hu:35160/live.mp3",
+    "active": true
+  },
+  {
+    "id": "bridge-fm-hungary-hu",
+    "name": "Bridge Fm Hungary",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "Pop",
+      "Retro"
+    ],
+    "stream_url": "http://eu4.fastcast4u.com:1546/mp3",
+    "active": true
+  },
+  {
+    "id": "bridge-fm-hungary-hu",
+    "name": "Bridge Fm Hungary",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "Pop",
+      "Retro"
+    ],
+    "stream_url": "https://radio.freestream.hu:8340/stream",
+    "active": true
+  },
+  {
+    "id": "buddha-fm-hu",
+    "name": "Buddha FM",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://libretime.buddhafm.hu:4000/buddhafm",
+    "active": true
+  },
+  {
+    "id": "callisto-hu",
+    "name": "Callisto",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://188.165.11.30:4500/live.mp3",
+    "active": true
+  },
+  {
+    "id": "callisto-radio-hu",
+    "name": "Callisto Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Retro"
+    ],
+    "stream_url": "http://adas.poptarisznya.hu:4500/live.mp3",
+    "active": true
+  },
+  {
+    "id": "campus-r-di-fm90-hu",
+    "name": "Campus Rádió FM90",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Hits",
+      "Pop"
+    ],
+    "stream_url": "https://stream.fm90.hu:8000/;",
+    "active": true
+  },
+  {
+    "id": "cegl-d-r-di-hu",
+    "name": "Cegléd Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.cegledradio.hu:4387/mp3",
+    "active": true
+  },
+  {
+    "id": "chiqui-radio-hu",
+    "name": "Chiqui Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "https://stream.zeno.fm/gvz27wezgghtv",
+    "active": true
+  },
+  {
+    "id": "christmas-fm-hungary-hu",
+    "name": "Christmas FM Hungary",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream1.christmasfm.hu/live.mp3",
+    "active": true
+  },
+  {
+    "id": "city-r-di-hu",
+    "name": "City Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://live.city-radio.ro:8800/;",
+    "active": true
+  },
+  {
+    "id": "city-radio-satu-mare-hu",
+    "name": "City Radio Satu Mare",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://live.city-radio.ro:8800/",
+    "active": true
+  },
+  {
+    "id": "civil-r-di-hu",
+    "name": "Civil Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://civilradio.hu:8000/;stream",
+    "active": true
+  },
+  {
+    "id": "club-dance-2-hu",
+    "name": "club dance 2",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.zeno.fm/pssclobh1rhuv",
+    "active": true
+  },
+  {
+    "id": "clubflashh-radio-hu",
+    "name": "CLUBFLASHH RADIO",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "https://clubflashh.streammachine.co.uk/stream/clubflashh",
+    "active": true
+  },
+  {
+    "id": "cool-fm-hu",
+    "name": "Cool FM",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://mediagw.e-tiger.net/stream/cfmhq",
+    "active": true
+  },
+  {
+    "id": "cool-fm-goldie-s-hu",
+    "name": "Cool FM - Goldie'S",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://mediagw.e-tiger.net:8000/stream/goldhq",
+    "active": true
+  },
+  {
+    "id": "cool-fm-kultx-hu",
+    "name": "Cool FM - kultX",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://mediagw.e-tiger.net/stream/krehq",
+    "active": true
+  },
+  {
+    "id": "cool-fm-xbeat-hu",
+    "name": "Cool FM - Xbeat",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "http://mediagw.e-tiger.net/stream/xbeathq",
+    "active": true
+  },
+  {
+    "id": "cool-fm-dance-2000-s-hu",
+    "name": "Cool.FM DANCE 2000's",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "Retro"
+    ],
+    "stream_url": "https://mediagw.e-tiger.net/stream/zc04?ver=209775",
+    "active": true
+  },
+  {
+    "id": "cool-fm-girl-power-hu",
+    "name": "Cool.FM GIRL POWER",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://mediagw.e-tiger.net/stream/zc15?ver=58649",
+    "active": true
+  },
+  {
+    "id": "cool-fm-party-hits-hu",
+    "name": "Cool.FM PARTY Hits",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Hits"
+    ],
+    "stream_url": "https://mediagw.e-tiger.net/stream/zc18?ver=975254",
+    "active": true
+  },
+  {
+    "id": "cool-fm-remix-music-hu",
+    "name": "Cool.FM REMIX MUSIC",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://mediagw.e-tiger.net/stream/zc23?ver=266114",
+    "active": true
+  },
+  {
+    "id": "coolfm-hazai-kedvencek-hu",
+    "name": "COOLFM Hazai Kedvencek",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://mediagw.e-tiger.net/stream/zc19",
+    "active": true
+  },
+  {
+    "id": "coolfm-rap-hip-hop-hu",
+    "name": "COOLFM Rap/Hip-hop",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Hip-Hop"
+    ],
+    "stream_url": "https://mediagw.e-tiger.net/stream/zc08",
+    "active": true
+  },
+  {
+    "id": "coolfm-trance-elektro-hu",
+    "name": "COOLFM Trance / Elektro",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "Electronic"
+    ],
+    "stream_url": "https://mediagw.e-tiger.net/stream/zc14",
+    "active": true
+  },
+  {
+    "id": "cs-ng-r-di-radioul-ceang-ilor-hu",
+    "name": "Csángó rádió - Radioul ceangăilor",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://sonic.xservere.net/8064/stream",
+    "active": true
+  },
+  {
+    "id": "csillagpont-r-di-hu",
+    "name": "Csillagpont Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://streamer1.borsodweb.hu:48000/csillagpont",
+    "active": true
+  },
+  {
+    "id": "dance-90-s-hu",
+    "name": "DANCE 90'S",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "Retro"
+    ],
+    "stream_url": "https://mediagw.e-tiger.net/stream/zc06?ver=887687",
+    "active": true
+  },
+  {
+    "id": "dank-r-di-hu",
+    "name": "Dankó Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Folk"
+    ],
+    "stream_url": "http://mr-stream.mediaconnect.hu/4747/mr7.aac",
+    "active": true
+  },
+  {
+    "id": "danubius-hu",
+    "name": "Danubius",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.danubiusradio.hu/danubius_128k",
+    "active": true
+  },
+  {
+    "id": "danubius-radio-hu",
+    "name": "Danubius Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Retro"
+    ],
+    "stream_url": "http://stream.danubiusradio.hu:8091/danubius_HiFi",
+    "active": true
+  },
+  {
+    "id": "deja-vu-radio-hu",
+    "name": "Deja Vu Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "Electronic",
+      "Retro"
+    ],
+    "stream_url": "https://carina.streamerr.co:8178/dejavuradio?type=http&nocache=297",
+    "active": true
+  },
+  {
+    "id": "duna-world-r-di-hu",
+    "name": "Duna World Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News",
+      "Talk"
+    ],
+    "stream_url": "http://mr-stream.mediaconnect.hu/4760/dwr.aac",
+    "active": true
+  },
+  {
+    "id": "ebs-magyar-zene-hu",
+    "name": "EBS | Magyar Zene",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://azura.ebsmedia.ro/listen/hungarian/hungarian128.mp3",
+    "active": true
+  },
+  {
+    "id": "ebs-radio-magyar-zene-cluj-napoca-hu",
+    "name": "EBS Radio Magyar Zene-Cluj Napoca",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://azura.ebsmedia.ro/listen/hungarian/hungarian128.mp3?refresh=1779029332085",
+    "active": true
+  },
+  {
+    "id": "enying-fm-hungary-hu",
+    "name": "Enying FM Hungary",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://radioe.net:8080/efm_hd",
+    "active": true
+  },
+  {
+    "id": "erd-ly-fm-hu",
+    "name": "Erdély FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Rock"
+    ],
+    "stream_url": "https://efm.radioca.st/stream",
+    "active": true
+  },
+  {
+    "id": "erd-lyi-magyar-r-di-hu",
+    "name": "Erdélyi Magyar Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Retro"
+    ],
+    "stream_url": "https://adas.erdelyimagyarradio.eu:8443/emr",
+    "active": true
+  },
+  {
+    "id": "eron-fm-oradea-hu",
+    "name": "Eron FM -Oradea",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "Electronic",
+      "Pop"
+    ],
+    "stream_url": "https://stream.zeno.fm/u9kyi9j8dhluv",
+    "active": true
+  },
+  {
+    "id": "eurodisco80-radio-hu",
+    "name": "Eurodisco80 Radio",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.zeno.fm/rc1aaftwtuavv",
+    "active": true
+  },
+  {
+    "id": "fm-103-9-a-rock-hu",
+    "name": "FM 103.9 A Rock",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Rock"
+    ],
+    "stream_url": "https://stream.rockradio.hu/",
+    "active": true
+  },
+  {
+    "id": "fm90-campus-r-di-hu",
+    "name": "FM90 Campus Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Rock"
+    ],
+    "stream_url": "http://stream.fm90.hu:8000/;",
+    "active": true
+  },
+  {
+    "id": "folkr-di-hu",
+    "name": "Folkrádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.folkradio.hu/folkradio.mp3",
+    "active": true
+  },
+  {
+    "id": "folkr-dio-hu",
+    "name": "Folkrádio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Folk"
+    ],
+    "stream_url": "https://stream.folkradio.hu/folkradio.mp3",
+    "active": true
+  },
+  {
+    "id": "forr-s-r-di-hu",
+    "name": "Forrás Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://91.82.85.44:9000/;stream",
+    "active": true
+  },
+  {
+    "id": "friss-fm-93-4-hu",
+    "name": "Friss FM 93.4",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.frissfm.hu:10050/;",
+    "active": true
+  },
+  {
+    "id": "funfm-hu",
+    "name": "FunFM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Hits",
+      "Pop"
+    ],
+    "stream_url": "http://online.funfm.ro:8000/funfm.mp3",
+    "active": true
+  },
+  {
+    "id": "gong-r-di-hu",
+    "name": "Gong Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://stream.gongradio.hu:8000/gong-fm.mp3",
+    "active": true
+  },
+  {
+    "id": "gyergy-i-sz-kely-r-di-gheorghieni-cj-hu",
+    "name": "Gyergyói Székely Rádió -Gheorghieni CJ",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://szekelyradio.top:8000/;",
+    "active": true
+  },
+  {
+    "id": "h-r-fm-hu",
+    "name": "H�r FM",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News"
+    ],
+    "stream_url": "https://stream.rcs.revma.com/ar1n48k8b2uvv",
+    "active": true
+  },
+  {
+    "id": "hangos-r-di-hu",
+    "name": "Hangos Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Retro"
+    ],
+    "stream_url": "https://stream.zeno.fm/mv62tmd8wp8uv",
+    "active": true
+  },
+  {
+    "id": "hangos-r-di-hu",
+    "name": "Hangos Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Talk"
+    ],
+    "stream_url": "https://stream.zeno.fm/mv62tmd8wp8uv.aac",
+    "active": true
+  },
+  {
+    "id": "h-r-fm-hu",
+    "name": "Hír FM",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://n34a-eu.rcs.revma.com/wevb267khf9uv?rj-ttl=5&rj-tok=AAABnZd5-KEAvca0veOvcEeJDw",
+    "active": true
+  },
+  {
+    "id": "h-r-fm-eger-gy-ngy-s-hu",
+    "name": "Hír FM - Eger / Gyöngyös",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News",
+      "Talk"
+    ],
+    "stream_url": "https://n23-eu.rcs.revma.com/3zbwnap8b2uvv",
+    "active": true
+  },
+  {
+    "id": "hobby-r-di-hu",
+    "name": "Hobby Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Retro",
+      "Talk"
+    ],
+    "stream_url": "http://www.hobbyradio.hu:8000/hobbyradio.mp3",
+    "active": true
+  },
+  {
+    "id": "hungarian-dance-hu",
+    "name": "Hungarian dance",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://gamershouse.hu:8000/livemega.mp3",
+    "active": true
+  },
+  {
+    "id": "i-love-p-cs-r-di-hu",
+    "name": "I Love Pécs Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://radio.ilovepecs.hu:8200/ilp.mp3",
+    "active": true
+  },
+  {
+    "id": "infor-di-hu",
+    "name": "Inforádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News",
+      "Talk"
+    ],
+    "stream_url": "http://stream.infostart.hu/lejatszo/index.html?sid=1",
+    "active": true
+  },
+  {
+    "id": "insane-hu",
+    "name": "insane",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://radio.newinsane.info/",
+    "active": true
+  },
+  {
+    "id": "jazzradio-hu-hu",
+    "name": "Jazzradio.hu",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Jazz"
+    ],
+    "stream_url": "https://www.jazzradio.hu:8000/jazzradio_192.ogg",
+    "active": true
+  },
+  {
+    "id": "jazzy-hu",
+    "name": "Jazzy",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Jazz"
+    ],
+    "stream_url": "https://radio.musorok.org/listen/jazzy/jazzy.mp3",
+    "active": true
+  },
+  {
+    "id": "jazzy-cool-hu",
+    "name": "Jazzy Cool",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Jazz"
+    ],
+    "stream_url": "https://radio.musorok.org/listen/jazzycool/jazzycool.mp3",
+    "active": true
+  },
+  {
+    "id": "jazzy-groove-hu",
+    "name": "Jazzy Groove",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Jazz"
+    ],
+    "stream_url": "https://radio.musorok.org/listen/jazzygroove/jazzygroove.mp3",
+    "active": true
+  },
+  {
+    "id": "jazzy-soul-hu",
+    "name": "Jazzy Soul",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Jazz"
+    ],
+    "stream_url": "https://radio.musorok.org/listen/jazzysoul/jazzysoul.mp3",
+    "active": true
+  },
+  {
+    "id": "juventus-hu",
+    "name": "Juventus",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://s2.audiostream.hu:8080/juventus_192k",
+    "active": true
+  },
+  {
+    "id": "klasszik-r-di-92-1-hu",
+    "name": "Klasszik Rádió 92.1",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Classical"
+    ],
+    "stream_url": "https://radio.musorok.org/listen/klasszik/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "klubr-di-hu",
+    "name": "Klubrádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News"
+    ],
+    "stream_url": "https://hu-stream03.klubradio.hu:8443/bpstream",
+    "active": true
+  },
+  {
+    "id": "klubr-di-zebr-di-hu",
+    "name": "Klubrádió - Zebrádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.zebradio.hu:8443/zebradio",
+    "active": true
+  },
+  {
+    "id": "klubr-di-95-3-hu",
+    "name": "Klubrádió 95,3",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News"
+    ],
+    "stream_url": "https://a7.asurahosting.com:8160/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "kolozsv-ri-r-di-hu",
+    "name": "Kolozsvári Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Jazz",
+      "Pop",
+      "Rock"
+    ],
+    "stream_url": "http://89.238.227.6:8386/",
+    "active": true
+  },
+  {
+    "id": "kolozsv-ri-r-di-hu",
+    "name": "Kolozsvári Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://89.238.227.6:8386/",
+    "active": true
+  },
+  {
+    "id": "kolozsv-ri-r-di-m-hu",
+    "name": "Kolozsvári Rádió M",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://89.238.227.6:8386/;",
+    "active": true
+  },
+  {
+    "id": "kolozsv-ri-r-di-m-hu",
+    "name": "Kolozsvári Rádió M",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://89.238.227.6:8386/;",
+    "active": true
+  },
+  {
+    "id": "kolozsv-ri-r-di-m-hu",
+    "name": "Kolozsvári Rádió M",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://89.238.227.6:8386/;",
+    "active": true
+  },
+  {
+    "id": "korona-fm100-hu",
+    "name": "Korona Fm100",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://82.141.165.6:8000/",
+    "active": true
+  },
+  {
+    "id": "korona-r-di-brass-bra-ov-hu",
+    "name": "Korona Rádió Brassó -Brașov",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "News",
+      "Pop",
+      "Talk"
+    ],
+    "stream_url": "https://s7.citrus3.com:8022/stream",
+    "active": true
+  },
+  {
+    "id": "koronafm100-hu",
+    "name": "KORONAfm100",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://82.141.165.6:8000/;stream",
+    "active": true
+  },
+  {
+    "id": "kossuth-hu",
+    "name": "Kossuth",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://mr-stream.mediaconnect.hu/4736/mr1.mp3",
+    "active": true
+  },
+  {
+    "id": "kossuth-r-di-hu",
+    "name": "Kossuth Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News",
+      "Talk"
+    ],
+    "stream_url": "http://mr-stream.mediaconnect.hu/4734/mr1.aac",
+    "active": true
+  },
+  {
+    "id": "kpop-radio-hu",
+    "name": "Kpop Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "https://s5.radio.co/s078df1838/listen",
+    "active": true
+  },
+  {
+    "id": "lahmacun-radio-hu",
+    "name": "Lahmacun Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Electronic"
+    ],
+    "stream_url": "https://streaming.lahmacun.hu/radio/8000/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "lakihegy-r-di-hu",
+    "name": "Lakihegy Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://lakihegyradio.hu/player/stream.php",
+    "active": true
+  },
+  {
+    "id": "laza-r-di-mulat-s-hu",
+    "name": "Laza Rádió - Mulatós",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Folk"
+    ],
+    "stream_url": "https://stream.lazaradio.com/mulatos.mp3",
+    "active": true
+  },
+  {
+    "id": "laza-r-di-ogg-320-kbps-hu",
+    "name": "Laza Rádió (OGG 320 Kbps)",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Retro"
+    ],
+    "stream_url": "http://stream.lazaradio.com:8100/live.ogg",
+    "active": true
+  },
+  {
+    "id": "l-p-s-r-di-hu",
+    "name": "Lépés Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News",
+      "Pop",
+      "Retro"
+    ],
+    "stream_url": "http://stream.nmih.hu:4000/live.mp3",
+    "active": true
+  },
+  {
+    "id": "l-p-s-r-di-hu",
+    "name": "Lépés Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Electronic"
+    ],
+    "stream_url": "http://stream.nmih.hu:4000/live.mp3",
+    "active": true
+  },
+  {
+    "id": "l-p-s-r-di-hu",
+    "name": "Lépés Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.lepesradio.hu:4000/live.mp3",
+    "active": true
+  },
+  {
+    "id": "magyar-evang-liumi-r-di-hu",
+    "name": "Magyar Evangéliumi Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Religious"
+    ],
+    "stream_url": "http://stream.radio.co/s3fd8d173f/listen",
+    "active": true
+  },
+  {
+    "id": "magyar-katolikus-r-di-hu",
+    "name": "Magyar Katolikus Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://katolikusradio.hu:9000/live_hi.mp3",
+    "active": true
+  },
+  {
+    "id": "manna-fm-98-6-hu",
+    "name": "Manna FM 98.6",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Religious"
+    ],
+    "stream_url": "http://icast.connectmedia.hu/4780/live.mp3",
+    "active": true
+  },
+  {
+    "id": "m-ria-r-di-hu",
+    "name": "Mária Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://honlap.mariaradio.hu:8000/mr",
+    "active": true
+  },
+  {
+    "id": "m-ria-r-di-erd-ly-hu",
+    "name": "Mária Rádió Erdély",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.mariaradio.ro:8000/MRE",
+    "active": true
+  },
+  {
+    "id": "m-ria-r-di-erd-ly-oradea-hu",
+    "name": "Mária Rádió Erdély -Oradea",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.mariaradio.ro:8000/MRE",
+    "active": true
+  },
+  {
+    "id": "m-ria-r-di-szerbia-hu",
+    "name": "Mária Rádió Szerbia",
+    "country": "Serbia",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://dreamsiteradiocp.com:8014/;",
+    "active": true
+  },
+  {
+    "id": "marosv-s-rhelyi-r-di-hu",
+    "name": "Marosvásárhelyi Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://streaming.radiomures.ro:8312/;stream.nsv&type=mp3",
+    "active": true
+  },
+  {
+    "id": "maxi-r-di-hu",
+    "name": "Maxi rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://46.107.212.101:9240/live",
+    "active": true
+  },
+  {
+    "id": "megadance-r-di-hu",
+    "name": "Megadance Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://gamershouse.hu:8000/livemega.mp3",
+    "active": true
+  },
+  {
+    "id": "megadance-r-di-hu",
+    "name": "MegaDance Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://megadanceradio.hopto.org:8000/livemega.mp3",
+    "active": true
+  },
+  {
+    "id": "megamixer-hu",
+    "name": "MegaMixer",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "http://gamershouse.hu:8000/livemega.mp3",
+    "active": true
+  },
+  {
+    "id": "megamixer-hu",
+    "name": "MegaMixer",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "http://gamershouse.hu:8000/livemega.mp3",
+    "active": true
+  },
+  {
+    "id": "mercy-r-di-hu",
+    "name": "Mercy Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Hits",
+      "Pop"
+    ],
+    "stream_url": "http://stream.mercyradio.eu/mercyradio.mp3",
+    "active": true
+  },
+  {
+    "id": "mercy-r-di-kabar-hu",
+    "name": "Mercy Rádió - Kabaré",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Talk"
+    ],
+    "stream_url": "http://stream.mercyradio.eu/kabare.mp3",
+    "active": true
+  },
+  {
+    "id": "mercy-r-di-mulat-s-hu",
+    "name": "Mercy Rádió - Mulatós",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.mercyradio.eu/mulatos.mp3",
+    "active": true
+  },
+  {
+    "id": "mirjam-r-dio-m-ria-r-di-felvid-k-hu",
+    "name": "Mirjam Rádio - Mária Rádió Felvidék",
+    "country": "Slovakia",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://193.87.81.131:8081/MariaRadioFelvidek",
+    "active": true
+  },
+  {
+    "id": "mixradio-fresh-hu",
+    "name": "Mixradio fresh",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://adas.adasszerver.hu/live",
+    "active": true
+  },
+  {
+    "id": "mixradio-retr-hu",
+    "name": "Mixradio Retró",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://45.67.156.157:18004/retro",
+    "active": true
+  },
+  {
+    "id": "mixradio-retr-hu",
+    "name": "Mixradio Retró",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://45.67.156.157:18004/retro",
+    "active": true
+  },
+  {
+    "id": "mixradioretro-hu",
+    "name": "MixradioRetro",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.phost.hu:8004/retro",
+    "active": true
+  },
+  {
+    "id": "mixradioretro-hu",
+    "name": "MixradioRetro",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.phost.hu:8004/retro",
+    "active": true
+  },
+  {
+    "id": "mixradioretro-hu",
+    "name": "MixradioRetro",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.phost.hu:8004/retro",
+    "active": true
+  },
+  {
+    "id": "mnews-r-di-hu",
+    "name": "MNEWS Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News"
+    ],
+    "stream_url": "https://a5.asurahosting.com:6680/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "mom-r-di-hu",
+    "name": "Momó Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.diazol.hu:7092/zene.mp3",
+    "active": true
+  },
+  {
+    "id": "mom-r-di-mese-hu",
+    "name": "Momó Rádió Mese",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.diazol.hu:7092/mese.mp3",
+    "active": true
+  },
+  {
+    "id": "mr1-kossuth-r-di-hu",
+    "name": "MR1 - Kossuth Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News",
+      "Talk"
+    ],
+    "stream_url": "https://mr-stream.connectmedia.hu/4736/mr1.mp3",
+    "active": true
+  },
+  {
+    "id": "mr2-pet-fi-r-di-hu",
+    "name": "MR2 - Petőfi Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "https://mr-stream.connectmedia.hu/4738/mr2.mp3",
+    "active": true
+  },
+  {
+    "id": "mr3-bart-k-r-di-hu",
+    "name": "MR3 - Bartók Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://mr-stream.connectmedia.hu/4741/mr3.mp3",
+    "active": true
+  },
+  {
+    "id": "mr4-nemzetis-gi-ad-sok-hu",
+    "name": "MR4 - Nemzetiségi Adások",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News",
+      "Talk"
+    ],
+    "stream_url": "https://mr-stream.connectmedia.hu/4744/mr4.mp3",
+    "active": true
+  },
+  {
+    "id": "mr5-parlamenti-ad-sok-hu",
+    "name": "MR5 - Parlamenti Adások",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Jazz",
+      "News"
+    ],
+    "stream_url": "https://mr-stream.connectmedia.hu/4746/mr5.mp3",
+    "active": true
+  },
+  {
+    "id": "mr7-dank-r-di-hu",
+    "name": "MR7 - Dankó Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Retro"
+    ],
+    "stream_url": "https://mr-stream.connectmedia.hu/4748/mr7.mp3",
+    "active": true
+  },
+  {
+    "id": "mr8-duna-world-r-di-hu",
+    "name": "MR8 - Duna World Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News",
+      "Talk"
+    ],
+    "stream_url": "https://mr-stream.connectmedia.hu/4761/dwr.mp3",
+    "active": true
+  },
+  {
+    "id": "muravid-ki-magyar-r-di-hu",
+    "name": "Muravidéki Magyar Rádió",
+    "country": "Slovenia",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://mp3.rtvslo.si/mmr",
+    "active": true
+  },
+  {
+    "id": "must-r-r-di-hu",
+    "name": "Mustár Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://193.138.125.14:8500/;",
+    "active": true
+  },
+  {
+    "id": "nemzeti-sport-radio-hu",
+    "name": "Nemzeti Sport Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop",
+      "Sport",
+      "Talk"
+    ],
+    "stream_url": "https://icast.connectmedia.hu/4656/mr11.aac",
+    "active": true
+  },
+  {
+    "id": "next-fm-hu",
+    "name": "Next FM",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.nextfm.hu/radio/8000/nextfmhu.mp3?1590416039",
+    "active": true
+  },
+  {
+    "id": "n-ta-fm-128k-mp3-hu",
+    "name": "Nóta FM - 128k MP3",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Folk"
+    ],
+    "stream_url": "http://live.notafm.hu:8000/notafm.mp3",
+    "active": true
+  },
+  {
+    "id": "n-ta-fm-48k-aac-hu",
+    "name": "Nóta FM - 48k AAC+",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Folk"
+    ],
+    "stream_url": "http://live.notafm.hu:8000/notafm",
+    "active": true
+  },
+  {
+    "id": "rd-ng-sf-zes-r-di-fm-fize-u-gherlii-hu",
+    "name": "Ördöngösfüzes Rádió FM -Fizeșu Gherlii",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream-175.surfernetwork.com/skwcpsuh60mvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJza3djcHN1aDYwbXZ2IiwiaG9zdCI6InN0cmVhbS0xNzUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlR0MkxZM0JzUmFDcGhiRUVWbzNZY1EiLCJpYXQiOjE3OTMxNDUzMjQsImV4cCI6MTc5MzE0NTM4NH0.oKbpVBsmimplF3V4f10-wa8Idfpp_H3POzd5KyqrV5s",
+    "active": true
+  },
+  {
+    "id": "oxygen-happy-hu",
+    "name": "Oxygen Happy",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Hits"
+    ],
+    "stream_url": "https://oxygenmusic.hu:8443/oxygenhappy_128",
+    "active": true
+  },
+  {
+    "id": "oxygen-magyar-zene-hu",
+    "name": "Oxygen Magyar Zene",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://oxygenmusic.hu:8443/oxygenmagyarzene",
+    "active": true
+  },
+  {
+    "id": "oxygen-music-gy-r-hu",
+    "name": "Oxygen Music Győr",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://oxygenmusic.hu:8443/oxygenmusic_gyor_hd",
+    "active": true
+  },
+  {
+    "id": "pannon-r-di-hu",
+    "name": "Pannon Rádió",
+    "country": "Serbia",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream2.nmih.hu:4120/live.mp3",
+    "active": true
+  },
+  {
+    "id": "pannon-r-di-hu",
+    "name": "Pannon Rádió",
+    "country": "Serbia",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://breddstream.unrealhosting.hu:4120/;",
+    "active": true
+  },
+  {
+    "id": "pann-nia-r-di-hu",
+    "name": "Pannónia Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://kft.kesintisizyayin.com:8130/stream",
+    "active": true
+  },
+  {
+    "id": "paprika-r-di-hu",
+    "name": "Paprika Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Hits",
+      "Pop"
+    ],
+    "stream_url": "http://stream1.paprikaradio.ro:8000/;stream",
+    "active": true
+  },
+  {
+    "id": "paprika-r-di-cluj-napoca-95-1-fm-hu",
+    "name": "Paprika Rádió -Cluj Napoca 95,1 FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://stream1.paprikaradio.ro:8000/",
+    "active": true
+  },
+  {
+    "id": "parlamenti-ad-sok-hu",
+    "name": "Parlamenti adások",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "News"
+    ],
+    "stream_url": "http://mr-stream.mediaconnect.hu/4745/mr5.aac",
+    "active": true
+  },
+  {
+    "id": "passion-radi-hungary-hu",
+    "name": "Passion Radió Hungary",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Rock"
+    ],
+    "stream_url": "https://a9.asurahosting.com/listen/passion_radio_hungary/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "p-tria-r-di-hu",
+    "name": "Pátria Rádió",
+    "country": "Slovakia",
+    "continent": "Europe",
+    "genre": [
+      "Talk"
+    ],
+    "stream_url": "https://icecast.stv.livebox.sk/patria_128.mp3",
+    "active": true
+  },
+  {
+    "id": "p-cs-aktu-l-r-di-hu",
+    "name": "Pécs Aktuál Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.pecsaktual.hu/paradio.mp3",
+    "active": true
+  },
+  {
+    "id": "periszk-p-r-di-hu",
+    "name": "Periszkóp Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://mumia.periszkopradio.hu:8443/;stream.mp3",
+    "active": true
+  },
+  {
+    "id": "pet-fi-r-di-hu",
+    "name": "Petőfi Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://mr-stream.connectmedia.hu/4738/mr2.mp3",
+    "active": true
+  },
+  {
+    "id": "pet-fi-r-di-hu",
+    "name": "Petőfi Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "https://icast.connectmedia.hu/4738/mr2.mp3",
+    "active": true
+  },
+  {
+    "id": "pet-fi-r-di-hu",
+    "name": "Petőfi Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://mr-stream.mediaconnect.hu/4737/mr2.aac",
+    "active": true
+  },
+  {
+    "id": "pet-fi-r-di-hu",
+    "name": "Petőfi Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://mr-stream.mediaconnect.hu/4737/mr2.aac",
+    "active": true
+  },
+  {
+    "id": "plusz-fm-margitta-hu",
+    "name": "Plusz FM - Margitta",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream2.radiotransilvania.ro/Margitta",
+    "active": true
+  },
+  {
+    "id": "plusz-fm-nagyvarad-hu",
+    "name": "Plusz FM - Nagyvarad",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream2.radiotransilvania.ro/Nagyvarad",
+    "active": true
+  },
+  {
+    "id": "plusz-fm-margitta-marghita-bh-105-5-fm-hu",
+    "name": "Plusz FM Margitta - Marghita BH 105,5 FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "News"
+    ],
+    "stream_url": "https://stream2.radiotransilvania.ro/Margitta",
+    "active": true
+  },
+  {
+    "id": "plusz-fm-nagyv-rad-oradea-bh-89-6-fm-hu",
+    "name": "Plusz FM Nagyvárad - Oradea BH 89,6 FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "News"
+    ],
+    "stream_url": "https://stream2.radiotransilvania.ro/Nagyvarad",
+    "active": true
+  },
+  {
+    "id": "poptarisznya-hu",
+    "name": "Poptarisznya",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://adas.poptarisznya.hu:8200/live.mp3",
+    "active": true
+  },
+  {
+    "id": "poptarisznya-oldies-hu",
+    "name": "Poptarisznya Oldies",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Retro"
+    ],
+    "stream_url": "http://adas.poptarisznya.hu:8200/oldies.mp3",
+    "active": true
+  },
+  {
+    "id": "profi-r-di-hu",
+    "name": "Profi Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://93.115.174.139:8000/stream",
+    "active": true
+  },
+  {
+    "id": "pulzus-r-di-hu",
+    "name": "Pulzus Rádió",
+    "country": "Ukraine",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://radio2.tirek.hu:8000/sionelo",
+    "active": true
+  },
+  {
+    "id": "r-bak-z-r-di-hu",
+    "name": "Rábaköz Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "https://radio.molnarkft.hu/rabakozradio",
+    "active": true
+  },
+  {
+    "id": "r-di-1-hu",
+    "name": "Rádió 1",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "https://icast.connectmedia.hu/5201/live.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-1-b-k-scsaba-hu",
+    "name": "Rádió 1 - Békéscsaba",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "Pop"
+    ],
+    "stream_url": "https://icast.connectmedia.hu/5233/live.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-1-sopron-hu",
+    "name": "Rádió 1 - Sopron",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "Hits",
+      "Pop"
+    ],
+    "stream_url": "http://icast.connectmedia.hu/5015/live.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-1-debrecen-hu",
+    "name": "Rádió 1 Debrecen",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://91.82.85.44:8080/debrecenradiofm95",
+    "active": true
+  },
+  {
+    "id": "radio-1-sopron-hu",
+    "name": "Radio 1 Sopron",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://icast.connectmedia.hu/5015/live.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-1-szeged-hu",
+    "name": "Rádió 1 Szeged",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://icast.connectmedia.hu/5232/live.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-47-hu",
+    "name": "Rádió 47",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "https://s01.diazol.hu:9102/live.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-7-hu",
+    "name": "Rádió 7",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://netradio.radio7.hu:8300/stream.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-88-hu",
+    "name": "Rádió 88",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.radio88.hu:8000/;",
+    "active": true
+  },
+  {
+    "id": "r-di-88-club-hu",
+    "name": "Rádió 88 Club",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "http://stream2.radio88.hu:8400/;stream",
+    "active": true
+  },
+  {
+    "id": "r-di-88-retro-hu",
+    "name": "Rádió 88 Retro",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Hits",
+      "Retro"
+    ],
+    "stream_url": "http://stream1.radio88.hu:8300/;stream",
+    "active": true
+  },
+  {
+    "id": "r-di-88-szeged-hu",
+    "name": "Rádió 88 Szeged",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "https://stream.radio88.hu/onair.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-88-top-hu",
+    "name": "Rádió 88 Top",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://stream3.radio88.hu:8500/;stream",
+    "active": true
+  },
+  {
+    "id": "r-di-antritt-hu",
+    "name": "Rádió Antritt",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop",
+      "Retro"
+    ],
+    "stream_url": "http://stream.radioantritt.hu:8000/Antritt",
+    "active": true
+  },
+  {
+    "id": "r-di-b-zs-hu",
+    "name": "Rádió Bézs",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://195.210.29.82:8001/bezs",
+    "active": true
+  },
+  {
+    "id": "r-di-b-zs-2-hu",
+    "name": "Rádió Bézs 2",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://195.210.29.82:8002/bezs2",
+    "active": true
+  },
+  {
+    "id": "radio-brand-hu",
+    "name": "Radio Brand",
+    "country": "Spain",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://radiobrand.es:8084/RadioBrand",
+    "active": true
+  },
+  {
+    "id": "radio-cluj-hu",
+    "name": "Radio Cluj",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream4.srr.ro:8008/radio-cluj",
+    "active": true
+  },
+  {
+    "id": "r-di-dabas-hu",
+    "name": "Rádió Dabas",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream3.virtualisan.net:7040/;",
+    "active": true
+  },
+  {
+    "id": "r-di-dikh-hu",
+    "name": "Rádió Dikh",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://icast.connectmedia.hu/6121/live.mp3",
+    "active": true
+  },
+  {
+    "id": "radio-e-hu",
+    "name": "Radio E",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "http://radioe.net:8080/efm_high",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-100-magyar-hu",
+    "name": "Rádió GaGa 100% Magyar",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://a2.asurahosting.com:6880/radio.mp3?1741346830",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-100-magyar-hu",
+    "name": "Rádió GaGa 100% Magyar",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.igenbiza.com/hun",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-cs-ksz-k-hu",
+    "name": "Rádió GaGa Csíkszék",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.igenbiza.com/csi",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-cs-ksz-k-hu",
+    "name": "Rádió GaGa Csíkszék",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://a3.my-control-panel.com:6700/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-gold-hu",
+    "name": "Rádió GaGa Gold",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://a2.asurahosting.com:7020/radio.mp3?1741449673",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-gyergy-sz-k-hu",
+    "name": "Rádió GaGa Gyergyószék",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.igenbiza.com/gye",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-gyergy-sz-k-hu",
+    "name": "Rádió GaGa Gyergyószék",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://a3.my-control-panel.com:6690/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-h-romsz-k-hu",
+    "name": "Rádió GaGa Háromszék",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.igenbiza.com/sze",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-h-romsz-k-hu",
+    "name": "Rádió GaGa Háromszék",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://a3.my-control-panel.com:6670/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-marossz-k-hu",
+    "name": "Rádió GaGa Marosszék",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.igenbiza.com/vas",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-marossz-k-hu",
+    "name": "Rádió GaGa Marosszék",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://a3.my-control-panel.com:6660/radio.mp3?1709995925",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-udvarhelysz-k-hu",
+    "name": "Rádió GaGa Udvarhelyszék",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.igenbiza.com/udv",
+    "active": true
+  },
+  {
+    "id": "r-di-gaga-udvarhelysz-k-hu",
+    "name": "Rádió GaGa Udvarhelyszék",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://a3.my-control-panel.com:6680/radio.mp3?1709996423",
+    "active": true
+  },
+  {
+    "id": "radio-inside-hu",
+    "name": "RADIO INSIDE",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "https://radioinside.eu/live.mp3",
+    "active": true
+  },
+  {
+    "id": "r-di-koko-hu",
+    "name": "Rádió KoKo",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://az10.yesstreaming.net:8210/radiokoko.mp3",
+    "active": true
+  },
+  {
+    "id": "radio-maria-hungary-hu",
+    "name": "RADIO MARIA HUNGARY",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://dreamsiteradiocp.com:8032/stream",
+    "active": true
+  },
+  {
+    "id": "radio-maria-romania-hung-hu",
+    "name": "RADIO MARIA ROMANIA HUNG.",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://dreamsiteradiocp4.com:8026/stream",
+    "active": true
+  },
+  {
+    "id": "radio-maria-serbia-hung-hu",
+    "name": "RADIO MARIA SERBIA HUNG",
+    "country": "Serbia",
+    "continent": "Europe",
+    "genre": [
+      "Talk"
+    ],
+    "stream_url": "http://dreamsiteradiocp.com:8014/stream",
+    "active": true
+  },
+  {
+    "id": "radio-maria-serbia-hung-hu",
+    "name": "RADIO MARIA SERBIA HUNG",
+    "country": "Serbia",
+    "continent": "Europe",
+    "genre": [
+      "Talk"
+    ],
+    "stream_url": "http://dreamsiteradiocp2.com:8062/stream",
+    "active": true
+  },
+  {
+    "id": "r-di-most-hu",
+    "name": "Rádió Most",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.radiomost.hu:8200/live.mp3",
+    "active": true
+  },
+  {
+    "id": "radio-romania-sighet-hu",
+    "name": "Radio Romania Sighet",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://89.238.227.6:8390/%7CRadio",
+    "active": true
+  },
+  {
+    "id": "radio-rom-nia-t-rgu-mure-marosv-s-rhelyi-r-di-rom-nia-hu",
+    "name": "Radio România Târgu Mureș - Marosvásárhelyi Rádió Románia",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://streaming.radiomures.ro:8312/",
+    "active": true
+  },
+  {
+    "id": "radio-romania-targu-mures-am-hu",
+    "name": "Radio Romania Targu Mures AM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "News"
+    ],
+    "stream_url": "http://streaming.radiomures.ro:8322/",
+    "active": true
+  },
+  {
+    "id": "radio-sense-hu",
+    "name": "Radio Sense",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Hits",
+      "Pop"
+    ],
+    "stream_url": "http://s03.diazol.hu:7010/stream.mp3",
+    "active": true
+  },
+  {
+    "id": "radio-sunrise-hu",
+    "name": "Radio Sunrise",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "https://s03.diazol.hu:7172/stream",
+    "active": true
+  },
+  {
+    "id": "radio-timi-oara-630-am-hu",
+    "name": "Radio Timișoara 630 AM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://89.238.227.6:8352/",
+    "active": true
+  },
+  {
+    "id": "radio-d-jazz-hu",
+    "name": "Radio-D - Jazz",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Jazz"
+    ],
+    "stream_url": "http://radio-d.hu:8000/jazz",
+    "active": true
+  },
+  {
+    "id": "radio-d-magyar-n-ta-hu",
+    "name": "Radio-D - Magyar Nóta",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://radio-d.hu:8000/magyarnota",
+    "active": true
+  },
+  {
+    "id": "radio-d-musical-hu",
+    "name": "Radio-D - Musical",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://radio-d.hu:8000/musical",
+    "active": true
+  },
+  {
+    "id": "radio-d-operett-hu",
+    "name": "Radio-D - Operett",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Classical"
+    ],
+    "stream_url": "http://radio-d.hu:8000/operett",
+    "active": true
+  },
+  {
+    "id": "radio-d-pop-rock-hu",
+    "name": "Radio-D - Pop Rock",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop",
+      "Retro",
+      "Rock"
+    ],
+    "stream_url": "http://radio-d.hu:8000/poprock",
+    "active": true
+  },
+  {
+    "id": "radiopod-fediverse-hu",
+    "name": "Radiopod Fediverse",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Jazz",
+      "Talk"
+    ],
+    "stream_url": "https://radiopod.top/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "r-gi-r-di-hu",
+    "name": "Régió Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "News"
+    ],
+    "stream_url": "https://stream.regioradio.info:8000/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "rem-nys-g-hangja-r-di-hu",
+    "name": "Reménység Hangja Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Religious"
+    ],
+    "stream_url": "https://live.rvs.ro/mg",
+    "active": true
+  },
+  {
+    "id": "rem-nys-g-hangja-r-di-cluj-napoca-hu",
+    "name": "Reménység Hangja Rádió -Cluj Napoca",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://live.rvs.ro/mg",
+    "active": true
+  },
+  {
+    "id": "retro-r-di-hu",
+    "name": "Retro Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop",
+      "Retro",
+      "Rock"
+    ],
+    "stream_url": "https://icast.connectmedia.hu/5001/live.mp3",
+    "active": true
+  },
+  {
+    "id": "rise-fm-classic-hu",
+    "name": "Rise FM Classic",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "https://oxygenmusic.hu:8443/RISE_CLASSIC_128",
+    "active": true
+  },
+  {
+    "id": "rise-fm-deep-hu",
+    "name": "Rise FM Deep",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "https://oxygenmusic.hu:8443/RISE_DEEPHOUSE_128",
+    "active": true
+  },
+  {
+    "id": "rise-fm-hit-house-hu",
+    "name": "Rise FM Hit House",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "https://oxygenmusic.hu:8443/RISE_HITHOUSE_128",
+    "active": true
+  },
+  {
+    "id": "rise-fm-r-n-b-hu",
+    "name": "Rise FM R'n'B",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Hip-Hop"
+    ],
+    "stream_url": "https://oxygenmusic.hu:8443/RISE_RNB_128",
+    "active": true
+  },
+  {
+    "id": "roholydoctor-holy-doctor-hungary-arad-hu",
+    "name": "RoHolyDoctor -Holy Doctor Hungary Arad",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Religious"
+    ],
+    "stream_url": "https://streaming.radioholydoctor.com/radio/8010/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "roxy-r-di-hu",
+    "name": "Roxy Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://s2.audiostream.hu/roxy_192k",
+    "active": true
+  },
+  {
+    "id": "rtv-radio-novi-sad-2-jvid-ki-r-di-hu",
+    "name": "RTV - Radio Novi Sad 2 (Újvidéki Rádió)",
+    "country": "Serbia",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://212.200.230.50:1935/rns2/drugiprogram/livestream/stream.m3u8",
+    "active": true
+  },
+  {
+    "id": "s-rv-r-r-di-hu",
+    "name": "Sárvár Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Hits",
+      "News",
+      "Pop"
+    ],
+    "stream_url": "https://stream.42netmedia.com:8443/sarvar",
+    "active": true
+  },
+  {
+    "id": "schwendermarkt-hu",
+    "name": "Schwendermarkt",
+    "country": "Austria",
+    "continent": "Europe",
+    "genre": [
+      "News"
+    ],
+    "stream_url": "https://laut.fm/schwendermarkt",
+    "active": true
+  },
+  {
+    "id": "sepsi-r-di-hu",
+    "name": "Sepsi Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.sepsiradio.ro:8001/SepsiRadio",
+    "active": true
+  },
+  {
+    "id": "siculus-r-di-hu",
+    "name": "Siculus Rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Hits",
+      "Pop"
+    ],
+    "stream_url": "http://46.214.17.202:8000/radioac3",
+    "active": true
+  },
+  {
+    "id": "siculus-r-di-k-zdiv-s-rhely-t-rgu-secuiesc-95-0-fm-hu",
+    "name": "Siculus Rádió -Kézdivásárhely/Târgu Secuiesc 95.0 FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://46.214.17.202:8000/radioac3",
+    "active": true
+  },
+  {
+    "id": "sl-ger-fm-hu",
+    "name": "Sláger FM",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Retro"
+    ],
+    "stream_url": "http://92.61.114.159:7812/slagerfm256.mp3",
+    "active": true
+  },
+  {
+    "id": "sl-ger-r-di-slager-fm-sepsiszentgy-rgy-sf-ntu-gheorghe-105-9-fm-hu",
+    "name": "Sláger Rádió -Slager FM Sepsiszentgyörgy/Sfântu Gheorghe 105.9 FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://slagerfm.netregator.hu:7813/slagerfm320.mp3",
+    "active": true
+  },
+  {
+    "id": "sola-r-di-hu",
+    "name": "Sola Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Religious"
+    ],
+    "stream_url": "http://188.165.11.30:7000/live.mp3",
+    "active": true
+  },
+  {
+    "id": "sola-r-di-hu",
+    "name": "Sola Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Religious"
+    ],
+    "stream_url": "http://188.165.11.30:7000/live.mp3",
+    "active": true
+  },
+  {
+    "id": "sola-r-di-hu",
+    "name": "Sola Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Religious"
+    ],
+    "stream_url": "https://stream1.virtualisan.net/prx/7000/live.mp3",
+    "active": true
+  },
+  {
+    "id": "sola-r-di-hu",
+    "name": "Sola Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Religious"
+    ],
+    "stream_url": "http://188.165.11.30:7000/",
+    "active": true
+  },
+  {
+    "id": "sro5-r-dio-p-tria-rsi-hu",
+    "name": "SRo5 Rádio Pátria /RSI",
+    "country": "Slovakia",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://live.slovakradio.sk:8000/Patria_128.mp3",
+    "active": true
+  },
+  {
+    "id": "star-r-di-hu",
+    "name": "Star rádió",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://online.webcastradio.ro/star",
+    "active": true
+  },
+  {
+    "id": "star-r-di-sz-kelyudvarhely-odorheiu-secuiesc-100-8-fm-hu",
+    "name": "Star Rádió -Székelyudvarhely/Odorheiu Secuiesc 100.8 FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Pop",
+      "Rock"
+    ],
+    "stream_url": "https://online.webcastradio.ro/star",
+    "active": true
+  },
+  {
+    "id": "streamx-radio-hu",
+    "name": "StreamX Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "https://radio.streamxradio.live/listen/streamx_radio/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "streamx-radio-hu",
+    "name": "StreamX Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance",
+      "Electronic"
+    ],
+    "stream_url": "https://a5.asurahosting.com:8830/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "sunshine-fm-hu",
+    "name": "Sunshine FM",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://195.56.193.129:8100/;stream/1",
+    "active": true
+  },
+  {
+    "id": "sunshinefm-ny-regyh-za-hu",
+    "name": "SunshineFM Nyíregyháza",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://sunshine1.stream.composeit.hu/sunshine",
+    "active": true
+  },
+  {
+    "id": "super-dj-radio-hu",
+    "name": "Super DJ Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Retro"
+    ],
+    "stream_url": "http://s03.diazol.hu:35150/live",
+    "active": true
+  },
+  {
+    "id": "superdj-radio-hu",
+    "name": "SuperDj Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Retro"
+    ],
+    "stream_url": "http://stream.diazol.hu:35150/autodj",
+    "active": true
+  },
+  {
+    "id": "superdj-r-di-magyar-hu",
+    "name": "SuperDJ Rádió - Magyar",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://s03.diazol.hu:35152/stream3",
+    "active": true
+  },
+  {
+    "id": "szabadkai-magyar-r-di-hu",
+    "name": "Szabadkai Magyar Rádió",
+    "country": "Serbia",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.nmih.hu:4110/live.mp3",
+    "active": true
+  },
+  {
+    "id": "szabadkai-magyar-r-di-hu",
+    "name": "Szabadkai Magyar Rádió",
+    "country": "Serbia",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://breddstream.unrealhosting.hu:4110/;",
+    "active": true
+  },
+  {
+    "id": "sz-kely-r-di-gyergy-i-hu",
+    "name": "Székely Rádió Gyergyói",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://szekelyradio.top:8000/;",
+    "active": true
+  },
+  {
+    "id": "szent-istv-n-r-di-hu",
+    "name": "Szent István Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Religious"
+    ],
+    "stream_url": "http://online.szentistvanradio.hu:7000/adas",
+    "active": true
+  },
+  {
+    "id": "szent-korona-r-di-hu",
+    "name": "Szent Korona Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Rock"
+    ],
+    "stream_url": "https://szkrcast.ddns.net/radio/8000/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "szent-korona-r-di-forr-s-hu",
+    "name": "Szent Korona Rádió - Forrás",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://szkrcast.ddns.net/radio/8010/radio.mp3",
+    "active": true
+  },
+  {
+    "id": "sz-pv-z-fm-hu",
+    "name": "Szépvíz FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://szepvizfm.ro:8000/stream",
+    "active": true
+  },
+  {
+    "id": "sz-pv-z-fm-r-di-frumoasa-101-7-fm-hu",
+    "name": "Szépvíz FM Rádió -Frumoasa 101.7 FM",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://szepvizfm.ro:8000/stream",
+    "active": true
+  },
+  {
+    "id": "tam-si-radio-hu",
+    "name": "Tamási Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://stream.42netmedia.com:8443/sc_tamas",
+    "active": true
+  },
+  {
+    "id": "t-ska-r-di-hu",
+    "name": "Táska Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://live.taskaradio.com:7070/;stream.nsv#.mp3",
+    "active": true
+  },
+  {
+    "id": "telstar-hu",
+    "name": "TelStar",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Retro"
+    ],
+    "stream_url": "http://79.139.60.24:8000/telstar",
+    "active": true
+  },
+  {
+    "id": "test-radio-station-hu",
+    "name": "Test Radio Station",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Talk"
+    ],
+    "stream_url": "https://videos.prd.dlivecdn.com/dlive/live.m3u8",
+    "active": true
+  },
+  {
+    "id": "tilos-r-di-hu",
+    "name": "Tilos Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.tilos.hu/tilos",
+    "active": true
+  },
+  {
+    "id": "tilos-r-di-hu",
+    "name": "Tilos Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.tilos.hu/tilos",
+    "active": true
+  },
+  {
+    "id": "tilos-r-di-32-kbit-sec-hu",
+    "name": "Tilos Rádió 32 kbit/sec",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.tilos.hu/tilos_32.mp3",
+    "active": true
+  },
+  {
+    "id": "tilos-r-di-fm-90-3-hu",
+    "name": "Tilos Rádió FM 90.3",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.tilos.hu:8000/tilos",
+    "active": true
+  },
+  {
+    "id": "tilos-r-di-fm-90-3-hu",
+    "name": "Tilos Rádió FM 90.3",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://stream.tilos.hu/tilos_128.mp3",
+    "active": true
+  },
+  {
+    "id": "vocea-speran-ei-lb-maghiara-hu",
+    "name": "Vocea Speranței -lb. maghiara",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Religious"
+    ],
+    "stream_url": "https://live.rvs.ro/mg",
+    "active": true
+  },
+  {
+    "id": "vox-fm-sz-kelykereszt-r-hu",
+    "name": "Vox FM - Székelykeresztúr",
+    "country": "Romania",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://stream.voxfm.ro:8000/stream/1",
+    "active": true
+  },
+  {
+    "id": "wksu-hd4-news-more-hu",
+    "name": "WKSU HD4 News & More",
+    "country": "The United States Of America",
+    "continent": "Europe",
+    "genre": [
+      "Classical",
+      "News"
+    ],
+    "stream_url": "https://live.ideastream.org/wksu4.128.mp3",
+    "active": true
+  },
+  {
+    "id": "youventus-r-di-hu",
+    "name": "Youventus Rádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "http://s2.audiostream.hu/juventus_192k",
+    "active": true
+  },
+  {
+    "id": "youventus-r-di-96-kbps-hu",
+    "name": "Youventus Rádió (96 Kbps)",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://s2.audiostream.hu/juventus_96k",
+    "active": true
+  },
+  {
+    "id": "zalan-radio-hu",
+    "name": "Zalan Radio",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Dance"
+    ],
+    "stream_url": "https://stream.zeno.fm/kvqrsxeeafctv",
+    "active": true
+  },
+  {
+    "id": "zempl-n-fm-hu",
+    "name": "Zemplén FM",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [
+      "Pop"
+    ],
+    "stream_url": "https://oxygenmusic.hu:8443/zemplen",
+    "active": true
+  },
+  {
+    "id": "zugr-di-hu",
+    "name": "Zugrádió",
+    "country": "Hungary",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "http://zuglofm.netregator.hu:7812/zuglofm128.mp3",
+    "active": true
+  },
+  {
+    "id": "-hu",
+    "name": "Радіо Пульс",
+    "country": "Ukraine",
+    "continent": "Europe",
+    "genre": [],
+    "stream_url": "https://pulzusfm.eu/sionelo",
+    "active": true
+  }
 ]
