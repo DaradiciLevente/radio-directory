@@ -2704,18 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-dubstep-cluj-napoca-ro",
-    "name": "LibertyMP Dubstep -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dubstep",
-      "Electronica"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmpdubstep/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-jazz-cluj-napoca-ro",
     "name": "LibertyMP Jazz -Cluj Napoca",
     "country": "Romania",
