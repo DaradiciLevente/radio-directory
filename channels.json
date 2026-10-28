@@ -2704,17 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-manele-cluj-napoca-ro",
-    "name": "LibertyMP Manele -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Manele"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmpmanele/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-metal-cluj-napoca-ro",
     "name": "LibertyMP Metal -Cluj Napoca",
     "country": "Romania",
