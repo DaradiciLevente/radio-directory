@@ -1531,18 +1531,6 @@
     "active": true
   },
   {
-    "id": "ebs-radio-romanian-gold-cluj-napoca-ro",
-    "name": "EBS Radio Romanian Gold -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Muzica Usoara Romaneasca",
-      "Tango"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/romaniangold/romaniangold128.mp3?refresh=1779029137110",
-    "active": false
-  },
-  {
     "id": "electric-castle-ro",
     "name": "Electric Castle",
     "country": "Romania",
