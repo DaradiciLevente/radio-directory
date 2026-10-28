@@ -2704,17 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-classic-cluj-napoca-ro",
-    "name": "LibertyMP Classic -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Classic"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmpclassic/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-country-cluj-napoca-ro",
     "name": "LibertyMP Country -Cluj Napoca",
     "country": "Romania",
