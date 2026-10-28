@@ -2704,17 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-blues-cluj-napoca-ro",
-    "name": "LibertyMP Blues -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Blues"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmpblues/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-chill-cluj-napoca-ro",
     "name": "LibertyMP Chill -Cluj Napoca",
     "country": "Romania",
