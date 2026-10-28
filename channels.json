@@ -1507,17 +1507,6 @@
     "active": true
   },
   {
-    "id": "e-teatru-radio-romania-ro",
-    "name": "e-teatru Radio Romania",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Theater"
-    ],
-    "stream_url": "http://stream2.srr.ro:8078/eteatru.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-alternative-ro",
     "name": "EBS | Alternative",
     "country": "Romania",
