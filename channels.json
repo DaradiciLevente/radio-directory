@@ -3356,23 +3356,6 @@
     "active": true
   },
   {
-    "id": "nicecream-fm-green-ro",
-    "name": "Nicecream.fm - Green",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Ad Free",
-      "Chill",
-      "Funk",
-      "Funky",
-      "Groove",
-      "Groovy",
-      "Music"
-    ],
-    "stream_url": "https://play.nicecream.fm/radio/8010/green.mp3",
-    "active": false
-  },
-  {
     "id": "nicecream-fm-red-ro",
     "name": "Nicecream.fm - Red",
     "country": "Romania",
