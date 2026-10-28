@@ -9087,15 +9087,6 @@
     "active": true
   },
   {
-    "id": "sona-fm-dance-ro",
-    "name": "Sona FM Dance",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://ssl.omegahost.ro/8026/stream",
-    "active": false
-  },
-  {
     "id": "sonic-romania-ro",
     "name": "Sonic România",
     "country": "Romania",
