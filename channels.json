@@ -2271,15 +2271,6 @@
     "active": true
   },
   {
-    "id": "grig-radio-online-ro",
-    "name": "Grig Radio Online",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://sonic2-rbx.cloud-center.ro/grig/stream",
-    "active": false
-  },
-  {
     "id": "groove-calarasi-int-calarasi-ro",
     "name": "Groove Calarasi Int. -Călărași",
     "country": "Romania",
