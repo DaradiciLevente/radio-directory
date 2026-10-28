@@ -4185,18 +4185,6 @@
     "active": true
   },
   {
-    "id": "radio-beat-romania-cluj-napoca-ro",
-    "name": "Radio Beat Romania -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Dj Remix"
-    ],
-    "stream_url": "http://radiobeat.ro:8100/;",
-    "active": false
-  },
-  {
     "id": "radio-bella-eomania-ro",
     "name": "Radio Bella Eomania",
     "country": "Romania",
