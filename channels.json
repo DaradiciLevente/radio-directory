@@ -522,20 +522,6 @@
     "active": true
   },
   {
-    "id": "boom-tv-ro",
-    "name": "BOOM TV",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Classic Hits",
-      "Hits",
-      "Pop Rock",
-      "Top Hits"
-    ],
-    "stream_url": "https://live.radioboom.ro/live-tv/live.m3u8",
-    "active": true
-  },
-  {
     "id": "bucuresti-fm-ro",
     "name": "București FM",
     "country": "Romania",
