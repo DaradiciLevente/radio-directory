@@ -1000,19 +1000,6 @@
     "active": true
   },
   {
-    "id": "electric-castle-radio-ro",
-    "name": "Electric Castle Radio",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Alternative",
-      "Electronic",
-      "Indie"
-    ],
-    "stream_url": "https://electriccastle.out.airtime.pro/electriccastle_a",
-    "active": true
-  },
-  {
     "id": "elektrik-brasov-ro",
     "name": "ElekTrik Brașov",
     "country": "Romania",
