@@ -8169,15 +8169,6 @@
     "active": true
   },
   {
-    "id": "rock-and-more-radio-ro",
-    "name": "Rock And More Radio",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://cloud.radiosonicpanel.ro:8022/stream",
-    "active": false
-  },
-  {
     "id": "rock-ballads-ro",
     "name": "Rock Ballads",
     "country": "Romania",
