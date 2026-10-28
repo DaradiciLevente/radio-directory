@@ -2704,18 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-phonk-cluj-napoca-ro",
-    "name": "LibertyMP Phonk -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Phonk",
-      "Remix"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmpphonk/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-populara-cluj-napoca-ro",
     "name": "LibertyMP Populara -Cluj Napoca",
     "country": "Romania",
