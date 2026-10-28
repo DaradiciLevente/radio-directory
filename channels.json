@@ -298,19 +298,6 @@
     "active": true
   },
   {
-    "id": "antenna-web-oradea-ro",
-    "name": "Antenna Web Oradea",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Adult Contemporary",
-      "Pop",
-      "Rock"
-    ],
-    "stream_url": "https://tinyurl.com/Antenna-Web-Oradea",
-    "active": true
-  },
-  {
     "id": "apres-mer-radio-ro",
     "name": "Après Mer Radio",
     "country": "Romania",
