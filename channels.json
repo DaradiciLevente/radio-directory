@@ -1519,17 +1519,6 @@
     "active": true
   },
   {
-    "id": "ebs-radio-fresco-cluj-napoca-ro",
-    "name": "EBS Radio Fresco -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Italo"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/fresco/fresco128.mp3?refresh=1779028960370",
-    "active": false
-  },
-  {
     "id": "ebs-radio-jazz-cluj-napoca-ro",
     "name": "EBS Radio Jazz -Cluj Napoca",
     "country": "Romania",
