@@ -1000,18 +1000,6 @@
     "active": true
   },
   {
-    "id": "ebs-alternative-ro",
-    "name": "EBS Alternative",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Alternative",
-      "Indie"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/alternative/alternative128.mp3",
-    "active": true
-  },
-  {
     "id": "ebs-blues-ro",
     "name": "EBS Blues",
     "country": "Romania",
