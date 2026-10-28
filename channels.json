@@ -3925,17 +3925,6 @@
     "active": true
   },
   {
-    "id": "radio-alpin-ro",
-    "name": "Radio Alpin",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Hits"
-    ],
-    "stream_url": "http://live.radiodeejay.hr:7002/;",
-    "active": false
-  },
-  {
     "id": "radio-alpin-romania-ro",
     "name": "Radio Alpin Romania",
     "country": "Romania",
