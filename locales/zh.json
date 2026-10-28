@@ -28,5 +28,8 @@
   "select_continent_first": "请先选择大洲...",
   "choose_continent": "选择大洲...",
   "choose_country": "选择国家...",
-  "btn_submit": "提交建议 (Pull Request)"
+  "btn_submit": "提交建议 (Pull Request)",
+  "search_placeholder": "搜索电台或国家...",
+  "all_formats": "所有音频格式",
+  "only_active": "仅在线电台"
 }

@@ -28,5 +28,8 @@
   "select_continent_first": "Roghnaigh mór-roinn ar dtús...",
   "choose_continent": "Roghnaigh mór-roinn...",
   "choose_country": "Roghnaigh tír...",
-  "btn_submit": "Seol Moladh (Pull Request)"
+  "btn_submit": "Seol Moladh (Pull Request)",
+  "search_placeholder": "Cúil stáisiún nó tír...",
+  "all_formats": "Gach formáid fuaime",
+  "only_active": "Stáisiúin ghníomhacha amháin"
 }

@@ -28,5 +28,8 @@
   "select_continent_first": "पहले महाद्वीप चुनें...",
   "choose_continent": "महाद्वीप चुनें...",
   "choose_country": "देश चुनें...",
-  "btn_submit": "प्रस्ताव भेजें (Pull Request)"
+  "btn_submit": "प्रस्ताव भेजें (Pull Request)",
+  "search_placeholder": "स्टेशन या देश खोजें...",
+  "all_formats": "सभी ऑडियो प्रारूप",
+  "only_active": "केवल सक्रिय स्टेशन"
 }

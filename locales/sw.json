@@ -28,5 +28,8 @@
   "select_continent_first": "Chagua bara kwanza...",
   "choose_continent": "Chagua bara...",
   "choose_country": "Chagua nchi...",
-  "btn_submit": "Tuma Pendekezo (Pull Request)"
+  "btn_submit": "Tuma Pendekezo (Pull Request)",
+  "search_placeholder": "Tafuta kituo au nchi...",
+  "all_formats": "Mifumo yote ya sauti",
+  "only_active": "Vituo vinavyofanya kazi tu"
 }

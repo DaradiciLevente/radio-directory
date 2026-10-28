@@ -28,5 +28,8 @@
   "select_continent_first": "Prvo izaberite kontinent...",
   "choose_continent": "Izaberite kontinent...",
   "choose_country": "Izaberite zemlju...",
-  "btn_submit": "Pošalji predlog (Pull Request)"
+  "btn_submit": "Pošalji predlog (Pull Request)",
+  "search_placeholder": "Traži stanicu ili zemlju...",
+  "all_formats": "Svi audio formati",
+  "only_active": "Samo aktivne stanice"
 }

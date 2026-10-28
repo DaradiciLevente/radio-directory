@@ -28,5 +28,8 @@
   "select_continent_first": "Najprej izberite celino...",
   "choose_continent": "Izberite celino...",
   "choose_country": "Izberite državo...",
-  "btn_submit": "Pošlji predlog (Pull Request)"
+  "btn_submit": "Pošlji predlog (Pull Request)",
+  "search_placeholder": "Išči postajo ali državo...",
+  "all_formats": "Vse zvokovne oblike",
+  "only_active": "Samo aktivne postaje"
 }

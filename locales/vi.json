@@ -28,5 +28,8 @@
   "select_continent_first": "Trước tiên hãy chọn châu lục...",
   "choose_continent": "Chọn châu lục...",
   "choose_country": "Chọn quốc gia...",
-  "btn_submit": "Gửi đề xuất (Pull Request)"
+  "btn_submit": "Gửi đề xuất (Pull Request)",
+  "search_placeholder": "Tìm kiếm đài hoặc quốc gia...",
+  "all_formats": "Tất cả định dạng âm thanh",
+  "only_active": "Chỉ đài đang hoạt động"
 }

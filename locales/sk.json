@@ -28,5 +28,8 @@
   "select_continent_first": "Najprv vyberte kontinent...",
   "choose_continent": "Vyberte kontinent...",
   "choose_country": "Vyberte krajinu...",
-  "btn_submit": "Odoslať návrh (Pull Request)"
+  "btn_submit": "Odoslať návrh (Pull Request)",
+  "search_placeholder": "Hľadať stanicu alebo krajinu...",
+  "all_formats": "Všetky audio formáty",
+  "only_active": "Iba aktívne stanice"
 }

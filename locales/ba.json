@@ -28,5 +28,8 @@
   "select_continent_first": "Тәүҙә континентты һайлағыҙ...",
   "choose_continent": "Континентты һайлағыҙ...",
   "choose_country": "Илде һайлағыҙ...",
-  "btn_submit": "Тәҡдимде ебәрергә (Pull Request)"
+  "btn_submit": "Тәҡдимде ебәрергә (Pull Request)",
+  "search_placeholder": "Станция йәки илде эҙләү...",
+  "all_formats": "Бөтә аудиоформаттар",
+  "only_active": "Тик әүҙем станциялар"
 }

@@ -28,5 +28,8 @@
   "select_continent_first": "Pirmiausia pasirinkite žemyną...",
   "choose_continent": "Pasirinkite žemyną...",
   "choose_country": "Pasirinkite šalį...",
-  "btn_submit": "Pateikti pasiūlymą (Pull Request)"
+  "btn_submit": "Pateikti pasiūlymą (Pull Request)",
+  "search_placeholder": "Iškoti stoties ar šalies...",
+  "all_formats": "Visi garso formatai",
+  "only_active": "Tik aktyvios stotys"
 }

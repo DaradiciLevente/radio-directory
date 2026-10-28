@@ -28,5 +28,8 @@
   "select_continent_first": "Πρώτα επιλέξτε ήπειρο...",
   "choose_continent": "Επιλέξτε ήπειρο...",
   "choose_country": "Επιλέξτε χώρα...",
-  "btn_submit": "Υποβολή πρότασης (Pull Request)"
+  "btn_submit": "Υποβολή πρότασης (Pull Request)",
+  "search_placeholder": "Αναζήτηση σταθμού ή χώρας...",
+  "all_formats": "Όλες οι μορφές ήχου",
+  "only_active": "Μόνο ενεργοί σταθμοί"
 }

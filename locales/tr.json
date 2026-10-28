@@ -28,5 +28,8 @@
   "select_continent_first": "Önce kıtayı seçin...",
   "choose_continent": "Kıtayı seçin...",
   "choose_country": "Ülkeyi seçin...",
-  "btn_submit": "Öneriyi Gönder (Pull Request)"
+  "btn_submit": "Öneriyi Gönder (Pull Request)",
+  "search_placeholder": "İstasyon veya ülke ara...",
+  "all_formats": "Tüm ses formatları",
+  "only_active": "Yalnızca aktif istasyonlar"
 }

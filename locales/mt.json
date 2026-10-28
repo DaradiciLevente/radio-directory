@@ -28,5 +28,8 @@
   "select_continent_first": "L-ewwel agħżel il-kontinent...",
   "choose_continent": "Agħżel il-kontinent...",
   "choose_country": "Agħżel il-pajjiż...",
-  "btn_submit": "Ibgħat il-Proposta (Pull Request)"
+  "btn_submit": "Ibgħat il-Proposta (Pull Request)",
+  "search_placeholder": "Fittex stazzjon jew pajjiż...",
+  "all_formats": "Il-formati kollha tal-awdjo",
+  "only_active": "Stazzjonijiet attivi biss"
 }

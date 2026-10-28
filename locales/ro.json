@@ -28,5 +28,8 @@
   "select_continent_first": "Mai întâi alege continentul...",
   "choose_continent": "Alege continentul...",
   "choose_country": "Alege țara...",
-  "btn_submit": "Trimite Propunerea (Pull Request)"
+  "btn_submit": "Trimite Propunerea (Pull Request)",
+  "search_placeholder": "Caută un post radio sau o țară...",
+  "all_formats": "Toate formatele audio",
+  "only_active": "Doar posturi active"
 }

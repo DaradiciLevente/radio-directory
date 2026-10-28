@@ -28,5 +28,8 @@
   "select_continent_first": "Më parë zgjidhni kontinentin...",
   "choose_continent": "Zgjidhni kontinentin...",
   "choose_country": "Zgjidhni shtetin...",
-  "btn_submit": "Dërgo Propozimin (Pull Request)"
+  "btn_submit": "Dërgo Propozimin (Pull Request)",
+  "search_placeholder": "Kërko stacion ose shtet...",
+  "all_formats": "Të gjitha formatet audio",
+  "only_active": "Vetëm stacionet aktive"
 }

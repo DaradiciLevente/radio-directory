@@ -17,5 +17,8 @@
   "active": "Aktiv",
   "inactive": "Inaktiv",
   "no_channels": "Inga stationer hittades.",
-  "loading": "Laddar data..."
+  "loading": "Laddar data...",
+  "search_placeholder": "Sök station eller land...",
+  "all_formats": "Alla ljudformat",
+  "only_active": "Endast aktiva stationer"
 }

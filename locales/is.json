@@ -28,5 +28,8 @@
   "select_continent_first": "Veldu heimsálfu fyrst...",
   "choose_continent": "Veldu heimsálfu...",
   "choose_country": "Veldu land...",
-  "btn_submit": "Senda tillögu (Pull Request)"
+  "btn_submit": "Senda tillögu (Pull Request)",
+  "search_placeholder": "Leita að stöð eða landi...",
+  "all_formats": "Öll hljóðsnið",
+  "only_active": "Aðeins virkar stöðvar"
 }

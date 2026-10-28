@@ -28,5 +28,8 @@
   "select_continent_first": "Először válasszon kontinenst...",
   "choose_continent": "Válasszon kontinenst...",
   "choose_country": "Válasszon országot...",
-  "btn_submit": "Javaslat Beküldése (Pull Request)"
+  "btn_submit": "Javaslat Beküldése (Pull Request)",
+  "search_placeholder": "Keresés rádióállomás vagy ország szerint...",
+  "all_formats": "Minden hangformátum",
+  "only_active": "Csak aktív állomások"
 }

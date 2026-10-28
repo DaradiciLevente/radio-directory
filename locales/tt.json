@@ -28,5 +28,8 @@
   "select_continent_first": "Аввал континентны сайлагыз...",
   "choose_continent": "Континентны сайлагыз...",
   "choose_country": "Илне сайлагыз...",
-  "btn_submit": "Тәкъдимне җибәрү (Pull Request)"
+  "btn_submit": "Тәкъдимне җибәрү (Pull Request)",
+  "search_placeholder": "Станция яки илне эзләү...",
+  "all_formats": "Барлык аудиоформатлар",
+  "only_active": "Тек актив станцияләр"
 }

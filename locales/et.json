@@ -28,5 +28,8 @@
   "select_continent_first": "Vali kõigepealt mander...",
   "choose_continent": "Vali mander...",
   "choose_country": "Vali riik...",
-  "btn_submit": "Esita ettepanek (Pull Request)"
+  "btn_submit": "Esita ettepanek (Pull Request)",
+  "search_placeholder": "Otsi jaama või riiki...",
+  "all_formats": "Kõik helivormingud",
+  "only_active": "Ainult aktiivsed jaamad"
 }

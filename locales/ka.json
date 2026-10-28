@@ -28,5 +28,8 @@
   "select_continent_first": "ჯერ აირჩიეთ კონტინენტი...",
   "choose_continent": "აირჩიეთ კონტინენტი...",
   "choose_country": "აირჩიეთ ქვეყანა...",
-  "btn_submit": "წინადადების გაგზავნა (Pull Request)"
+  "btn_submit": "წინადადების გაგზავნა (Pull Request)",
+  "search_placeholder": "სადგურის ან ქვეყნის ძიება...",
+  "all_formats": "ყველა აუდიო ფორმატი",
+  "only_active": "მხოლოდ აქტიური სადგურები"
 }

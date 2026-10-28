@@ -17,5 +17,8 @@
   "active": "Aktivní",
   "inactive": "Neaktivní",
   "no_channels": "Nenalezeny žádné stanice.",
-  "loading": "Načítání dat..."
+  "loading": "Načítání dat...",
+  "search_placeholder": "Hledat stanici nebo zemi...",
+  "all_formats": "Všechny audio formáty",
+  "only_active": "Pouze aktivní stanice"
 }

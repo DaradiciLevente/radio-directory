@@ -28,5 +28,8 @@
   "select_continent_first": "Wielt als éischt de Kontinent...",
   "choose_continent": "Wielt de Kontinent...",
   "choose_country": "Wielt d'Land...",
-  "btn_submit": "Propose schécken (Pull Request)"
+  "btn_submit": "Propose schécken (Pull Request)",
+  "search_placeholder": "Sich no Statioun oder Land...",
+  "all_formats": "All Audioformater",
+  "only_active": "Nëmme meiglech aktiv Statiounen"
 }

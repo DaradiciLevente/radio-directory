@@ -28,5 +28,8 @@
   "select_continent_first": "Сначала выберите континент...",
   "choose_continent": "Выберите континент...",
   "choose_country": "Выберите страну...",
-  "btn_submit": "Отправить предложение (Pull Request)"
+  "btn_submit": "Отправить предложение (Pull Request)",
+  "search_placeholder": "Поиск станции или страны...",
+  "all_formats": "Все аудиоформаты",
+  "only_active": "Только активные станции"
 }

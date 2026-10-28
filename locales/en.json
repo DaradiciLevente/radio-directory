@@ -28,5 +28,8 @@
   "select_continent_first": "Choose continent first...",
   "choose_continent": "Choose continent...",
   "choose_country": "Choose country...",
-  "btn_submit": "Submit Proposal (Pull Request)"
+  "btn_submit": "Submit Proposal (Pull Request)",
+  "search_placeholder": "Search station or country...",
+  "all_formats": "All audio formats",
+  "only_active": "Active stations only"
 }

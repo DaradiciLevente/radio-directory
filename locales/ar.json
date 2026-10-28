@@ -28,5 +28,8 @@
   "select_continent_first": "اختر القارة أولاً...",
   "choose_continent": "اختر القارة...",
   "choose_country": "اختر البلد...",
-  "btn_submit": "إرسال الاقتراح (Pull Request)"
+  "btn_submit": "إرسال الاقتراح (Pull Request)",
+  "search_placeholder": "البحث عن محطة أو دولة...",
+  "all_formats": "جميع صيغ الصوت",
+  "only_active": "المحطات النشطة فقط"
 }

@@ -28,5 +28,8 @@
   "select_continent_first": "Прво изберете континент...",
   "choose_continent": "Изберете континент...",
   "choose_country": "Изберете земја...",
-  "btn_submit": "Испрати предлог (Pull Request)"
+  "btn_submit": "Испрати предлог (Pull Request)",
+  "search_placeholder": "Пребарај станица или земја...",
+  "all_formats": "Сите аудио формати",
+  "only_active": "Само активни станици"
 }

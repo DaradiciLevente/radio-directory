@@ -28,5 +28,8 @@
   "select_continent_first": "Pilih benua terlebih dahulu...",
   "choose_continent": "Pilih benua...",
   "choose_country": "Pilih negara...",
-  "btn_submit": "Kirim Usulan (Pull Request)"
+  "btn_submit": "Kirim Usulan (Pull Request)",
+  "search_placeholder": "Cari stasiun atau negara...",
+  "all_formats": "Semua format audio",
+  "only_active": "Hanya stasiun aktif"
 }

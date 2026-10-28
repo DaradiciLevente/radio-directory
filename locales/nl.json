@@ -17,5 +17,8 @@
   "active": "Actief",
   "inactive": "Inactief",
   "no_channels": "Geen zenders gevonden.",
-  "loading": "Gegevens laden..."
+  "loading": "Gegevens laden...",
+  "search_placeholder": "Zoek zender of land...",
+  "all_formats": "Alle audioformaten",
+  "only_active": "Alleen actieve zenders"
 }

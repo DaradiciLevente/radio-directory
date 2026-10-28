@@ -28,5 +28,8 @@
   "select_continent_first": "Valitse ensin maanosa...",
   "choose_continent": "Valitse maanosa...",
   "choose_country": "Valitse maa...",
-  "btn_submit": "Lähetä ehdotus (Pull Request)"
+  "btn_submit": "Lähetä ehdotus (Pull Request)",
+  "search_placeholder": "Etsi kanavaa tai maata...",
+  "all_formats": "Kaikki äänimuodot",
+  "only_active": "Vain aktiiviset kanavat"
 }
