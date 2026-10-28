@@ -5614,19 +5614,6 @@
     "active": true
   },
   {
-    "id": "radio-hitone-brasov-ro",
-    "name": "Radio HitOne -Brașov",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Manele",
-      "Petrecere"
-    ],
-    "stream_url": "https://sonic1-rbx.cloud-center.ro/8008/stream",
-    "active": false
-  },
-  {
     "id": "radio-hot-style-ro",
     "name": "Radio Hot Style",
     "country": "Romania",
