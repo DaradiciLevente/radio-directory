@@ -6172,17 +6172,6 @@
     "active": true
   },
   {
-    "id": "radio-napoca-rock-cluj-napoca-ro",
-    "name": "Radio Napoca Rock -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Rock"
-    ],
-    "stream_url": "https://streaming.napocalive.ro/napoca-rock",
-    "active": false
-  },
-  {
     "id": "radio-nebunya-ro",
     "name": "Radio Nebunya",
     "country": "Romania",
