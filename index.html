@@ -287,7 +287,6 @@
     let translations = {};
     let currentLang = localStorage.getItem('radio_lang') || 'en';
 
-    // Dictionar de rezerva pentru cheile noi (fallback automat)
     const defaultNewKeys = {
         'ro': {
             'search_placeholder': 'Caută un post radio sau o țară...',
@@ -312,7 +311,10 @@
             renderLanguageSelector();
         } catch (error) {
             console.error('Eroare la încărcarea fișierului languages.json:', error);
-            availableLanguages = [{ code: 'en', flag: '🇬🇧', name: 'English' }];
+            availableLanguages = [
+                { code: 'ro', flag: '🇷🇴', name: 'Română' },
+                { code: 'en', flag: '🇬🇧', name: 'English' }
+            ];
             renderLanguageSelector();
         }
     }
@@ -344,11 +346,12 @@
             applyTranslations();
         } catch (error) {
             console.error('Eroare la încărcarea traducerilor:', error);
+            applyTranslations(); // Aplica fallback-ul chiar daca fetch-ul esueaza
         }
     }
 
     function applyTranslations() {
-        const fallback = defaultNewKeys[currentLang] || defaultNewKeys['en'];
+        const fallback = defaultNewKeys[currentLang] || defaultNewKeys['en'] || defaultNewKeys['ro'];
 
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const key = el.getAttribute('data-i18n');
@@ -388,29 +391,36 @@
         }
 
         const formatDefault = document.querySelector('#formatFilter option[value=""]');
-        if (formatDefault) {
+        if (formatDefault && (translations['all_formats'] || fallback['all_formats'])) {
             formatDefault.textContent = translations['all_formats'] || fallback['all_formats'];
         }
 
-        displayChannels(currentFilteredChannels);
+        if (allChannels.length > 0) {
+            displayChannels(currentFilteredChannels);
+        }
     }
 
     async function changeLanguage(lang) {
         currentLang = lang;
         localStorage.setItem('radio_lang', lang);
-        document.getElementById('langSelector').value = lang;
+        const selector = document.getElementById('langSelector');
+        if (selector) selector.value = lang;
         await loadLanguage(lang);
     }
 
     async function initApp() {
         try {
-            await fetchAvailableLanguages();
-            await loadLanguage(currentLang);
-            
+            // 1. Incărcăm canalele mai întâi
             let response = await fetch(`channels.json?t=` + new Date().getTime());
             allChannels = await response.json();
-            populateContinents();
             currentFilteredChannels = allChannels;
+            populateContinents();
+
+            // 2. Incărcăm limbile și traducerea curentă
+            await fetchAvailableLanguages();
+            await loadLanguage(currentLang);
+
+            // 3. Afișăm canalele
             displayChannels(allChannels);
         } catch (error) {
             console.error('Eroare la inițializarea aplicației:', error);
