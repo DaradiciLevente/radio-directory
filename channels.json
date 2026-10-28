@@ -1507,19 +1507,6 @@
     "active": true
   },
   {
-    "id": "ebs-movie-soundtracks-ro",
-    "name": "EBS | Movie Soundtracks",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Movie Scores",
-      "Movie Soundtracks",
-      "Soundtracks"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/movies/movies128.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-music-ro",
     "name": "EBS | Music",
     "country": "Romania",
