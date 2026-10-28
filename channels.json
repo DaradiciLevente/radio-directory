@@ -522,19 +522,6 @@
     "active": true
   },
   {
-    "id": "campus-buzau-ro",
-    "name": "Campus Buzău 98.0 FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Music",
-      "News"
-    ],
-    "stream_url": "https://radio.campusbuzau.ro:8443/CAMPUS.mp3",
-    "active": true
-  },
-  {
     "id": "campus-transilvania-brasov-ro",
     "name": "Campus Transilvania Brașov",
     "country": "Romania",
