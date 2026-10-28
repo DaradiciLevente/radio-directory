@@ -522,18 +522,6 @@
     "active": true
   },
   {
-    "id": "buzz-fm-buzau-ro",
-    "name": "Buzz FM Buzău 87.9 FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Rock",
-      "Soft Rock"
-    ],
-    "stream_url": "https://radio.sonicpanel.ro/8034/stream",
-    "active": true
-  },
-  {
     "id": "campus-buzau-ro",
     "name": "Campus Buzău 98.0 FM",
     "country": "Romania",
