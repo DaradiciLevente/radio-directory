@@ -2395,19 +2395,6 @@
     "active": true
   },
   {
-    "id": "im-aquafm-bv-ro",
-    "name": "IM-AQUAFM BV",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Music",
-      "Pop"
-    ],
-    "stream_url": "https://stream.zeno.fm/4yyxk47ffv8uv",
-    "active": false
-  },
-  {
     "id": "impact-tv-dance-ro",
     "name": "IMPACT TV DANCE",
     "country": "Romania",
