@@ -2704,17 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-kpop-cluj-napoca-ro",
-    "name": "LibertyMP KPop -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Kpop"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmpkpop/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-latino-cluj-napoca-ro",
     "name": "LibertyMP Latino -Cluj Napoca",
     "country": "Romania",
