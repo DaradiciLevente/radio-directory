@@ -1329,17 +1329,6 @@
     "active": true
   },
   {
-    "id": "deep-house-energy-ro",
-    "name": "DEEP HOUSE ENERGY",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Deep House"
-    ],
-    "stream_url": "https://fra-pioneer01.dedicateware.com:2930//stream",
-    "active": false
-  },
-  {
     "id": "deep-house-radio-bucharest-romania-ro",
     "name": "Deep House Radio - Bucharest Romania",
     "country": "Romania",
