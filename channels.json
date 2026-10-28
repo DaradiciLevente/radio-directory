@@ -7410,15 +7410,6 @@
     "active": true
   },
   {
-    "id": "radio-test-ro",
-    "name": "Radio Test",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmpchill/stream.mp3?refresh=1700228324588",
-    "active": false
-  },
-  {
     "id": "radio-timisoara-ro",
     "name": "Radio Timișoara",
     "country": "Romania",
