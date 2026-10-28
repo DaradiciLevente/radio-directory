@@ -4143,18 +4143,6 @@
     "active": true
   },
   {
-    "id": "radio-badita-popular-ro",
-    "name": "Radio Badita Popular",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Folk",
-      "Manele"
-    ],
-    "stream_url": "http://89.39.189.29:8000/stream",
-    "active": false
-  },
-  {
     "id": "radio-balada-bistrita-89-3-fm-ro",
     "name": "Radio Balada (📌 Bistrița 📡 89,3 FM)",
     "country": "Romania",
