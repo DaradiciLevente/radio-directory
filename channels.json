@@ -1000,18 +1000,6 @@
     "active": true
   },
   {
-    "id": "ebs-romanian-gold-ro",
-    "name": "EBS Romanian Gold",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Muzica Usoara",
-      "Romanian Retro"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/romaniangold/romaniangold128.mp3",
-    "active": true
-  },
-  {
     "id": "electric-castle-radio-ro",
     "name": "Electric Castle Radio",
     "country": "Romania",
