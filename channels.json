@@ -8622,19 +8622,6 @@
     "active": true
   },
   {
-    "id": "shuffle-fm-ro",
-    "name": "Shuffle FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Blues",
-      "Jazz",
-      "Rock"
-    ],
-    "stream_url": "http://www.bluz.ro:8000/stream",
-    "active": false
-  },
-  {
     "id": "sibiu-radio-sibiu-91-1-fm-ro",
     "name": "Sibiu  Radio -Sibiu 91.1 FM",
     "country": "Romania",
