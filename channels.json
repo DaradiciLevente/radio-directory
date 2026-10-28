@@ -4411,19 +4411,6 @@
     "active": true
   },
   {
-    "id": "radio-calarasi-prees-ro",
-    "name": "Radio Călărași Prees",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Music",
-      "News"
-    ],
-    "stream_url": "https://broadcast.brandingradio.com/listen/radiocalarasipress/live?refresh=1776086956744",
-    "active": false
-  },
-  {
     "id": "radio-calea-spre-cer-live-24-7-ro",
     "name": "Radio Calea Spre Cer LIVE 24/7",
     "country": "Romania",
