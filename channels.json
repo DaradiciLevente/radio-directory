@@ -7621,15 +7621,6 @@
     "active": true
   },
   {
-    "id": "radio-tv-oltenita-ro",
-    "name": "Radio TV Oltenita",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://vocescampi.ro:8443/live.mp3",
-    "active": false
-  },
-  {
     "id": "radio-underland-ro",
     "name": "Radio Underland",
     "country": "Romania",
