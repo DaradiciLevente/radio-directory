@@ -3356,22 +3356,6 @@
     "active": true
   },
   {
-    "id": "nicecream-fm-red-ro",
-    "name": "Nicecream.fm - Red",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Ad Free",
-      "Chill",
-      "Downtempo",
-      "Music",
-      "Sunset",
-      "Swing"
-    ],
-    "stream_url": "https://play.nicecream.fm/radio/8000/red.mp3",
-    "active": false
-  },
-  {
     "id": "nostalgia-radio-ro",
     "name": "Nostalgia Radio",
     "country": "Romania",
