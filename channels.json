@@ -1507,20 +1507,6 @@
     "active": true
   },
   {
-    "id": "ebs-lounge-ro",
-    "name": "EBS | Lounge",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Chill",
-      "Chillout",
-      "Lounge",
-      "Smooth"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/lounge/lounge128.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-magyar-zene-ro",
     "name": "EBS | Magyar Zene",
     "country": "Romania",
