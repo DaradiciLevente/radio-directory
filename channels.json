@@ -7967,7 +7967,7 @@
     "stream_url": "https://asculta.muzicaok.de:8060/stream",
     "active": true
   },
- {
+  {
     "id": "gy-r-r-di-hu",
     "name": "Győr+ Rádió",
     "country": "Hungary",
@@ -10908,15 +10908,6 @@
     "continent": "Europe",
     "genre": [],
     "stream_url": "http://zuglofm.netregator.hu:7812/zuglofm128.mp3",
-    "active": true
-  },
-  {
-    "id": "-hu",
-    "name": "Радіо Пульс",
-    "country": "Ukraine",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://pulzusfm.eu/sionelo",
     "active": true
   }
 ]
