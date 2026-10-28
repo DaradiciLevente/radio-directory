@@ -7980,18 +7980,6 @@
     "active": true
   },
   {
-    "id": "radioplay-manele-romania-cluj-napoca-ro",
-    "name": "RadioPlay Manele Romania -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Petrecere"
-    ],
-    "stream_url": "http://manele2.radioplay.ro:7171/;",
-    "active": false
-  },
-  {
     "id": "radioplay-retro-romania-cluj-napoca-ro",
     "name": "RadioPlay Retro Romania -Cluj Napoca",
     "country": "Romania",
