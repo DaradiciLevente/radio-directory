@@ -1531,17 +1531,6 @@
     "active": true
   },
   {
-    "id": "ebs-radio-nostalgie-cluj-napoca-ro",
-    "name": "EBS Radio Nostalgie -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Nostalgie"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/nostalgie/nostalgie128.mp3?refresh=1779028768364",
-    "active": false
-  },
-  {
     "id": "ebs-radio-nouvelle-vague-cluj-napoca-ro",
     "name": "EBS Radio Nouvelle Vague -Cluj Napoca",
     "country": "Romania",
