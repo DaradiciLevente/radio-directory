@@ -154,6 +154,24 @@
         }
         .badge-active { background-color: #e6f4ea; color: #137333; }
         .badge-inactive { background-color: #fce8e6; color: #c5221f; }
+        
+        .btn-play {
+            background-color: #ea4335;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            white-space: nowrap;
+        }
+        .btn-play:hover { background-color: #d93025; }
+
         .btn-copy {
             background-color: #1a73e8;
             color: white;
@@ -252,11 +270,12 @@
                 <th data-i18n="table_location">Locație</th>
                 <th data-i18n="table_genres">Genuri</th>
                 <th data-i18n="table_status">Stare</th>
+                <th data-i18n="table_play" style="text-align: center;">Play</th>
                 <th data-i18n="table_action">Acțiune</th>
             </tr>
         </thead>
         <tbody id="channelsTableBody">
-            <tr><td colspan="5" style="text-align: center;" data-i18n="loading">Se încarcă datele...</td></tr>
+            <tr><td colspan="6" style="text-align: center;" data-i18n="loading">Se încarcă datele...</td></tr>
         </tbody>
     </table>
 </div>
@@ -273,12 +292,16 @@
         'ro': {
             'search_placeholder': 'Caută un post radio sau o țară...',
             'all_formats': 'Toate formatele audio',
-            'only_active': 'Doar posturi active'
+            'only_active': 'Doar posturi active',
+            'table_play': 'Play',
+            'btn_play': '▶ Play'
         },
         'en': {
             'search_placeholder': 'Search station or country...',
             'all_formats': 'All audio formats',
-            'only_active': 'Active stations only'
+            'only_active': 'Active stations only',
+            'table_play': 'Play',
+            'btn_play': '▶ Play'
         }
     };
 
@@ -391,7 +414,7 @@
             displayChannels(allChannels);
         } catch (error) {
             console.error('Eroare la inițializarea aplicației:', error);
-            document.getElementById('channelsTableBody').innerHTML = `<tr><td colspan="5" style="text-align: center; color: red;">${translations['no_channels'] || 'Eroare la încărcarea datelor'}</td></tr>`;
+            document.getElementById('channelsTableBody').innerHTML = `<tr><td colspan="6" style="text-align: center; color: red;">${translations['no_channels'] || 'Eroare la încărcarea datelor'}</td></tr>`;
         }
     }
 
@@ -450,7 +473,7 @@
         tbody.innerHTML = '';
 
         if (channels.length === 0) {
-            tbody.innerHTML = `<tr><td colspan="5" style="text-align: center;">${translations['no_channels'] || 'Niciun post găsit.'}</td></tr>`;
+            tbody.innerHTML = `<tr><td colspan="6" style="text-align: center;">${translations['no_channels'] || 'Niciun post găsit.'}</td></tr>`;
             return;
         }
 
@@ -462,6 +485,7 @@
             
             const activeText = translations['active'] || 'Activ';
             const inactiveText = translations['inactive'] || 'Inactiv';
+            const playText = translations['btn_play'] || (defaultNewKeys[currentLang] ? defaultNewKeys[currentLang]['btn_play'] : '▶ Play');
             const copyText = translations['btn_copy'] || 'Copiază Link';
 
             let statusBadge = channel.active 
@@ -473,6 +497,9 @@
                 <td>${channel.country || 'N/A'} (${channel.continent || 'N/A'})</td>
                 <td>${genresHtml}</td>
                 <td>${statusBadge}</td>
+                <td style="text-align: center;">
+                    <a href="${channel.stream_url}" target="_blank" rel="noopener noreferrer" class="btn-play" title="Play">${playText}</a>
+                </td>
                 <td><button class="btn-copy" onclick="copyUrl('${channel.stream_url}')">${copyText}</button></td>
             `;
 
