@@ -5822,15 +5822,6 @@
     "active": true
   },
   {
-    "id": "radio-liberty-multiplayer-phonk-radiolibertymp-ro-ro",
-    "name": "Radio Liberty Multiplayer Phonk - radiolibertymp.ro",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmpphonk/stream.mp3",
-    "active": false
-  },
-  {
     "id": "radio-liberty-multiplayer-phonk-remix-ro",
     "name": "Radio Liberty Multiplayer Phonk remix",
     "country": "Romania",
