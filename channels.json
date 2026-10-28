@@ -1000,17 +1000,6 @@
     "active": true
   },
   {
-    "id": "ebs-electro-ro",
-    "name": "EBS Electro",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Electronic"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/electro/electro128.mp3",
-    "active": true
-  },
-  {
     "id": "ebs-jazz-ro",
     "name": "EBS Jazz",
     "country": "Romania",
