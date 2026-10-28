@@ -93,5 +93,17 @@
     ],
     "stream_url": "https://hitradio-maroc.ice.infomaniak.ch/hitradio-maroc-128.mp3",
     "active": true
+  },
+  {
+    "id": "somafm-groovesalad-us",
+    "name": "SomaFM Groove Salad",
+    "country": "United States",
+    "continent": "North America",
+    "genre": [
+      "Dance",
+      "Electronic"
+    ],
+    "stream_url": "https://ice2.somafm.com/groovesalad-128-mp3",
+    "active": true
   }
 ]
