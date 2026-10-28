@@ -6748,15 +6748,6 @@
     "active": true
   },
   {
-    "id": "radio-prahova-ro",
-    "name": "Radio Prahova",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://streamx.rph.ro:8100/relay;",
-    "active": false
-  },
-  {
     "id": "radio-pro-intens-buzau-ro",
     "name": "Radio Pro Intens -Buzău",
     "country": "Romania",
