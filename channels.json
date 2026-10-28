@@ -8247,17 +8247,6 @@
     "active": true
   },
   {
-    "id": "rocker-inside-ro",
-    "name": "Rocker Inside",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Rock En Ingles"
-    ],
-    "stream_url": "https://cast4.my-control-panel.com/proxy/fountai1/stream",
-    "active": false
-  },
-  {
     "id": "rockfm-ro",
     "name": "RockFM",
     "country": "Romania",
