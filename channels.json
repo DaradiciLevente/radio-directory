@@ -4993,17 +4993,6 @@
     "active": true
   },
   {
-    "id": "radio-electro-manele-cluj-napoca-ro",
-    "name": "Radio Electro Manele -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Manele"
-    ],
-    "stream_url": "https://stream.radioem.ro:8046/stream",
-    "active": false
-  },
-  {
     "id": "radio-elim-air-ro",
     "name": "Radio Elim Air",
     "country": "Romania",
