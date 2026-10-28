@@ -1531,18 +1531,6 @@
     "active": true
   },
   {
-    "id": "ebs-radio-local-cluj-napoca-ro",
-    "name": "EBS Radio Local -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Music"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/local/local128.mp3?refresh=1779027957839",
-    "active": false
-  },
-  {
     "id": "ebs-radio-lounge-cluj-napoca-ro",
     "name": "EBS Radio Lounge -Cluj Napoca",
     "country": "Romania",
