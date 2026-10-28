@@ -1507,18 +1507,6 @@
     "active": true
   },
   {
-    "id": "ebs-romanian-gold-ro",
-    "name": "EBS | Romanian Gold",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Romanian Goldies",
-      "Romanian Retro"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/romaniangold/romaniangold128.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-xmas-ro",
     "name": "EBS | Xmas",
     "country": "Romania",
