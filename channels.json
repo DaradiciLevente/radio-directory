@@ -4742,20 +4742,6 @@
     "active": true
   },
   {
-    "id": "radio-dacia-relax-ro",
-    "name": "Radio Dacia Relax",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Chill",
-      "Hits",
-      "Pop",
-      "Relax"
-    ],
-    "stream_url": "https://streaming.napocalive.ro/radio-dacia03",
-    "active": false
-  },
-  {
     "id": "radio-dacia-relax-cluj-napoca-ro",
     "name": "Radio Dacia Relax -Cluj Napoca",
     "country": "Romania",
