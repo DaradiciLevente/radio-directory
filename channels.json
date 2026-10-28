@@ -514,18 +514,6 @@
     "active": true
   },
   {
-    "id": "balamuc-fm-cluj-ro",
-    "name": "Balamuc FM Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Petrecere"
-    ],
-    "stream_url": "https://asculta.muzicaok.de:8040/stream",
-    "active": true
-  },
-  {
     "id": "balcan-radio-manele-braila-ro",
     "name": "Balcan Radio Manele Brăila",
     "country": "Romania",
