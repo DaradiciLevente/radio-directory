@@ -4717,21 +4717,6 @@
     "active": true
   },
   {
-    "id": "radio-dacia-energie-ro",
-    "name": "Radio Dacia Energie",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Energy",
-      "Hits",
-      "House",
-      "Pop"
-    ],
-    "stream_url": "https://streaming.napocalive.ro/radio-dacia01",
-    "active": false
-  },
-  {
     "id": "radio-dacia-energie-cluj-napoca-ro",
     "name": "Radio Dacia Energie -Cluj Napoca",
     "country": "Romania",
