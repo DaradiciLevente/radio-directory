@@ -1531,17 +1531,6 @@
     "active": true
   },
   {
-    "id": "ebs-radio-movie-soundtracks-cluj-napoca-ro",
-    "name": "EBS Radio Movie Soundtracks -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Movie Soundtracks"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/movies/movies128.mp3?refresh=1779029656196",
-    "active": false
-  },
-  {
     "id": "ebs-radio-nostalgie-cluj-napoca-ro",
     "name": "EBS Radio Nostalgie -Cluj Napoca",
     "country": "Romania",
