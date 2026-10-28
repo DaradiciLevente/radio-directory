@@ -1507,18 +1507,6 @@
     "active": true
   },
   {
-    "id": "ebs-fresco-ro",
-    "name": "EBS | Fresco",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Fresco",
-      "Smooth"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/fresco/fresco128.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-jazz-ro",
     "name": "EBS | Jazz",
     "country": "Romania",
