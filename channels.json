@@ -572,18 +572,6 @@
     "active": true
   },
   {
-    "id": "cfm-radio-ro",
-    "name": "CFM Radio",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Pop"
-    ],
-    "stream_url": "http://stream2.radiocfm.ro:9090/CFM",
-    "active": true
-  },
-  {
     "id": "chill-fm-ro",
     "name": "Chill FM",
     "country": "Romania",
