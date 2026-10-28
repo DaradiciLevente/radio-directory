@@ -1507,17 +1507,6 @@
     "active": true
   },
   {
-    "id": "ebs-jazz-ro",
-    "name": "EBS | Jazz",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Jazz"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/jazz/jazz128.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-lounge-ro",
     "name": "EBS | Lounge",
     "country": "Romania",
