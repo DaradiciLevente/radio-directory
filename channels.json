@@ -3092,15 +3092,6 @@
     "active": true
   },
   {
-    "id": "medias-fm-ro",
-    "name": "Medias fm",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "http://mediasfm.eushells.ro:8082/;stream.nsv",
-    "active": false
-  },
-  {
     "id": "metronom-fm-ro",
     "name": "METRONOM FM",
     "country": "Romania",
