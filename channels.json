@@ -4962,15 +4962,6 @@
     "active": true
   },
   {
-    "id": "radio-dreams-clasic-ro",
-    "name": "Radio Dreams Clasic",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "http://radiodreams.g1.ro:3399/radiodreams.g1.ro",
-    "active": false
-  },
-  {
     "id": "radio-dreams-dance-hits-adrenaline-ro",
     "name": "Radio Dreams Dance Hits Adrenaline",
     "country": "Romania",
