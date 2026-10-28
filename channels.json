@@ -7880,19 +7880,6 @@
     "active": true
   },
   {
-    "id": "radio-nnl-ro",
-    "name": "Radio-NNL",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "House",
-      "Romantic",
-      "Trap"
-    ],
-    "stream_url": "https://s54.radiolize.com/radio/8030/radio.mp3",
-    "active": false
-  },
-  {
     "id": "radio7abc-ro",
     "name": "Radio7ABC",
     "country": "Romania",
