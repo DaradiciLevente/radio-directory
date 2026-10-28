@@ -2704,21 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-trucker-cluj-napoca-ro",
-    "name": "LibertyMP Trucker -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Arabic",
-      "Manele",
-      "Petrecere",
-      "Populară",
-      "Turkisch"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmptrucker/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-urban-cluj-napoca-ro",
     "name": "LibertyMP Urban -Cluj Napoca",
     "country": "Romania",
