@@ -1531,17 +1531,6 @@
     "active": true
   },
   {
-    "id": "ebs-radio-magyar-zene-cluj-napoca-ro",
-    "name": "EBS Radio Magyar Zene-Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Hungarian Pop Music"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/hungarian/hungarian128.mp3?refresh=1779029332085",
-    "active": false
-  },
-  {
     "id": "ebs-radio-movie-soundtracks-cluj-napoca-ro",
     "name": "EBS Radio Movie Soundtracks -Cluj Napoca",
     "country": "Romania",
