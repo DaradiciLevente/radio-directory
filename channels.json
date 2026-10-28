@@ -3092,18 +3092,6 @@
     "active": true
   },
   {
-    "id": "mdi-fm-ro",
-    "name": "MDI FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Pop",
-      "Targoviste"
-    ],
-    "stream_url": "http://stream.mdifm.ro:8000/",
-    "active": false
-  },
-  {
     "id": "medias-fm-ro",
     "name": "Medias fm",
     "country": "Romania",
