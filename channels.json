@@ -1507,19 +1507,6 @@
     "active": true
   },
   {
-    "id": "ebs-music-ro",
-    "name": "EBS | Music",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Hits",
-      "Indie",
-      "Pop Music"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/music/music128.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-nouvelle-vague-ro",
     "name": "EBS | Nouvelle Vague",
     "country": "Romania",
