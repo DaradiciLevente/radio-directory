@@ -500,18 +500,6 @@
     "active": true
   },
   {
-    "id": "blaj-radio-ro",
-    "name": "Blaj Radio",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Catolic",
-      "Religios"
-    ],
-    "stream_url": "https://ssl.asculta.live:8016/",
-    "active": true
-  },
-  {
     "id": "blues-radio-ro",
     "name": "Blues Radio",
     "country": "Romania",
