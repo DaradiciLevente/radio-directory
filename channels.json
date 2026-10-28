@@ -81,5 +81,17 @@
     ],
     "stream_url": "https://kexp.streamguys1.com/kexp128.mp3",
     "active": true
+  },
+  {
+    "id": "hitradio-maroc-ma",
+    "name": "Hit Radio Morocco",
+    "country": "Morocco",
+    "continent": "Africa",
+    "genre": [
+      "Pop",
+      "Hits"
+    ],
+    "stream_url": "https://hitradio-maroc.ice.infomaniak.ch/hitradio-maroc-128.mp3",
+    "active": true
   }
 ]
