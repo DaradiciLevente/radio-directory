@@ -4730,20 +4730,6 @@
     "active": true
   },
   {
-    "id": "radio-dacia-paradis-ro",
-    "name": "Radio Dacia Paradis",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Chillout",
-      "Hits",
-      "Pop",
-      "Relax"
-    ],
-    "stream_url": "https://streaming.napocalive.ro/radio-dacia02",
-    "active": false
-  },
-  {
     "id": "radio-dacia-paradis-cluj-napoca-ro",
     "name": "Radio Dacia Paradis -Cluj Napoca",
     "country": "Romania",
