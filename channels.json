@@ -1340,21 +1340,6 @@
     "active": true
   },
   {
-    "id": "dejavumusic-ro",
-    "name": "DejaVuMusic",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Hits",
-      "House",
-      "Manele",
-      "Oldies"
-    ],
-    "stream_url": "https://stream.zeno.fm/mdupctf7zxhvv",
-    "active": false
-  },
-  {
     "id": "dejavumusic-mg-kollyma-ro",
     "name": "DejaVuMusic -MG Kollyma",
     "country": "Romania",
