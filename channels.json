@@ -605,18 +605,6 @@
     "active": true
   },
   {
-    "id": "bs-radio-classical-cluj-napoca-ro",
-    "name": "BS Radio Classical -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Classical",
-      "Opera"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/classical/classical128.mp3?refresh=1779029566606",
-    "active": false
-  },
-  {
     "id": "bucuresti-fm-ro",
     "name": "Bucuresti FM",
     "country": "Romania",
