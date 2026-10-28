@@ -708,21 +708,6 @@
     "active": true
   },
   {
-    "id": "bounce-radio-ro",
-    "name": "Bounce Radio",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Electronic",
-      "House",
-      "Minimal",
-      "Tech House",
-      "Underground"
-    ],
-    "stream_url": "https://stream.8ounce.ro/listen/radio_bounce/radio.mp3",
-    "active": true
-  },
-  {
     "id": "bucuresti-fm-ro",
     "name": "București FM",
     "country": "Romania",
