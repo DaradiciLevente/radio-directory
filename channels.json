@@ -1531,17 +1531,6 @@
     "active": true
   },
   {
-    "id": "ebs-radio-romanian-folk-cluj-napoca-ro",
-    "name": "EBS Radio Romanian Folk -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Folk"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/romanianfolk/romanianfolk128.mp3?refresh=1779029257664",
-    "active": false
-  },
-  {
     "id": "ebs-radio-romanian-gold-cluj-napoca-ro",
     "name": "EBS Radio Romanian Gold -Cluj Napoca",
     "country": "Romania",
