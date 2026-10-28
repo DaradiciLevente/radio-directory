@@ -8676,15 +8676,6 @@
     "active": true
   },
   {
-    "id": "silviu-pc-ro",
-    "name": "Silviu PC",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "http://192.168.0.108/stream/swyh.mp3",
-    "active": false
-  },
-  {
     "id": "simigerie-radio-ro",
     "name": "Simigerie Radio",
     "country": "Romania",
