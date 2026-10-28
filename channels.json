@@ -1229,18 +1229,6 @@
     "active": true
   },
   {
-    "id": "crestin-total-radio-beclean-bn-ro",
-    "name": "Creștin Total Radio -Beclean BN",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Cristian",
-      "Religios"
-    ],
-    "stream_url": "https://stream.zeno.fm/k7zvbfd7insuv",
-    "active": false
-  },
-  {
     "id": "crimeantatar-ro",
     "name": "crimeantatar",
     "country": "Romania",
