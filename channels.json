@@ -6105,15 +6105,6 @@
     "active": true
   },
   {
-    "id": "radio-medias-ro",
-    "name": "Radio Medias",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "http://mediasfm.eushells.ro:8082/stream",
-    "active": false
-  },
-  {
     "id": "radio-mellomania-cluj-napoca-96-3-fm-ro",
     "name": "Radio Mellomania -Cluj Napoca 96,3 FM",
     "country": "Romania",
