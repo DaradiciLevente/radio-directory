@@ -7763,17 +7763,6 @@
     "active": true
   },
   {
-    "id": "radio-vocea-evangheliei-rve-sibiu-ro",
-    "name": "Radio Vocea Evangheliei RVE Sibiu",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Christian"
-    ],
-    "stream_url": "https://c13.radioboss.fm:18286/stream",
-    "active": false
-  },
-  {
     "id": "radio-vocea-evangheliei-suceava-rve-ro",
     "name": "Radio Vocea Evangheliei Suceava - RVE",
     "country": "Romania",
