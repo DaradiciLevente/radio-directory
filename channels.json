@@ -5335,17 +5335,6 @@
     "active": true
   },
   {
-    "id": "radio-gaga-disco-classic-ro",
-    "name": "Rádió GaGa Disco Classic",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Disco"
-    ],
-    "stream_url": "https://a2.asurahosting.com:6850/radio.mp3?1741449835",
-    "active": false
-  },
-  {
     "id": "radio-gaga-gyergyoszek-ro",
     "name": "Rádió GaGa Gyergyószék",
     "country": "Romania",
