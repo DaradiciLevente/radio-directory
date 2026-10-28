@@ -2738,17 +2738,6 @@
     "active": false
   },
   {
-    "id": "libertymp-techno-cluj-napoca-ro",
-    "name": "LibertyMP Techno -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Techno"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmptechno/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-trap-cluj-napoca-ro",
     "name": "LibertyMP Trap -Cluj Napoca",
     "country": "Romania",
