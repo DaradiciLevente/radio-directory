@@ -2395,18 +2395,6 @@
     "active": true
   },
   {
-    "id": "iehova-ire-beclean-bn-ro",
-    "name": "Iehova-Ire -Beclean BN",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Cristian",
-      "Religios"
-    ],
-    "stream_url": "https://stream.zeno.fm/oirflygdheauv",
-    "active": false
-  },
-  {
     "id": "im-aquafm-bv-ro",
     "name": "IM-AQUAFM BV",
     "country": "Romania",
