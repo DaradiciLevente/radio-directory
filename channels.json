@@ -360,17 +360,6 @@
     "active": true
   },
   {
-    "id": "aripi-spre-cer-ro",
-    "name": "Aripi Spre Cer",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Christian"
-    ],
-    "stream_url": "https://mobile.stream.aripisprecer.ro/radio.mp3",
-    "active": true
-  },
-  {
     "id": "aripi-spre-cer-instrumental-ro",
     "name": "Aripi Spre Cer Instrumental",
     "country": "Romania",
