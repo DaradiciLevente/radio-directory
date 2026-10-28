@@ -2704,18 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-urban-cluj-napoca-ro",
-    "name": "LibertyMP Urban -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Hiphop",
-      "Rap"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmpurban/stream.mp3",
-    "active": false
-  },
-  {
     "id": "los-bandoleros-radio-ro",
     "name": "Los Bandoleros Radio",
     "country": "Romania",
