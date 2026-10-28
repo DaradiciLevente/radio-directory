@@ -3295,21 +3295,6 @@
     "active": true
   },
   {
-    "id": "napoca-fm-ro",
-    "name": "Napoca FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Dance Pop",
-      "Pop",
-      "Pop Music",
-      "Romanian Pop"
-    ],
-    "stream_url": "https://streaming.napocalive.ro/napoca-fm",
-    "active": false
-  },
-  {
     "id": "napoca-fm-spirit-of-cluj-ro",
     "name": "Napoca Fm - Spirit of Cluj",
     "country": "Romania",
