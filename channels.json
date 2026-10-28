@@ -1507,17 +1507,6 @@
     "active": true
   },
   {
-    "id": "ebs-classical-ro",
-    "name": "EBS | Classical",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Classical Music"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/classical/classical128.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-electro-ro",
     "name": "EBS | Electro",
     "country": "Romania",
