@@ -449,18 +449,6 @@
     "active": true
   },
   {
-    "id": "barikada-ro",
-    "name": "Barikada",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Pop Rock",
-      "Rock"
-    ],
-    "stream_url": "https://live.radiobarikada.ro:8000/stream",
-    "active": false
-  },
-  {
     "id": "best-love-2019-ro",
     "name": "Best Love 2019",
     "country": "Romania",
