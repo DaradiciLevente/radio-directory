@@ -1519,17 +1519,6 @@
     "active": true
   },
   {
-    "id": "ebs-radio-country-cluj-napoca-ro",
-    "name": "EBS Radio Country -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Country"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/country/country128.mp3?refresh=1779028238559",
-    "active": false
-  },
-  {
     "id": "ebs-radio-dolce-vitta-cluj-napoca-ro",
     "name": "EBS Radio Dolce Vitta -Cluj Napoca",
     "country": "Romania",
