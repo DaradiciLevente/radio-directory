@@ -969,20 +969,6 @@
     "active": true
   },
   {
-    "id": "drums-ro-botosani-ro",
-    "name": "Drums.ro Radio Botoșani",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Breakbeat",
-      "Drum and Bass",
-      "Dubstep",
-      "Jungle"
-    ],
-    "stream_url": "http://radio.drums.ro:8000/;",
-    "active": true
-  },
-  {
     "id": "dux-radio-brasov-ro",
     "name": "Dux Radio Brașov",
     "country": "Romania",
