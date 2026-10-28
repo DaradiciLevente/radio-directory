@@ -4630,19 +4630,6 @@
     "active": true
   },
   {
-    "id": "radio-crasna-ro",
-    "name": "Radio Crasna",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Latin Pop",
-      "Manele Și Petrecere",
-      "Populară"
-    ],
-    "stream_url": "https://radio.ascultatare.ro/8028/stream",
-    "active": false
-  },
-  {
     "id": "radio-crazy-ro",
     "name": "Radio Crazy",
     "country": "Romania",
