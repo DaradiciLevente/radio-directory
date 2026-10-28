@@ -2704,18 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-populara-cluj-napoca-ro",
-    "name": "LibertyMP Populara -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Petrecere",
-      "Populară"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmppopulara/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-reggae-cluj-napoca-ro",
     "name": "LibertyMP Reggae -Cluj Napoca",
     "country": "Romania",
