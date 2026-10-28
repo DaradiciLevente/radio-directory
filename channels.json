@@ -1353,21 +1353,6 @@
     "active": true
   },
   {
-    "id": "dejavumusic-radio-dejavu-ro",
-    "name": "DejaVuMusic -Radio DejaVu",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "House",
-      "Manele",
-      "Petrecere",
-      "Populară"
-    ],
-    "stream_url": "https://radio.sonicpanel.ro/8042/stream",
-    "active": false
-  },
-  {
     "id": "delta-ocna-mures-97-4-fm-ro",
     "name": "Delta Ocna Mureș - 97,4 FM",
     "country": "Romania",
