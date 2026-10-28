@@ -1507,19 +1507,6 @@
     "active": true
   },
   {
-    "id": "ebs-xmas-ro",
-    "name": "EBS | Xmas",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Christmas Music",
-      "Holiday Music",
-      "Xmas"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/xmas/xmas128.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-radio-ro",
     "name": "EBS Radio",
     "country": "Romania",
