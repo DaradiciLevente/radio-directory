@@ -2704,18 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-metal-cluj-napoca-ro",
-    "name": "LibertyMP Metal -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Metal",
-      "Rock"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmpmetal/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-nostalgia-cluj-napoca-ro",
     "name": "LibertyMP Nostalgia -Cluj Napoca",
     "country": "Romania",
