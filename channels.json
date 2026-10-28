@@ -1507,17 +1507,6 @@
     "active": true
   },
   {
-    "id": "ebs-electro-ro",
-    "name": "EBS | Electro",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Electronic"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/electro/electro128.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-fresco-ro",
     "name": "EBS | Fresco",
     "country": "Romania",
