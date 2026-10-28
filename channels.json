@@ -298,19 +298,6 @@
     "active": true
   },
   {
-    "id": "antena-satelor-ro",
-    "name": "Antena Satelor",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Information",
-      "Muzica",
-      "Viata Satului"
-    ],
-    "stream_url": "https://stream4.srr.ro:8443/antena-satelor",
-    "active": true
-  },
-  {
     "id": "antenna-web-oradea-ro",
     "name": "Antenna Web Oradea",
     "country": "Romania",
