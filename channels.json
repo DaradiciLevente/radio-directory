@@ -5346,18 +5346,6 @@
     "active": false
   },
   {
-    "id": "radio-gaga-gold-ro",
-    "name": "Rádió GaGa Gold",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Gold",
-      "Pop Music"
-    ],
-    "stream_url": "https://a2.asurahosting.com:7020/radio.mp3?1741449673",
-    "active": false
-  },
-  {
     "id": "radio-gaga-gyergyoszek-ro",
     "name": "Rádió GaGa Gyergyószék",
     "country": "Romania",
