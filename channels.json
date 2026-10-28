@@ -792,18 +792,6 @@
     "active": true
   },
   {
-    "id": "crestin-total-radio-beclean-ro",
-    "name": "Creștin Total Radio Beclean",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Christian",
-      "Religios"
-    ],
-    "stream_url": "https://stream.zeno.fm/k7zvbfd7insuv",
-    "active": true
-  },
-  {
     "id": "cross-one-radio-ro",
     "name": "Cross One Radio",
     "country": "Romania",
