@@ -405,18 +405,6 @@
     "active": true
   },
   {
-    "id": "balcan-radio-manele-braila-ro",
-    "name": "Balcan Radio Manele Brăila",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Music"
-    ],
-    "stream_url": "https://radio.sonicpanel.ro/8112/stream",
-    "active": true
-  },
-  {
     "id": "baraka-radio-ro",
     "name": "Baraka Radio",
     "country": "Romania",
