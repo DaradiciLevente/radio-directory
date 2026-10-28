@@ -6792,27 +6792,6 @@
     "active": true
   },
   {
-    "id": "radio-rahanopolis-ro",
-    "name": "Radio Rahanopolis",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "1960s",
-      "60s",
-      "Classical",
-      "Electronic",
-      "Hip-hop",
-      "Jazz",
-      "Lounge",
-      "Old School",
-      "Oldies",
-      "Rock And Roll",
-      "Rock'n'roll"
-    ],
-    "stream_url": "http://86.120.124.101:8000/128",
-    "active": false
-  },
-  {
     "id": "radio-reintregirea-ro",
     "name": "Radio Reîntregirea",
     "country": "Romania",
