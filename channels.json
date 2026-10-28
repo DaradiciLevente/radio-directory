@@ -383,18 +383,6 @@
     "active": true
   },
   {
-    "id": "atmospheric-dnb-s0urce-ro",
-    "name": "Atmospheric dnb s0urce",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Drum and Bass",
-      "Jungle"
-    ],
-    "stream_url": "https://brokenbeats.net/stream/aac",
-    "active": true
-  },
-  {
     "id": "autobaza-radio-ro",
     "name": "Autobaza Radio",
     "country": "Romania",
