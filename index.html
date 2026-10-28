@@ -86,6 +86,14 @@
             gap: 15px;
             border: 1px solid #eee;
         }
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
         .dropdown-filters {
             display: flex;
             gap: 15px;
@@ -93,12 +101,12 @@
         }
         .dropdown-filters select {
             flex: 1;
-            min-width: 180px;
-            max-width: 250px;
+            min-width: 160px;
             padding: 8px;
             border: 1px solid #ccc;
             border-radius: 4px;
             font-size: 13px;
+            background: #fff;
         }
         .checkbox-filters {
             display: flex;
@@ -164,6 +172,15 @@
             font-size: 10px;
             margin-right: 4px;
         }
+        .format-tag {
+            background: #f1f3f4;
+            color: #5f6368;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
     </style>
 </head>
 <body>
@@ -181,6 +198,12 @@
     </div>
 
     <div class="filters-container">
+        <!-- Filtru de Căutare după Nume/ID -->
+        <div class="search-bar">
+            <input type="text" id="searchInput" oninput="filterChannels()" placeholder="Caută un post radio sau o țară..." data-i18n-placeholder="search_placeholder">
+        </div>
+
+        <!-- Dropdown-uri: Continent, Țară, Format Stream -->
         <div class="dropdown-filters">
             <select id="continentFilter" onchange="onContinentChange()">
                 <option value="" data-i18n="all_continents">Toate continentele</option>
@@ -188,7 +211,17 @@
             <select id="countryFilter" onchange="filterChannels()">
                 <option value="" data-i18n="all_countries">Toate țările</option>
             </select>
+            <select id="formatFilter" onchange="filterChannels()">
+                <option value="" data-i18n="all_formats">Toate formatele audio</option>
+                <option value="MP3">MP3</option>
+                <option value="AAC">AAC / AAC+</option>
+                <option value="HLS">HLS (M3U8)</option>
+                <option value="OGG">OGG / Opus</option>
+                <option value="FLAC">FLAC</option>
+            </select>
         </div>
+
+        <!-- Bife pentru Genuri + Stare -->
         <div class="checkbox-filters" id="genreCheckboxGroup">
             <label><input type="checkbox" name="genreFilter" value="Pop" onchange="filterChannels()"> Pop</label>
             <label><input type="checkbox" name="genreFilter" value="Rock" onchange="filterChannels()"> Rock</label>
@@ -197,6 +230,10 @@
             <label><input type="checkbox" name="genreFilter" value="Hits" onchange="filterChannels()"> Hits</label>
             <label><input type="checkbox" name="genreFilter" value="Retro" onchange="filterChannels()"> Retro</label>
             <label><input type="checkbox" name="genreFilter" value="Electronic" onchange="filterChannels()"> Electronic</label>
+            <label style="margin-left: auto; background: #e8f0fe; border-color: #aecbfa;">
+                <input type="checkbox" id="activeOnlyFilter" onchange="filterChannels()"> 
+                <span id="onlyActiveLabel" data-i18n="only_active">Doar posturi active</span>
+            </label>
         </div>
     </div>
 
@@ -273,7 +310,13 @@
             }
         });
 
-        // Forțăm titlul din tab și titlul h1 din pagină să utilizeze aceeași valoare din title_index
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+            const key = el.getAttribute('data-i18n-placeholder');
+            if (translations[key]) {
+                el.placeholder = translations[key];
+            }
+        });
+
         if (translations['title_index']) {
             document.title = translations['title_index'];
             
@@ -288,6 +331,9 @@
 
         const countryDefault = document.querySelector('#countryFilter option[value=""]');
         if (countryDefault && translations['all_countries']) countryDefault.textContent = translations['all_countries'];
+
+        const formatDefault = document.querySelector('#formatFilter option[value=""]');
+        if (formatDefault && translations['all_formats']) formatDefault.textContent = translations['all_formats'];
 
         displayChannels(currentFilteredChannels);
     }
@@ -355,6 +401,16 @@
         filterChannels();
     }
 
+    function detectFormat(channel) {
+        if (channel.format) return channel.format.toUpperCase();
+        const url = (channel.stream_url || '').toLowerCase();
+        if (url.includes('.m3u8') || url.includes('hls')) return 'HLS';
+        if (url.includes('.ogg') || url.includes('.opus')) return 'OGG';
+        if (url.includes('.flac')) return 'FLAC';
+        if (url.includes('.aac') || url.includes('aac')) return 'AAC';
+        return 'MP3';
+    }
+
     function displayChannels(channels) {
         const tbody = document.getElementById('channelsTableBody');
         tbody.innerHTML = '';
@@ -368,6 +424,7 @@
             let tr = document.createElement('tr');
 
             let genresHtml = (channel.genre || []).map(g => `<span class="genre-tag">${g}</span>`).join('');
+            let formatTag = `<span class="format-tag">${detectFormat(channel)}</span>`;
             
             const activeText = translations['active'] || 'Activ';
             const inactiveText = translations['inactive'] || 'Inactiv';
@@ -378,7 +435,7 @@
                 : `<span class="badge badge-inactive">${inactiveText}</span>`;
 
             tr.innerHTML = `
-                <td><strong>${channel.name}</strong><br><small style="color:#666;">${channel.id}</small></td>
+                <td><strong>${channel.name}</strong> ${formatTag}<br><small style="color:#666;">${channel.id}</small></td>
                 <td>${channel.country || 'N/A'} (${channel.continent || 'N/A'})</td>
                 <td>${genresHtml}</td>
                 <td>${statusBadge}</td>
@@ -392,6 +449,9 @@
     function filterChannels() {
         const selectedContinent = document.getElementById('continentFilter').value;
         const selectedCountry = document.getElementById('countryFilter').value;
+        const selectedFormat = document.getElementById('formatFilter').value;
+        const searchKeyword = document.getElementById('searchInput').value.trim().toLowerCase();
+        const activeOnly = document.getElementById('activeOnlyFilter').checked;
         
         const checkedGenres = Array.from(document.querySelectorAll('input[name="genreFilter"]:checked'))
                                     .map(cb => cb.value);
@@ -400,8 +460,15 @@
             let matchContinent = !selectedContinent || channel.continent === selectedContinent;
             let matchCountry = !selectedCountry || channel.country === selectedCountry;
             let matchGenre = checkedGenres.length === 0 || (channel.genre && checkedGenres.some(g => channel.genre.includes(g)));
+            let matchFormat = !selectedFormat || detectFormat(channel) === selectedFormat;
+            let matchActive = !activeOnly || channel.active === true;
+            
+            let matchSearch = !searchKeyword || 
+                (channel.name && channel.name.toLowerCase().includes(searchKeyword)) ||
+                (channel.id && channel.id.toLowerCase().includes(searchKeyword)) ||
+                (channel.country && channel.country.toLowerCase().includes(searchKeyword));
 
-            return matchContinent && matchCountry && matchGenre;
+            return matchContinent && matchCountry && matchGenre && matchFormat && matchActive && matchSearch;
         });
 
         displayChannels(currentFilteredChannels);
