@@ -4471,18 +4471,6 @@
     "active": true
   },
   {
-    "id": "radio-ciresarii-beius-ro",
-    "name": "Radio Cireșarii -Beiuș",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Crestin",
-      "Religios"
-    ],
-    "stream_url": "https://s3.radio.co/s6c0a773ad/listen",
-    "active": false
-  },
-  {
     "id": "radio-claudia-ro",
     "name": "Radio Claudia",
     "country": "Romania",
