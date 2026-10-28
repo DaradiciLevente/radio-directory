@@ -9087,19 +9087,6 @@
     "active": true
   },
   {
-    "id": "sona-fm-ro",
-    "name": "Sona FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Chill",
-      "Deep House",
-      "Tech House"
-    ],
-    "stream_url": "https://ssl.omegahost.ro/8026/stream",
-    "active": false
-  },
-  {
     "id": "sona-fm-dance-ro",
     "name": "Sona FM Dance",
     "country": "Romania",
