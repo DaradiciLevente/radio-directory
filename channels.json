@@ -1519,17 +1519,6 @@
     "active": true
   },
   {
-    "id": "ebs-radio-jazz-cluj-napoca-ro",
-    "name": "EBS Radio Jazz -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Jazz"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/jazz/jazz128.mp3?refresh=1779028391978",
-    "active": false
-  },
-  {
     "id": "ebs-radio-live-cluj-napoca-90-4-fm-ro",
     "name": "EBS Radio Live -Cluj Napoca 90,4 FM",
     "country": "Romania",
