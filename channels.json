@@ -2704,17 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-rock-cluj-napoca-ro",
-    "name": "LibertyMP Rock -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Rock"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmprock/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-trap-cluj-napoca-ro",
     "name": "LibertyMP Trap -Cluj Napoca",
     "country": "Romania",
