@@ -893,20 +893,6 @@
     "active": true
   },
   {
-    "id": "dejavu-music-ro",
-    "name": "DejaVu Music",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Hits",
-      "House",
-      "Manele"
-    ],
-    "stream_url": "https://stream.zeno.fm/mdupctf7zxhvv",
-    "active": true
-  },
-  {
     "id": "delta-ocna-mures-ro",
     "name": "Delta Ocna Mureș 97,4 FM",
     "country": "Romania",
