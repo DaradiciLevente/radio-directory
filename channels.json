@@ -7936,18 +7936,6 @@
     "active": true
   },
   {
-    "id": "radiokyssecstrem-cluj-napoca-ro",
-    "name": "RadioKyssEcstrem -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Electronic Music"
-    ],
-    "stream_url": "https://ssl.kenhost.ro:8042/stream",
-    "active": false
-  },
-  {
     "id": "radiopapuc-ro",
     "name": "RadioPapuc",
     "country": "Romania",
