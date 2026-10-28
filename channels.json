@@ -1507,17 +1507,6 @@
     "active": true
   },
   {
-    "id": "ebs-nouvelle-vague-ro",
-    "name": "EBS | Nouvelle Vague",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Nouvelle Vague"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/nouvelle/nouvelle128.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-romanian-gold-ro",
     "name": "EBS | Romanian Gold",
     "country": "Romania",
