@@ -104,15 +104,6 @@
     "active": true
   },
   {
-    "id": "149fm-zeno-ro",
-    "name": "149FM (Zeno Stream)",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://stream.zeno.fm/6vc4ddpr3ehvv",
-    "active": true
-  },
-  {
     "id": "90s-3nergy-ro",
     "name": "90s 3nergy",
     "country": "Romania",
