@@ -969,20 +969,6 @@
     "active": true
   },
   {
-    "id": "dream-fm-onesti-ro",
-    "name": "Dream FM Onești 92,2 FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Adult Contemporary",
-      "Pop",
-      "Rock",
-      "Top40"
-    ],
-    "stream_url": "http://dreamfm.dtech.ro:9220/dreamfm",
-    "active": true
-  },
-  {
     "id": "drums-ro-botosani-ro",
     "name": "Drums.ro Radio Botoșani",
     "country": "Romania",
