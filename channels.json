@@ -59,18 +59,6 @@
     "active": true
   },
   {
-    "id": "vibe-fm-ro",
-    "name": "Vibe Fm",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "News",
-      "Hits"
-    ],
-    "stream_url": "http://astreaming.europafm.ro:8000/vibe_ro64",
-    "active": true
-  },
-  {
     "id": "kexp-seattle-us",
     "name": "KEXP 90.3 FM",
     "country": "United States",
