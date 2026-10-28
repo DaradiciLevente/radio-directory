@@ -4782,20 +4782,6 @@
     "active": true
   },
   {
-    "id": "radio-damblagii-ro",
-    "name": "Radio Damblagii",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Damblagii",
-      "Entertainment",
-      "Music",
-      "Romanian"
-    ],
-    "stream_url": "http://stream.radiodamblagii.co.uk:8010/radio.mp3",
-    "active": false
-  },
-  {
     "id": "radio-deea-ro",
     "name": "Radio DEEA",
     "country": "Romania",
