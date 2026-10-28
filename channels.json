@@ -1000,17 +1000,6 @@
     "active": true
   },
   {
-    "id": "ebs-blues-ro",
-    "name": "EBS Blues",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Blues"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/blues/blues128.mp3",
-    "active": true
-  },
-  {
     "id": "ebs-classical-ro",
     "name": "EBS Classical",
     "country": "Romania",
