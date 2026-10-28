@@ -449,20 +449,6 @@
     "active": true
   },
   {
-    "id": "barcasagi-radio-brasov-100-0-fm-ro",
-    "name": "Barcasági Radió -Brașov 100,0 FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Folk",
-      "Pop",
-      "Rock"
-    ],
-    "stream_url": "http://88.150.230.110:24446/;",
-    "active": false
-  },
-  {
     "id": "barikada-ro",
     "name": "Barikada",
     "country": "Romania",
