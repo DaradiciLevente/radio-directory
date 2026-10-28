@@ -1,13 +1,4 @@
 [
-    {
-    "id": "romantic-blue-ro",
-    "name": "Romantic Blue",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": ["Retro"],
-    "stream_url": "http://andrewstudios.go.ro:8000/RomanticBlue",
-    "active": true
-  },
   {
     "id": "149fm-ro",
     "name": "149FM",
@@ -10919,7 +10910,7 @@
     "stream_url": "http://zuglofm.netregator.hu:7812/zuglofm128.mp3",
     "active": true
   },
-{
+  {
     "id": "wrek-atlanta-91-1-us",
     "name": "WREK Atlanta 91.1",
     "country": "The United States Of America",
@@ -21647,7 +21638,7 @@
     "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/3AW.mp3",
     "active": true
   },
-{
+  {
     "id": "polskie-radio-bialystok-pl",
     "name": "Polskie Radio Bialystok",
     "country": "Poland",
@@ -30621,7 +30612,7 @@
     "stream_url": "http://stream2.datacenter.by:8008/belarus",
     "active": true
   },
- {
+  {
     "id": "rtl-france-fr",
     "name": "RTL France",
     "country": "France",
