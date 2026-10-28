@@ -5323,20 +5323,6 @@
     "active": true
   },
   {
-    "id": "radio-gaga-100-magyar-ro",
-    "name": "Rádió GaGa 100% Magyar",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Classic Hits",
-      "Hungarian Pop Music",
-      "Pop Rock",
-      "Top Hits"
-    ],
-    "stream_url": "https://a2.asurahosting.com:6880/radio.mp3?1741346830",
-    "active": false
-  },
-  {
     "id": "radio-gaga-csikszek-ro",
     "name": "Rádió GaGa Csíkszék",
     "country": "Romania",
