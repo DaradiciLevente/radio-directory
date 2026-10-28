@@ -1507,17 +1507,6 @@
     "active": true
   },
   {
-    "id": "ebs-magyar-zene-ro",
-    "name": "EBS | Magyar Zene",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Hungarian Pop Music"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/hungarian/hungarian128.mp3",
-    "active": false
-  },
-  {
     "id": "ebs-movie-soundtracks-ro",
     "name": "EBS | Movie Soundtracks",
     "country": "Romania",
