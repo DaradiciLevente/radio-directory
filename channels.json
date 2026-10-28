@@ -2704,18 +2704,6 @@
     "active": true
   },
   {
-    "id": "libertymp-trapanele-cluj-napoca-ro",
-    "name": "LibertyMP Trapanele -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Trapanele"
-    ],
-    "stream_url": "https://hs1.radiolibertymp.ro/listen/lmptrapanele/stream.mp3",
-    "active": false
-  },
-  {
     "id": "libertymp-trucker-cluj-napoca-ro",
     "name": "LibertyMP Trucker -Cluj Napoca",
     "country": "Romania",
