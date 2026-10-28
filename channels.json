@@ -4471,19 +4471,6 @@
     "active": true
   },
   {
-    "id": "radio-claudia-ro",
-    "name": "Radio Claudia",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Și Petrecere",
-      "Romanian Folk"
-    ],
-    "stream_url": "http://ssl.kenhost.ro:8091/stream",
-    "active": false
-  },
-  {
     "id": "radio-click-romania-ro",
     "name": "Radio Click Romania",
     "country": "Romania",
