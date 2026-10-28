@@ -3375,15 +3375,6 @@
     "active": true
   },
   {
-    "id": "nostalgic-fm-ro",
-    "name": "NOSTALGIC FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://nostalgicfm.ro/",
-    "active": false
-  },
-  {
     "id": "nova-22-ro",
     "name": "Nova 22",
     "country": "Romania",
