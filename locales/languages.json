@@ -36,5 +36,13 @@
   { "code": "ru", "flag": "🇷🇺", "name": "Русский" },
   { "code": "ka", "flag": "🇬🇪", "name": "ქართული" },
   { "code": "tt", "flag": "🇷🇺", "name": "Татарча" },
-  { "code": "ba", "flag": "🇷🇺", "name": "Башҡортса" }
+  { "code": "ba", "flag": "🇷🇺", "name": "Башҡортса" },
+  { "code": "ja", "flag": "🇯🇵", "name": "日本語" },
+  { "code": "zh", "flag": "🇨🇳", "name": "中文" },
+  { "code": "ar", "flag": "🇸🇦", "name": "العربية" },
+  { "code": "hi", "flag": "🇮🇳", "name": "हिन्दी" },
+  { "code": "ko", "flag": "🇰🇷", "name": "한국어" },
+  { "code": "id", "flag": "🇮🇩", "name": "Bahasa Indonesia" },
+  { "code": "vi", "flag": "🇻🇳", "name": "Tiếng Việt" },
+  { "code": "sw", "flag": "🇰🇪", "name": "Kiswahili" }
 ]
