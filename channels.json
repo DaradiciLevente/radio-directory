@@ -1519,17 +1519,6 @@
     "active": true
   },
   {
-    "id": "ebs-radio-electro-cluj-napoca-ro",
-    "name": "EBS Radio Electro -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Electro"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/electro/electro128.mp3?refresh=1779028296999",
-    "active": false
-  },
-  {
     "id": "ebs-radio-fresco-cluj-napoca-ro",
     "name": "EBS Radio Fresco -Cluj Napoca",
     "country": "Romania",
