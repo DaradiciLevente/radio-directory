@@ -7101,17 +7101,6 @@
     "active": true
   },
   {
-    "id": "radio-rot-romania-ro",
-    "name": "Radio ROT Romania",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Hits"
-    ],
-    "stream_url": "http://radiorot.ovh:8000/radio.mp3",
-    "active": false
-  },
-  {
     "id": "radio-salaj-ro",
     "name": "Radio Sălaj",
     "country": "Romania",
