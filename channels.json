@@ -7302,18 +7302,6 @@
     "active": true
   },
   {
-    "id": "radio-teatru-radiofonic-romania-ro",
-    "name": "Radio Teatru Radiofonic România",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Culture",
-      "Theatre"
-    ],
-    "stream_url": "https://asculta.teatruradiofonic.com/teatru",
-    "active": false
-  },
-  {
     "id": "radio-teatru-rominia-braila-ro",
     "name": "radio teatru romînia -Brăila",
     "country": "Romania",
