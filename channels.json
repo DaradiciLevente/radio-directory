@@ -14,12 +14,10 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "90s",
+      "Retro",
       "Dance",
-      "Eurodance",
-      "Hip Hop",
+      "Hip-Hop",
       "Pop",
-      "R&B",
       "Rock"
     ],
     "stream_url": "https://s11.ssl-stream.com:8807/stream",
@@ -30,9 +28,7 @@
     "name": "A-Tentat",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele"
-    ],
+    "genre": [],
     "stream_url": "http://54.39.28.158:8066/",
     "active": true
   },
@@ -67,9 +63,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classical",
-      "Instrumental Music",
-      "Orchestral"
+      "Classical"
     ],
     "stream_url": "https://stream.zeno.fm/xmgnc6mcwnhvv",
     "active": true
@@ -80,10 +74,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Hip-hop",
-      "Manele",
-      "Rap",
-      "Trap"
+      "Hip-Hop"
     ],
     "stream_url": "https://stream.zeno.fm/nqjp3rems2rvv",
     "active": true
@@ -94,9 +85,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Hip-hop",
-      "Manele",
-      "Rap"
+      "Hip-Hop"
     ],
     "stream_url": "https://stream.zeno.fm/rshamge8mgntv",
     "active": true
@@ -107,11 +96,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "90s",
+      "Retro",
       "Dance",
-      "Eurodance",
       "Folk",
-      "Heavy Metal",
       "Pop",
       "Rock"
     ],
@@ -123,9 +110,7 @@
     "name": "Ady picyu",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele"
-    ],
+    "genre": [],
     "stream_url": "https://stream.zeno.fm/s5pkvvbd9e9uv",
     "active": true
   },
@@ -135,8 +120,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Crestin",
-      "Religios"
+      "Religious"
     ],
     "stream_url": "https://stream.zeno.fm/s38pdt9h268uv",
     "active": true
@@ -147,8 +131,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Christian",
-      "Reformed",
       "Religious",
       "Talk"
     ],
@@ -160,10 +142,7 @@
     "name": "Agnus Rádió -Cluj Napoca 88,3 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Etnic",
-      "Local Radio"
-    ],
+    "genre": [],
     "stream_url": "https://agnusradio.ro/radio-stream/",
     "active": true
   },
@@ -174,9 +153,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Muzică Românească",
-      "Pop",
-      "Romanian"
+      "Pop"
     ],
     "stream_url": "http://radio.club-fantasy-hub.ro:8000/;",
     "active": true
@@ -196,9 +173,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Ambient",
-      "Chillout",
-      "Lounge"
+      "Chillout"
     ],
     "stream_url": "https://ambiento-adradio.radioca.st/128",
     "active": true
@@ -209,8 +184,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://live.radioanisoara.ro:8080/stream",
     "active": true
@@ -221,9 +195,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Information",
-      "Muzica",
-      "Viata Satului"
+      "News"
     ],
     "stream_url": "http://89.238.227.6:8042/",
     "active": true
@@ -234,7 +206,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
       "Pop",
       "Rock"
     ],
@@ -256,8 +227,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Crestin",
-      "Religios"
+      "Religious"
     ],
     "stream_url": "https://catedrala.arad1.ro:8443/catedrala",
     "active": true
@@ -280,11 +250,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Club",
       "Dance",
-      "Etno",
-      "Manele",
-      "Petrecere"
+      "Folk"
     ],
     "stream_url": "https://sonicpanel.namehost.ro/8016/stream",
     "active": true
@@ -296,9 +263,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Manele",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "http://89.39.189.53:8000/stream",
     "active": true
@@ -317,9 +282,7 @@
     "name": "Aripi Spre Cer Instrumental",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Instrumental"
-    ],
+    "genre": [],
     "stream_url": "https://instrumental.aac.aripisprecer.ro/radio.mp3;",
     "active": true
   },
@@ -338,8 +301,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Christian",
-      "Christian Music"
+      "Religious"
     ],
     "stream_url": "https://popular.stream.aripisprecer.ro/radio.mp3",
     "active": true
@@ -376,9 +338,7 @@
     "name": "ascultă-Radio Levi",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Cristian"
-    ],
+    "genre": [],
     "stream_url": "http://audio.radioleviro.bisericilive.com/radioleviro.mp3",
     "active": true
   },
@@ -387,10 +347,7 @@
     "name": "Atmospheric dnb s0urce",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Drum And Bass",
-      "Jungle"
-    ],
+    "genre": [],
     "stream_url": "https://brokenbeats.net/stream/aac",
     "active": true
   },
@@ -418,9 +375,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
       "News",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "http://94.52.142.229:85/broadwave.mp3",
     "active": true
@@ -430,9 +386,7 @@
     "name": "Balcan Radio Manele -Brăila",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Music"
-    ],
+    "genre": [],
     "stream_url": "https://radio.sonicpanel.ro/8112/stream",
     "active": true
   },
@@ -442,8 +396,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Chillout",
-      "Lounge"
+      "Chillout"
     ],
     "stream_url": "https://ice.streams.ovh:1165/stream",
     "active": true
@@ -454,9 +407,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Bible",
-      "Biblie",
-      "Christian"
+      "Religious"
     ],
     "stream_url": "https://panel.radiocaleasprecer.com/radio/8010/radio.mp3",
     "active": true
@@ -477,7 +428,6 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Local Radio",
       "News",
       "Pop"
     ],
@@ -491,12 +441,8 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Dance Pop",
-      "Local",
       "News",
-      "Pop",
-      "Romanian",
-      "Talks"
+      "Pop"
     ],
     "stream_url": "https://audio-edge-cmc51.fra.h.radiomast.io/66f238bb-8b61-4196-a8c3-28aea07235e8",
     "active": true
@@ -519,16 +465,11 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Ambient",
+      "Chillout",
       "Electronic",
-      "Experimental",
-      "Hip-hop",
-      "House",
-      "Indie",
-      "Jazz",
-      "Reggae",
-      "Soul",
-      "Techno"
+      "Hip-Hop",
+      "Dance",
+      "Jazz"
     ],
     "stream_url": "https://blackrhinoradio.out.airtime.pro/blackrhinoradio_a",
     "active": true
@@ -538,10 +479,7 @@
     "name": "Blaj Radio",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Catolic",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "https://ssl.asculta.live:8016/",
     "active": true
   },
@@ -569,10 +507,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Hits",
-      "Hits",
-      "Pop Rock",
-      "Top Hits"
+      "Hits"
     ],
     "stream_url": "https://live.radioboom.ro/live-tv/live.m3u8",
     "active": true
@@ -582,9 +517,7 @@
     "name": "BOOM TV -Buzău",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioboom.ro/live-tv/liveboomtv.m3u8",
     "active": true
   },
@@ -595,11 +528,7 @@
     "continent": "Europe",
     "genre": [
       "Electronic",
-      "House",
-      "Minimal",
-      "Romania",
-      "Tech House",
-      "Underground"
+      "Dance"
     ],
     "stream_url": "https://stream.8ounce.ro/listen/radio_bounce/radio.mp3",
     "active": true
@@ -619,8 +548,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Rock",
-      "Soft Rock"
+      "Rock"
     ],
     "stream_url": "https://radio.sonicpanel.ro/8034/stream",
     "active": true
@@ -631,8 +559,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "https://radio.campusbuzau.ro:8443/CAMPUS.mp3",
@@ -643,9 +569,7 @@
     "name": "Campus Transilvania -Brașov",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Student Radio"
-    ],
+    "genre": [],
     "stream_url": "http://rct.unitbv.ro:8000/;stream.mp3",
     "active": true
   },
@@ -656,10 +580,8 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Fresh",
       "Hits",
-      "Pop",
-      "Top40"
+      "Pop"
     ],
     "stream_url": "https://ssl.omegahost.ro:8020/stream",
     "active": true
@@ -669,11 +591,7 @@
     "name": "Capital FM - Manele",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Și Petrecere",
-      "Petrecere"
-    ],
+    "genre": [],
     "stream_url": "http://manele.capitalfm.ro:8020/;",
     "active": true
   },
@@ -683,8 +601,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "Petrecere"
+      "Dance"
     ],
     "stream_url": "https://djradio.ro/stream",
     "active": true
@@ -713,7 +630,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Chill",
       "Chillout"
     ],
     "stream_url": "http://edge126.rdsnet.ro:84/profm/chillfm.mp3",
@@ -743,10 +659,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "00s",
-      "10s",
-      "Dance",
-      "Pop Dance"
+      "Dance"
     ],
     "stream_url": "https://live.citywaveradio.com:9000/stream",
     "active": true
@@ -757,7 +670,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Muzica Usoara Romaneasca",
       "Pop"
     ],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_romanesc/live.mp3",
@@ -769,8 +681,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "60s",
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_60/live.mp3",
     "active": true
@@ -781,8 +692,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80s",
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_80/live.mp3",
     "active": true
@@ -793,8 +703,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "90s",
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_90/live.mp3",
     "active": true
@@ -815,9 +724,7 @@
     "name": "Clasic Radio_Bach -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classical Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_bach/live.mp3",
     "active": true
   },
@@ -826,9 +733,7 @@
     "name": "Clasic Radio_Beethoven -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classical Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_beethoven/live.mp3",
     "active": true
   },
@@ -849,7 +754,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Blues"
+      "Jazz"
     ],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_blues/live.mp3",
     "active": true
@@ -859,9 +764,7 @@
     "name": "Clasic Radio_Chopin -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classical Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_chopin/live.mp3",
     "active": true
   },
@@ -870,9 +773,7 @@
     "name": "Clasic Radio_Christmas -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Colinde"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_christmas/live.mp3",
     "active": true
   },
@@ -881,9 +782,7 @@
     "name": "Clasic Radio_Country -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Country"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_country/live.mp3",
     "active": true
   },
@@ -892,9 +791,7 @@
     "name": "Clasic Radio_Crossover -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classical Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_crossover/live.mp3",
     "active": true
   },
@@ -914,9 +811,7 @@
     "name": "Clasic Radio_George Enescu -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classical Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_george_enescu/live.mp3",
     "active": true
   },
@@ -925,9 +820,7 @@
     "name": "Clasic Radio_Greek Music -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Greek Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_greek/live.mp3",
     "active": true
   },
@@ -947,11 +840,7 @@
     "name": "Clasic Radio_Indie -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Experimental",
-      "Indie Electronic",
-      "Indie Folk"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_indie/live.mp3",
     "active": true
   },
@@ -971,9 +860,7 @@
     "name": "Clasic Radio_Kids -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Kids"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_kids/live.mp3",
     "active": true
   },
@@ -982,9 +869,7 @@
     "name": "Clasic Radio_Latino -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Latino"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_latino/live.mp3",
     "active": true
   },
@@ -993,10 +878,7 @@
     "name": "Clasic Radio_Love -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Love",
-      "Love Songs"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_love/live.mp3",
     "active": true
   },
@@ -1005,9 +887,7 @@
     "name": "Clasic Radio_Mozart -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classical Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_mozart/live.mp3",
     "active": true
   },
@@ -1016,10 +896,7 @@
     "name": "Clasic Radio_Opera -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classical Music",
-      "Opera"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_opera/live.mp3",
     "active": true
   },
@@ -1029,8 +906,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_popular/live.mp3",
     "active": true
@@ -1042,8 +918,7 @@
     "continent": "Europe",
     "genre": [
       "Pop",
-      "Rnb",
-      "Soul"
+      "Hip-Hop"
     ],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_rnb/live.mp3",
     "active": true
@@ -1054,8 +929,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Ambiental",
-      "Relax"
+      "Chillout"
     ],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_relax/live.mp3",
     "active": true
@@ -1076,9 +950,7 @@
     "name": "Clasic Radio_Smooth -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Smooth"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_smooth/live.mp3",
     "active": true
   },
@@ -1087,9 +959,7 @@
     "name": "Clasic Radio_Soundtrack -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Soundtrack"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_soundtrack/live.mp3",
     "active": true
   },
@@ -1098,9 +968,7 @@
     "name": "Clasic Radio_Strauss -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classical Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_strauss/live.mp3",
     "active": true
   },
@@ -1110,8 +978,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Pop",
-      "Summer Hits"
+      "Pop"
     ],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_summerhits/live.mp3",
     "active": true
@@ -1121,10 +988,7 @@
     "name": "Clasic Radio_Symphony -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classical Music",
-      "Symphony"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_symphony/live.mp3",
     "active": true
   },
@@ -1133,9 +997,7 @@
     "name": "Clasic Radio_Tchaikovscky -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classical Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_tchaikovscky/live.mp3",
     "active": true
   },
@@ -1145,8 +1007,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Pop",
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_top40/live.mp3",
     "active": true
@@ -1156,9 +1017,7 @@
     "name": "Clasic Radio_Vivaldi -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classical Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioclasic.com/listen/radio_clasic_vivaldi/live.mp3",
     "active": true
   },
@@ -1177,10 +1036,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Club",
       "Dance",
-      "Electronic",
-      "House"
+      "Electronic"
     ],
     "stream_url": "https://live.clubradio.ro/listen/clubradio/live",
     "active": true
@@ -1193,7 +1050,6 @@
     "genre": [
       "Dance",
       "Folk",
-      "Muzica Usoara Romaneasca",
       "Retro"
     ],
     "stream_url": "https://dattavolt.com/8056/stream",
@@ -1205,7 +1061,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Chill",
+      "Chillout",
       "Dance",
       "Jazz",
       "Pop"
@@ -1219,11 +1075,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Chill",
       "Chillout",
-      "Pop",
-      "Relax",
-      "Unwimd"
+      "Pop"
     ],
     "stream_url": "https://live.cozyfm.ro:8010/live",
     "active": true
@@ -1243,10 +1096,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Christian",
-      "Christian Music",
-      "Christian Talks",
-      "Church",
+      "Religious",
       "Talk"
     ],
     "stream_url": "https://lb01.bpstream.com:8630/;",
@@ -1257,10 +1107,7 @@
     "name": "Csángó rádió - Radioul ceangăilor",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Etnic Maghiar",
-      "Local Radio"
-    ],
+    "genre": [],
     "stream_url": "https://sonic.xservere.net/8064/stream",
     "active": true
   },
@@ -1270,9 +1117,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Manele",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "http://radio.sonicpanel.ro:8046/stream",
     "active": true
@@ -1323,7 +1168,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Electro"
+      "Electronic"
     ],
     "stream_url": "http://radiocdn.nxthost.com/radio-deea",
     "active": true
@@ -1334,7 +1179,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Deep House"
+      "Dance"
     ],
     "stream_url": "http://live.dancemusic.ro:7000/radio.mp3",
     "active": true
@@ -1345,9 +1190,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Deephouse",
-      "House",
-      "Techno"
+      "Dance"
     ],
     "stream_url": "https://stream.zeno.fm/yrs7fychej9vv",
     "active": true
@@ -1358,9 +1201,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local News",
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "https://deltafm.ro/mp3/Stan-Adrian-Ocna-Mures-Music4Night.mp3",
@@ -1372,7 +1212,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Music",
       "News"
     ],
     "stream_url": "http://edge76.rdsnet.ro:84/digifm/digifm.mp3",
@@ -1412,12 +1251,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Dance Pop",
-      "House",
-      "Pop",
-      "Pop Dance",
-      "Pop Music",
-      "Romanian Pop"
+      "Pop"
     ],
     "stream_url": "https://stream.djradio.ro/radio/8000/stream.mp3",
     "active": true
@@ -1446,10 +1280,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
       "Pop",
-      "Rock",
-      "Top40"
+      "Rock"
     ],
     "stream_url": "http://dreamfm.dtech.ro:9220/dreamfm",
     "active": true
@@ -1459,12 +1291,7 @@
     "name": "Drums.ro Radio - Botoșani",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Breakbeat",
-      "Drum And Bass",
-      "Dubstep",
-      "Jungle"
-    ],
+    "genre": [],
     "stream_url": "http://radio.drums.ro:8000/;",
     "active": true
   },
@@ -1474,16 +1301,12 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Blues",
+      "Jazz",
       "Dance",
-      "EDM",
       "Folk",
-      "Indie",
-      "Oldies",
+      "Retro",
       "Pop",
-      "Rock",
-      "Romantic",
-      "Variety"
+      "Rock"
     ],
     "stream_url": "https://radio.duxradio.ro:8002/stream",
     "active": true
@@ -1494,12 +1317,10 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Blues",
+      "Jazz",
       "Dance",
-      "EDM",
       "Folk",
-      "Indie",
-      "Oldies",
+      "Retro",
       "Pop",
       "Rock"
     ],
@@ -1511,10 +1332,7 @@
     "name": "EBS Radio",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Adult Contemporary",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "https://azura.ebsmedia.ro/listen/live/live128.mp3",
     "active": true
   },
@@ -1523,10 +1341,7 @@
     "name": "EBS Radio Live -Cluj Napoca 90,4 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Music"
-    ],
+    "genre": [],
     "stream_url": "https://azura.ebsmedia.ro/listen/live/live128.mp3?refresh=1779027831553",
     "active": true
   },
@@ -1536,8 +1351,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Oldies",
-      "Top"
+      "Retro"
     ],
     "stream_url": "https://stream.zeno.fm/n1s4zgbz8p8uv",
     "active": true
@@ -1549,10 +1363,8 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Fresh",
       "Hits",
-      "Pop",
-      "Romanian Music"
+      "Pop"
     ],
     "stream_url": "https://live.enjoyradio.ro/radio/8000/enjoylive.mp3",
     "active": true
@@ -1563,8 +1375,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Catholic",
-      "Christian"
+      "Religious"
     ],
     "stream_url": "https://stream.zeno.fm/ehbuv5erws8uv",
     "active": true
@@ -1574,10 +1385,7 @@
     "name": "ERCIS FM -Iasi 94,4 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Catolic",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "https://stream.zeno.fm/ehbuv5erws8uv",
     "active": true
   },
@@ -1587,8 +1395,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Alternative",
-      "Indie",
       "Rock"
     ],
     "stream_url": "https://efm.radioca.st/stream",
@@ -1600,10 +1406,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Amateur Radio",
-      "Classic Hits",
-      "Pop Rock",
-      "Regional",
       "Retro"
     ],
     "stream_url": "https://adas.erdelyimagyarradio.eu:8443/emr",
@@ -1616,7 +1418,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Electro",
+      "Electronic",
       "Pop"
     ],
     "stream_url": "https://stream.zeno.fm/u9kyi9j8dhluv",
@@ -1627,9 +1429,7 @@
     "name": "Eurodisco80 Radio",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Disco Hits"
-    ],
+    "genre": [],
     "stream_url": "https://stream.zeno.fm/rc1aaftwtuavv",
     "active": true
   },
@@ -1679,11 +1479,9 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "House",
       "News",
       "Pop",
-      "Populara",
-      "Romanian"
+      "Folk"
     ],
     "stream_url": "https://live.gofm.ro:2000/stream/eveniment",
     "active": true
@@ -1695,11 +1493,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Deep House",
-      "Electronic",
-      "Electronic Dance Music",
-      "House",
-      "Tech House"
+      "Electronic"
     ],
     "stream_url": "https://s3.radio.co/s1492c0564/listen",
     "active": true
@@ -1710,7 +1504,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Ecletcic",
       "Pop",
       "Talk"
     ],
@@ -1722,12 +1515,7 @@
     "name": "Favorit FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Muzică De Petrecere",
-      "Petrecere",
-      "Romanian",
-      "Romanian Folk"
-    ],
+    "genre": [],
     "stream_url": "http://91.250.252.251:8001/;",
     "active": true
   },
@@ -1737,8 +1525,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "http://91.250.252.251:8001/",
     "active": true
@@ -1749,14 +1536,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Afro House",
-      "Deep House",
-      "Electronic",
-      "House",
-      "Melodic House",
-      "Progressive House",
-      "Tech House",
-      "Techno"
+      "Dance",
+      "Electronic"
     ],
     "stream_url": "https://c22.radioboss.fm:8700/stream",
     "active": true
@@ -1766,11 +1547,7 @@
     "name": "FM Radio Manele",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Noi",
-      "Manele Și Petrecere"
-    ],
+    "genre": [],
     "stream_url": "http://a.fmradiomanele.ro:8054/stream",
     "active": true
   },
@@ -1797,14 +1574,7 @@
     "name": "FMV FIT Radio Focus",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Ambient Electronic",
-      "Chillhop",
-      "Focus",
-      "Lofi",
-      "Productivity",
-      "Study"
-    ],
+    "genre": [],
     "stream_url": "https://radio.webicdp.com/listen/fmvfitradiofocus/radio.mp3",
     "active": true
   },
@@ -1814,16 +1584,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Cardio",
-      "Exercise",
-      "Fitness",
-      "Gym",
-      "High Energy",
-      "Motivation",
-      "Running",
-      "Sport",
-      "Training",
-      "Workout"
+      "Sport"
     ],
     "stream_url": "https://radio.webicdp.com/listen/fmvfitradiohighenergy/radio.mp3",
     "active": true
@@ -1834,16 +1595,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Deep House",
-      "Driving",
-      "Electronic",
-      "Electronic Dance",
-      "Energy",
-      "Feel Good",
-      "Melodic Trance",
-      "Progressive House",
-      "Trance",
-      "Uplifting"
+      "Dance",
+      "Electronic"
     ],
     "stream_url": "https://radio.webicdp.com/listen/fmvfitradiomediumenergy/radio.mp3",
     "active": true
@@ -1854,14 +1607,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Cafe",
       "Chillout",
-      "Coffeehouse",
-      "Downtempo",
-      "Groove",
-      "Relax",
-      "Smooth Jazz",
-      "Urban Lounge Jazz"
+      "Jazz"
     ],
     "stream_url": "https://radio.webicdp.com/listen/fmvfitradiourban/radio.mp3",
     "active": true
@@ -1871,9 +1618,7 @@
     "name": "Focus FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Regional"
-    ],
+    "genre": [],
     "stream_url": "http://live.focusfm.ro:8000/focusfmhigh.ogg.m3u",
     "active": true
   },
@@ -1882,11 +1627,7 @@
     "name": "Focus FM -Buzău 93,8 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "70 80 Hits",
-      "90s Hits",
-      "Local Radio"
-    ],
+    "genre": [],
     "stream_url": "http://live.focusfm.ro:8000/focusfmhigh.ogg",
     "active": true
   },
@@ -1896,11 +1637,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "70s",
-      "80s",
-      "Blues",
-      "Classical",
-      "Country"
+      "Retro",
+      "Jazz",
+      "Classical"
     ],
     "stream_url": "http://89.40.72.71:8000/stream",
     "active": true
@@ -1911,11 +1650,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "70s",
-      "80s",
-      "Blues",
-      "Classical",
-      "Country"
+      "Retro",
+      "Jazz",
+      "Classical"
     ],
     "stream_url": "http://live.focusfm.ro:8000/;",
     "active": true
@@ -1926,11 +1663,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "70s",
-      "80s",
-      "Blues",
-      "Classical",
-      "Country"
+      "Retro",
+      "Jazz",
+      "Classical"
     ],
     "stream_url": "http://live.focusfm.ro:8000/focusfmlow.ogg",
     "active": true
@@ -1941,8 +1676,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://live.radiofolclormuntenia.ro:8008/stream",
     "active": true
@@ -1972,11 +1706,7 @@
     "name": "Frăsinești Radio",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Noi",
-      "Manele Vechi"
-    ],
+    "genre": [],
     "stream_url": "https://stream.zeno.fm/mpmilx1n4yuuv",
     "active": true
   },
@@ -1986,11 +1716,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "#90s",
-      "#freefm",
-      "80s",
-      "90s",
-      "Commercial-free"
+      "Retro"
     ],
     "stream_url": "https://rocafmadrid.radioca.st/",
     "active": true
@@ -2000,9 +1726,7 @@
     "name": "Free FM Bucaresti",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "#90s"
-    ],
+    "genre": [],
     "stream_url": "https://rocafmadrid.radioca.st/stream",
     "active": true
   },
@@ -2011,9 +1735,7 @@
     "name": "Free FM Rock București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "#"
-    ],
+    "genre": [],
     "stream_url": "https://freefmrock.radioca.st/stream",
     "active": true
   },
@@ -2023,11 +1745,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "2000s",
-      "90s",
-      "Classic Hits",
-      "Classic Hits 60s 70a 80s",
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "http://online.webcastradio.ro/fun",
     "active": true
@@ -2039,10 +1757,7 @@
     "continent": "Europe",
     "genre": [
       "Hits",
-      "Local",
-      "Pop",
-      "Top",
-      "Top Hits"
+      "Pop"
     ],
     "stream_url": "http://online.funfm.ro:8000/funfm.mp3",
     "active": true
@@ -2052,9 +1767,7 @@
     "name": "G Radio",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Music 80s 90s"
-    ],
+    "genre": [],
     "stream_url": "https://stream.zeno.fm/0qbqaobm4b9vv",
     "active": true
   },
@@ -2064,12 +1777,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "90s",
-      "90s Trance",
-      "Electro",
+      "Retro",
       "Electronic",
-      "Goa Trance",
-      "Trance"
+      "Dance"
     ],
     "stream_url": "https://stream.clever-host.ro/8010/stream",
     "active": true
@@ -2080,8 +1790,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://stream.zeno.fm/hlxwppx3fj4vv",
     "active": true
@@ -2092,9 +1801,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "90s",
-      "Eurodance",
-      "Mrcrosby"
+      "Retro",
+      "Dance"
     ],
     "stream_url": "https://listen.streamaudio.co/proxy/gherlafm/stream",
     "active": true
@@ -2105,8 +1813,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "90s",
-      "Eurodance"
+      "Retro",
+      "Dance"
     ],
     "stream_url": "http://89.39.189.52:8000/;",
     "active": true
@@ -2117,8 +1825,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "90s",
-      "Eurodance"
+      "Retro",
+      "Dance"
     ],
     "stream_url": "http://89.39.189.52:8000/stream",
     "active": true
@@ -2139,9 +1847,7 @@
     "name": "GherlaFM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Misc"
-    ],
+    "genre": [],
     "stream_url": "http://89.39.189.52:8000/stream",
     "active": true
   },
@@ -2151,9 +1857,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
       "News",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://ssl.asculta.live/8096/stream",
     "active": true
@@ -2165,9 +1870,8 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Local Radio",
       "News",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://ssl.radios.show/8008/;",
     "active": true
@@ -2177,9 +1881,7 @@
     "name": "goFM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "https://live.gofm.ro:2000/stream/goFMro",
     "active": true
   },
@@ -2189,13 +1891,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Chansons Françaises",
-      "Classic Rock",
-      "Love Songs",
+      "Rock",
       "News",
-      "Oldies",
-      "Romania",
-      "Schlager"
+      "Retro"
     ],
     "stream_url": "http://live.gofm.ro:9128/",
     "active": true
@@ -2206,8 +1904,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Jazz",
-      "Smooth Jazz"
+      "Jazz"
     ],
     "stream_url": "https://live.gofm.ro:2020/stream/goJAZZ",
     "active": true
@@ -2227,7 +1924,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "http://80.86.106.110:8002/",
     "active": true
@@ -2238,9 +1935,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Funky",
-      "Jazzy",
-      "Lounge"
+      "Chillout"
     ],
     "stream_url": "http://fr1.streamhosting.ch/lounge128.mp3",
     "active": true
@@ -2251,9 +1946,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Alternative Rock",
-      "Independent",
-      "Indie"
+      "Rock"
     ],
     "stream_url": "https://live.gofm.ro:2000/stream/goREBEL/stream.mp3",
     "active": true
@@ -2264,7 +1957,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Metal",
       "Rock"
     ],
     "stream_url": "https://live.gofm.ro:2020/stream/goROCK",
@@ -2277,7 +1969,6 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Music",
       "Pop"
     ],
     "stream_url": "https://stream.zeno.fm/s6rdspx0tchvv",
@@ -2288,12 +1979,7 @@
     "name": "Gyergyói Székely Rádió -Gheorghieni CJ",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Etnic",
-      "Hungarian Music",
-      "Music",
-      "Muzica Ungureasca"
-    ],
+    "genre": [],
     "stream_url": "http://szekelyradio.top:8000/;",
     "active": true
   },
@@ -2303,8 +1989,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Etnic",
-      "Oldies",
       "Retro"
     ],
     "stream_url": "https://stream.zeno.fm/mv62tmd8wp8uv",
@@ -2325,9 +2009,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Hard Rock",
-      "Heavy Metal",
-      "Metal"
+      "Rock"
     ],
     "stream_url": "http://107.161.126.115:8000/",
     "active": true
@@ -2337,9 +2019,7 @@
     "name": "HERMES-TEST-ignore",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Test"
-    ],
+    "genre": [],
     "stream_url": "https://x0.at/whlG.mp3",
     "active": true
   },
@@ -2349,10 +2029,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Hits",
       "Hits",
-      "Top Hits",
-      "Top40"
+      "Pop"
     ],
     "stream_url": "https://radio.sonicpanel.ro/8082/stream",
     "active": true
@@ -2363,10 +2041,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Hits",
       "Hits",
-      "Top Hits",
-      "Top40"
+      "Pop"
     ],
     "stream_url": "https://radio.sonicpanel.ro/8082/stream",
     "active": true
@@ -2388,8 +2064,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://asculta.ascultatare.ro/8034/stream",
     "active": true
@@ -2400,8 +2075,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "House Və Electronic Hits"
+      "Dance"
     ],
     "stream_url": "https://online.tvimpact.live/hls/dancetv.m3u8",
     "active": true
@@ -2413,10 +2087,8 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Disco",
-      "Etno",
-      "Manele",
-      "Petrecere"
+      "Retro",
+      "Folk"
     ],
     "stream_url": "http://interpretul.radiofolclorbuzaufm.ro:8910/stream",
     "active": true
@@ -2435,9 +2107,7 @@
     "name": "itsybitsy",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Kids"
-    ],
+    "genre": [],
     "stream_url": "http://live.itsybitsy.ro:8000/itsybitsy",
     "active": true
   },
@@ -2458,9 +2128,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Culture",
       "Hits",
-      "Local",
       "News",
       "Pop"
     ],
@@ -2473,9 +2141,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Culture",
       "Hits",
-      "Local",
       "News",
       "Pop"
     ],
@@ -2497,7 +2163,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Chill"
+      "Chillout"
     ],
     "stream_url": "https://dc.digi.live.kissfm.ro/kissnchill",
     "active": true
@@ -2509,11 +2175,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Dance Pop",
-      "House",
-      "Pop",
-      "Pop Music",
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "https://live.kissfm.ro/kissfm.aacp",
     "active": true
@@ -2546,9 +2208,7 @@
     "name": "Kiss Fm Ro",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Romanian Pop"
-    ],
+    "genre": [],
     "stream_url": "https://live.kissfm.ro/kissfm.aacp",
     "active": true
   },
@@ -2558,14 +2218,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "2010s",
-      "2010s Music",
-      "2010´s",
-      "Hits",
-      "Kiss",
-      "Kiss Fm",
-      "Radio Romania",
-      "Romania"
+      "Hits"
     ],
     "stream_url": "https://live.kissfm.ro/kiss.hits.from.the.10s",
     "active": true
@@ -2575,9 +2228,7 @@
     "name": "Kiss Millenium Hits",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "00s"
-    ],
+    "genre": [],
     "stream_url": "https://live.kissfm.ro/milleniumhits",
     "active": true
   },
@@ -2587,7 +2238,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Clubbing",
       "Dance",
       "Electronic"
     ],
@@ -2600,7 +2250,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Alternative",
       "Jazz",
       "Pop",
       "Rock"
@@ -2623,9 +2272,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
       "Dance",
-      "Local Radio",
       "News",
       "Pop",
       "Talk"
@@ -2687,9 +2334,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Manele",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://ssl.radios.show/8002/;",
     "active": true
@@ -2710,11 +2355,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Deep House",
-      "Dj",
-      "Electronic",
-      "House",
-      "Tech House"
+      "Electronic"
     ],
     "stream_url": "https://radio.losbandoleros.ro/listen/losbandoleros/radio.mp3",
     "active": true
@@ -2725,10 +2366,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Ambient",
-      "Chill",
-      "Chillout",
-      "Lounge"
+      "Chillout"
     ],
     "stream_url": "http://arlandria.go.ro:8000/lounge",
     "active": true
@@ -2740,10 +2378,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Etno",
-      "Manele",
-      "Mixta",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://radio.sonicpanel.ro/8068/stream",
     "active": true
@@ -2755,9 +2390,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Manele",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://radio.gazduirejocuri.ro/8002/stream",
     "active": true
@@ -2768,9 +2401,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Easy Listening",
-      "Folk",
-      "Romanian Folk"
+      "Folk"
     ],
     "stream_url": "https://dc.digi.live.kissfm.ro/magicdepahar",
     "active": true
@@ -2780,9 +2411,7 @@
     "name": "Magic FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Decades"
-    ],
+    "genre": [],
     "stream_url": "https://live.magicfm.ro/magicfm.aacp",
     "active": true
   },
@@ -2792,10 +2421,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "1980s",
-      "80's",
-      "80s",
-      "The Best Of 80's"
+      "Retro"
     ],
     "stream_url": "https://live.kissfm.ro/Magic-80s",
     "active": true
@@ -2806,9 +2432,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "1990s",
-      "90's",
-      "90s"
+      "Retro"
     ],
     "stream_url": "https://live.kissfm.ro/Magic-90s",
     "active": true
@@ -2819,10 +2443,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic",
-      "Classical",
-      "Classical Music",
-      "Magic Fm"
+      "Classical"
     ],
     "stream_url": "https://dc.digi.live.kissfm.ro/magic-classic",
     "active": true
@@ -2832,13 +2453,7 @@
     "name": "Magic FM Gold",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Gold",
-      "Golden",
-      "Golden Music",
-      "Golden Oldies",
-      "Goldies"
-    ],
+    "genre": [],
     "stream_url": "https://live.kissfm.ro/magic.gold.hits",
     "active": true
   },
@@ -2848,9 +2463,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Jazz",
-      "Magic Fm",
-      "Smooth Jazz"
+      "Jazz"
     ],
     "stream_url": "https://dc.digi.live.kissfm.ro/magic-jazz",
     "active": true
@@ -2860,15 +2473,7 @@
     "name": "Magic FM Love",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classic",
-      "Love",
-      "Love Radio",
-      "Love Songs",
-      "Magic Fm",
-      "Romantic",
-      "Romantic Music"
-    ],
+    "genre": [],
     "stream_url": "https://dc.digi.live.kissfm.ro/magiclove",
     "active": true
   },
@@ -2877,12 +2482,7 @@
     "name": "Magic FM Movie Hits",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Movie",
-      "Movie Music",
-      "Movie Soundtracks",
-      "Movies"
-    ],
+    "genre": [],
     "stream_url": "https://dc.digi.live.kissfm.ro/magic-movies",
     "active": true
   },
@@ -2891,12 +2491,7 @@
     "name": "Magic FM Party Mix",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Magic Fm",
-      "Party",
-      "Party Hits",
-      "Partymix"
-    ],
+    "genre": [],
     "stream_url": "https://live.kissfm.ro/magic.party.mix",
     "active": true
   },
@@ -2906,10 +2501,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Magic Fm",
-      "Relax",
-      "Relaxation Music",
-      "Relaxing"
+      "Chillout"
     ],
     "stream_url": "https://live.kissfm.ro/magic.lite",
     "active": true
@@ -2929,12 +2521,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Hits",
-      "Gold",
-      "Goldies",
-      "Greatest Hits",
-      "Oldies",
-      "Soft Music"
+      "Hits",
+      "Retro"
     ],
     "stream_url": "https://live.magicfm.ro/magic.gold.hits",
     "active": true
@@ -2945,14 +2533,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80s",
-      "90s",
-      "Dance",
-      "Dj",
-      "Gold",
-      "Mix",
-      "Oldies",
-      "Party"
+      "Retro",
+      "Dance"
     ],
     "stream_url": "https://live.magicfm.ro/magic.party.mix",
     "active": true
@@ -2963,8 +2545,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Live Playlist",
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "https://dc.digi.live.kissfm.ro/slagare",
     "active": true
@@ -2975,12 +2556,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Ambient",
-      "Chill",
-      "Cover",
-      "Oldies",
-      "Relax",
-      "Sunset"
+      "Chillout",
+      "Retro"
     ],
     "stream_url": "https://live.magicfm.ro/magic.lite",
     "active": true
@@ -3000,8 +2577,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Italo Disco",
-      "Live Playlist",
       "Pop"
     ],
     "stream_url": "https://dc.digi.live.kissfm.ro/magic-viva-italia",
@@ -3021,11 +2596,7 @@
     "name": "Mária Rádió Erdély",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Catholic",
-      "Minority",
-      "Religion"
-    ],
+    "genre": [],
     "stream_url": "http://stream.mariaradio.ro:8000/MRE",
     "active": true
   },
@@ -3034,10 +2605,7 @@
     "name": "Mária Rádió Erdély -Oradea",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Cristian",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "http://stream.mariaradio.ro:8000/MRE",
     "active": true
   },
@@ -3047,13 +2615,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Rock",
+      "Rock",
       "Jazz",
-      "Local News",
-      "News",
-      "Political Talk",
-      "Politics",
-      "Rock"
+      "News"
     ],
     "stream_url": "https://stream.clever-host.ro/8006/stream",
     "active": true
@@ -3064,11 +2628,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Love",
-      "Love Songs",
-      "Oldies",
-      "Pop",
-      "Romantic"
+      "Retro",
+      "Pop"
     ],
     "stream_url": "https://live.gofm.ro:2000/stream/MARLENERADIO/stream.mp3",
     "active": true
@@ -3107,11 +2668,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Deep House",
-      "House",
-      "Pop",
-      "Tech House",
-      "Techno"
+      "Pop"
     ],
     "stream_url": "https://ssl.radios.show/8012/stream",
     "active": true
@@ -3122,12 +2679,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "24/7",
-      "Ambient",
-      "Nature Sounds",
-      "Rain",
-      "Relax",
-      "Sleep"
+      "Chillout"
     ],
     "stream_url": "https://141-144-200-199.nip.io/radio.mp3",
     "active": true
@@ -3138,12 +2690,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "24/7",
-      "Dark Jazz",
-      "Instrumental",
-      "Jazz",
-      "Late Night",
-      "Noir"
+      "Jazz"
     ],
     "stream_url": "https://141-144-200-199.nip.io/darkjazz.mp3",
     "active": true
@@ -3154,12 +2701,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "24/7",
-      "Beats",
-      "Chill",
-      "Instrumental",
-      "Lofi",
-      "Study"
+      "Chillout"
     ],
     "stream_url": "https://141-144-200-199.nip.io/lofi.mp3",
     "active": true
@@ -3171,8 +2713,7 @@
     "continent": "Europe",
     "genre": [
       "Electronic",
-      "Minimal Techno",
-      "Techno"
+      "Dance"
     ],
     "stream_url": "https://r4.rominimal.club/listen/rominimal.club/radio2.m4a",
     "active": true
@@ -3183,9 +2724,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local News",
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "https://listen.moinestifm.ro/radio.mp3",
@@ -3198,10 +2736,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "House",
-      "Local Radio",
-      "Pop",
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "https://listen.moinestifm.ro/radio.mp3",
     "active": true
@@ -3213,10 +2748,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Deep House",
-      "Electronic",
-      "Melodic House",
-      "Progressive House"
+      "Electronic"
     ],
     "stream_url": "https://radio.sunrise85fm.ro/listen/moonrise_radio/radio.mp3",
     "active": true
@@ -3228,10 +2760,8 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Dance Pop",
       "Hits",
-      "Local Radio",
-      "Oldies",
+      "Retro",
       "Pop"
     ],
     "stream_url": "http://188.27.135.199:8000/muscelfm",
@@ -3244,9 +2774,8 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Dance Pop",
       "Hits",
-      "Oldies",
+      "Retro",
       "Pop",
       "Talk"
     ],
@@ -3259,9 +2788,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "90's",
-      "Afrohouse",
-      "Eurodance"
+      "Dance"
     ],
     "stream_url": "https://listen.blacklotusmusic.life/stream/main",
     "active": true
@@ -3272,12 +2799,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Hits",
       "Dance",
-      "Oldies",
-      "Pop",
-      "Pop Rock",
-      "Soul"
+      "Retro",
+      "Pop"
     ],
     "stream_url": "http://edge126.rdsnet.ro:84/profm/music-fm.mp3",
     "active": true
@@ -3288,7 +2812,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Avant-garde Jazz",
       "Jazz"
     ],
     "stream_url": "https://stream.zeno.fm/s4mhpucr5tzuv",
@@ -3299,10 +2822,7 @@
     "name": "Napoca Fm - Spirit of Cluj",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "https://nfm-s1.bit-ns.cloud/stream1",
     "active": true
   },
@@ -3311,11 +2831,7 @@
     "name": "Nationa FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "National",
-      "Romania",
-      "Traditional"
-    ],
+    "genre": [],
     "stream_url": "http://live3.nationalfm.ro:8001/",
     "active": true
   },
@@ -3325,9 +2841,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Romanian",
-      "Romanian Folk",
-      "Romanian Pop",
       "Talk"
     ],
     "stream_url": "http://live2.nationalfm.ro:8001/;",
@@ -3339,8 +2852,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "https://servidor22-2.brlogic.com:7250/live",
@@ -3361,15 +2872,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "00s",
-      "1990s",
-      "2000s",
-      "90s",
+      "Retro",
       "Dance",
-      "Disco",
-      "Future",
-      "Pop",
-      "Retro"
+      "Pop"
     ],
     "stream_url": "https://live.radionostalgia.ro:8443/nostalgia.aac",
     "active": true
@@ -3391,10 +2896,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local",
-      "Music",
       "News",
-      "Top40"
+      "Pop"
     ],
     "stream_url": "http://86.125.106.34:8000/live",
     "active": true
@@ -3443,8 +2946,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Hiphop",
-      "Rap"
+      "Hip-Hop"
     ],
     "stream_url": "https://stream.zeno.fm/a0yocewsxm0uv",
     "active": true
@@ -3455,13 +2957,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Bacau",
       "Dance",
       "Hits",
-      "Local",
-      "Onesti",
-      "Pop",
-      "Romanian"
+      "Pop"
     ],
     "stream_url": "https://streamer.airadiohost.com/listen/air/a2",
     "active": true
@@ -3471,12 +2969,7 @@
     "name": "Ördöngösfüzes Rádió FM -Fizeșu Gherlii",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Etnic",
-      "Local Radio",
-      "Music",
-      "Populara Ungureasca"
-    ],
+    "genre": [],
     "stream_url": "https://stream-175.surfernetwork.com/skwcpsuh60mvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJza3djcHN1aDYwbXZ2IiwiaG9zdCI6InN0cmVhbS0xNzUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlR0MkxZM0JzUmFDcGhiRUVWbzNZY1EiLCJpYXQiOjE3OTMxNDUzMjQsImV4cCI6MTc5MzE0NTM4NH0.oKbpVBsmimplF3V4f10-wa8Idfpp_H3POzd5KyqrV5s",
     "active": true
   },
@@ -3487,9 +2980,8 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Hiphop",
-      "House",
-      "Oldies",
+      "Hip-Hop",
+      "Retro",
       "Rock"
     ],
     "stream_url": "https://sonic2-rbx.cloud-center.ro/8070/stream",
@@ -3501,11 +2993,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Beach",
-      "Deep",
-      "Deep House",
-      "Organic",
-      "Relax"
+      "Dance",
+      "Chillout"
     ],
     "stream_url": "https://s4.ssl-stream.com/listen/oxo_radio/radio.mp3",
     "active": true
@@ -3516,14 +3005,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
-      "Campina",
       "Hits",
-      "Music",
-      "Online Radio",
-      "Pop",
-      "Romania",
-      "Variety"
+      "Pop"
     ],
     "stream_url": "http://live.ozone.fm:8123/listen",
     "active": true
@@ -3534,9 +3017,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
       "Hits",
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "http://stream1.paprikaradio.ro:8000/;stream",
     "active": true
@@ -3547,8 +3029,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Etnic",
-      "Local Radio",
       "Pop"
     ],
     "stream_url": "http://stream1.paprikaradio.ro:8000/",
@@ -3587,10 +3067,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "90s",
-      "Dance",
-      "Euro Hits",
-      "Eurodance"
+      "Retro",
+      "Dance"
     ],
     "stream_url": "http://live.playradio.org:9090/90HD",
     "active": true
@@ -3621,14 +3099,10 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80s",
-      "90s",
-      "Adult Contemporary",
+      "Retro",
       "Dance",
-      "Hot Ac",
       "News",
-      "Pop",
-      "Talks"
+      "Pop"
     ],
     "stream_url": "http://live.playradio.org:9090/FMHD",
     "active": true
@@ -3639,11 +3113,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Ambiental Și Lounge",
       "Chillout",
-      "Muzică De Bun Gust",
-      "Smooth Jazz",
-      "Străină Și Românească"
+      "Jazz"
     ],
     "stream_url": "http://live.playradio.org:9090/CafeHD",
     "active": true
@@ -3654,14 +3125,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Explicit",
-      "Hip Hop",
-      "Hip Hop Romanian",
-      "Hip-hop",
-      "Hiphop",
-      "Rap",
-      "Rap Hiphop Rnb",
-      "Trap"
+      "Hip-Hop"
     ],
     "stream_url": "http://live.playradio.org:9090/UrbanHD",
     "active": true
@@ -3680,10 +3144,7 @@
     "name": "Plusz FM - Margitta",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local News",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "https://stream2.radiotransilvania.ro/Margitta",
     "active": true
   },
@@ -3692,10 +3153,7 @@
     "name": "Plusz FM - Nagyvarad",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local News",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "https://stream2.radiotransilvania.ro/Nagyvarad",
     "active": true
   },
@@ -3705,9 +3163,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Etnic",
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "https://stream2.radiotransilvania.ro/Margitta",
@@ -3719,9 +3174,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Etnic",
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "https://stream2.radiotransilvania.ro/Nagyvarad",
@@ -3742,8 +3194,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "Manele"
+      "Dance"
     ],
     "stream_url": "https://radio.sonicpanel.ro/8102/stream",
     "active": true
@@ -3754,8 +3205,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Pop",
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "http://edge126.rdsnet.ro:84/profm/profm.mp3",
     "active": true
@@ -3766,10 +3216,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
       "News",
-      "Pop",
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "http://edge126.rdsnet.ro:84/profm/profm.mp3",
     "active": true
@@ -3780,9 +3228,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
-      "Pop",
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "https://radioendirect.net/stream/125928",
     "active": true
@@ -3793,11 +3239,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Clubbing",
-      "Dance",
-      "Downtempo",
-      "House",
-      "Tech House"
+      "Dance"
     ],
     "stream_url": "http://live.radioprob.ro:8888/stream",
     "active": true
@@ -3807,11 +3249,7 @@
     "name": "Profi Rádió",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Pop Music",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "http://93.115.174.139:8000/stream",
     "active": true
   },
@@ -3838,9 +3276,7 @@
     "name": "Radio 1 Manele",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele Și Petrecere"
-    ],
+    "genre": [],
     "stream_url": "http://radio1manele.no-ip.org:8000/",
     "active": true
   },
@@ -3849,9 +3285,7 @@
     "name": "Radio 1 Manele România -Brașov",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele"
-    ],
+    "genre": [],
     "stream_url": "https://ssl.omegahost.ro/8000/stream",
     "active": true
   },
@@ -3860,9 +3294,7 @@
     "name": "radio 1 pitesti",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Petrecere"
-    ],
+    "genre": [],
     "stream_url": "https://ssl.radios.show/8050/stream",
     "active": true
   },
@@ -3873,9 +3305,7 @@
     "continent": "Europe",
     "genre": [
       "Jazz",
-      "Local Radio",
-      "Pop",
-      "Pub Music"
+      "Pop"
     ],
     "stream_url": "https://stream.zeno.fm/m4mtgf5t5s8uv",
     "active": true
@@ -3886,7 +3316,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Rock",
+      "Rock",
       "Folk"
     ],
     "stream_url": "http://media.3netmedia.ro:8000/Live128",
@@ -3917,10 +3347,7 @@
     "name": "Radio A-Tentat",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Și Petrecere"
-    ],
+    "genre": [],
     "stream_url": "https://ssl.omegahost.ro/8066/stream",
     "active": true
   },
@@ -3931,8 +3358,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Manele",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://asculta.ascultatare.ro/8042/stream",
     "active": true
@@ -3942,10 +3368,7 @@
     "name": "Radio Amen",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Orthodox Christian",
-      "Religion"
-    ],
+    "genre": [],
     "stream_url": "https://radio.ascultatare.ro:8058/stream",
     "active": true
   },
@@ -3954,11 +3377,7 @@
     "name": "Radio Antena Braşovului",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Antena Braşovului",
-      "Braşov",
-      "Romania"
-    ],
+    "genre": [],
     "stream_url": "http://streaming.radiomures.ro:8302/",
     "active": true
   },
@@ -3977,12 +3396,10 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Chill",
+      "Chillout",
       "Dance",
-      "Hiphop",
-      "Pop",
-      "Pop Music",
-      "Rap"
+      "Hip-Hop",
+      "Pop"
     ],
     "stream_url": "https://radio.anybeautystyle.ro/listen/anybeautystyle/radio.mp3",
     "active": true
@@ -3994,8 +3411,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Manele",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://radio.sonicpanel.ro/9002/stream",
     "active": true
@@ -4006,14 +3422,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80s",
-      "90s",
+      "Retro",
       "Dance",
-      "Dance Pop",
-      "New Music",
-      "Oldies",
-      "Pop",
-      "Pop Music"
+      "Pop"
     ],
     "stream_url": "https://s10.webradio-hosting.com/proxy/schrteam/stream",
     "active": true
@@ -4024,7 +3435,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Hits",
       "Hits",
       "News"
     ],
@@ -4038,7 +3448,6 @@
     "continent": "Europe",
     "genre": [
       "Hits",
-      "Local",
       "News"
     ],
     "stream_url": "http://radioarad.arad1.ro:8000/radio-arad",
@@ -4049,9 +3458,7 @@
     "name": "Radio Arges",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Romanian Folk"
-    ],
+    "genre": [],
     "stream_url": "http://89.39.189.53:8000/stream",
     "active": true
   },
@@ -4060,11 +3467,7 @@
     "name": "Radio Argeș Expres FM - Curtea de Argeș 94,6 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local News",
-      "Local Radio",
-      "Music"
-    ],
+    "genre": [],
     "stream_url": "https://stream.expres.sk/128.mp3",
     "active": true
   },
@@ -4073,10 +3476,7 @@
     "name": "Radio Armonia Romania",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Catholic",
-      "Catholic Talk"
-    ],
+    "genre": [],
     "stream_url": "http://a1.bisericilive.com/mainradioarmoniaro.mp3",
     "active": true
   },
@@ -4087,9 +3487,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Manele",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://stream.zeno.fm/ze76t581tm0uv",
     "active": true
@@ -4100,9 +3498,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Crestin",
-      "Ortodox",
-      "Religios"
+      "Religious"
     ],
     "stream_url": "https://radioascorcluj.go.ro:4433/lisen",
     "active": true
@@ -4113,8 +3509,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Kids",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://ssl.omegahost.ro/8096/stream",
     "active": true
@@ -4125,10 +3520,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic",
-      "Gospel",
-      "Pop",
-      "Variety"
+      "Religious",
+      "Pop"
     ],
     "stream_url": "https://c32.radioboss.fm/stream/440",
     "active": true
@@ -4149,7 +3542,7 @@
     "continent": "Europe",
     "genre": [
       "News",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "http://94.52.142.229:85/broadwave.mp3",
     "active": true
@@ -4160,8 +3553,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "Mix"
+      "Dance"
     ],
     "stream_url": "https://live.radiobalkan.ro:8102/stream",
     "active": true
@@ -4172,14 +3564,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80s",
-      "90s",
+      "Retro",
       "Dance",
-      "House",
-      "Oldies",
-      "Pop",
-      "Pop Dance",
-      "Pop Music"
+      "Pop"
     ],
     "stream_url": "http://live.radiobandit.ro:8000/320.mp3",
     "active": true
@@ -4189,9 +3576,7 @@
     "name": "Radio Bella Eomania",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Romantic"
-    ],
+    "genre": [],
     "stream_url": "https://ssl.asculta.live/radiobella/stream",
     "active": true
   },
@@ -4210,8 +3595,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Crestin",
-      "Local Radio"
+      "Religious"
     ],
     "stream_url": "http://ssl.asculta.live:8016/stream",
     "active": true
@@ -4222,16 +3606,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Comercială",
       "Dance",
-      "EDM",
       "Electronic",
-      "House",
-      "Muzică",
-      "Muzică Românească",
-      "Pop",
-      "Romanian",
-      "Romanian Music"
+      "Pop"
     ],
     "stream_url": "https://asculta.muzicaok.de:8002/stream",
     "active": true
@@ -4265,11 +3642,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Gold",
       "Hits",
-      "Oldies",
-      "Pop",
-      "Retro"
+      "Retro",
+      "Pop"
     ],
     "stream_url": "https://stream.radioboom.ro/listen/boom_gold/radio.mp3",
     "active": true
@@ -4291,10 +3666,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Club",
-      "Dance",
-      "House",
-      "Tech House"
+      "Dance"
     ],
     "stream_url": "https://stream.radioboom.ro/listen/boom_house_music/radio.mp3",
     "active": true
@@ -4305,7 +3677,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "House"
+      "Dance"
     ],
     "stream_url": "https://stream.radioboom.ro:8530/radio.mp3",
     "active": true
@@ -4316,9 +3688,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Rock",
-      "Rock",
-      "Rock Hits"
+      "Rock"
     ],
     "stream_url": "https://stream.radioboom.ro/listen/boom_rock/radio.mp3",
     "active": true
@@ -4349,8 +3719,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "https://live.radiobrasov.ro/stream.mp3",
@@ -4361,9 +3729,7 @@
     "name": "Radio Bucovina",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele Și Petrecere"
-    ],
+    "genre": [],
     "stream_url": "http://live.radiobucovina.ro:8000/",
     "active": true
   },
@@ -4373,7 +3739,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "http://89.238.227.6:8032/;stream/1",
     "active": true
@@ -4392,9 +3758,7 @@
     "name": "Radio Cafe Romania",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Muzica De Poveste"
-    ],
+    "genre": [],
     "stream_url": "http://live.radiocafe.ro:8048/live.aac",
     "active": true
   },
@@ -4404,7 +3768,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Music",
       "News"
     ],
     "stream_url": "https://stream.zeno.fm/rhavl7oblunvv",
@@ -4416,7 +3779,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Christian"
+      "Religious"
     ],
     "stream_url": "https://panel.radiocaleasprecer.com/radio/8000/radio.mp3",
     "active": true
@@ -4427,18 +3790,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Christian",
-      "History",
-      "Jewish",
-      "Nationalism",
-      "Nationalist",
-      "Orthodox",
-      "Orthodoxy",
-      "Ortodox",
-      "Peace",
-      "Romania",
-      "Romanian",
-      "Ww2"
+      "Religious"
     ],
     "stream_url": "https://93.115.53.175/live",
     "active": true
@@ -4458,14 +3810,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Explicit",
-      "Gangsta Rap",
-      "Hip Hop",
-      "Hip-hop",
-      "Rap",
-      "Romanian",
-      "Romanian Hip-hop",
-      "Romanian Rap"
+      "Hip-Hop"
     ],
     "stream_url": "https://live.radiocartier.eu:8048/stream",
     "active": true
@@ -4476,19 +3821,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "70s",
-      "80s",
-      "90s",
-      "Ballads",
+      "Retro",
       "Dance",
-      "Decades",
-      "Latino",
-      "Music",
-      "Oldies",
-      "Pop",
-      "Romanian",
-      "Romanian Music",
-      "Soft Rock"
+      "Pop"
     ],
     "stream_url": "http://live.radioclick.ro:8008/",
     "active": true
@@ -4498,11 +3833,7 @@
     "name": "Radio Cluj",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Culture",
-      "Ethnic",
-      "Music"
-    ],
+    "genre": [],
     "stream_url": "http://stream4.srr.ro:8008/radio-cluj",
     "active": true
   },
@@ -4512,10 +3843,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
       "Folk",
-      "Pop",
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "https://radiocolor.radioca.st/stream",
     "active": true
@@ -4536,9 +3865,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Mix",
-      "Pop",
-      "Reggaeton"
+      "Pop"
     ],
     "stream_url": "https://stream.zeno.fm/v9wqm1gztk8uv",
     "active": true
@@ -4557,9 +3884,7 @@
     "name": "Radio Coresi",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Various"
-    ],
+    "genre": [],
     "stream_url": "http://master.shoutcast.com:8000/radio-coresi",
     "active": true
   },
@@ -4570,8 +3895,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Pop",
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "http://streaming.shoutcast.com/radio-coresi",
     "active": true
@@ -4582,8 +3906,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80s",
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "https://s5.radio.co/sfb029759c/listen",
     "active": true
@@ -4594,10 +3917,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "50s",
-      "60s",
-      "70s",
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "https://stream.radio.co/s9e0f1e936/listen",
     "active": true
@@ -4608,8 +3928,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "http://play.wrhradios.com:8024/stream",
@@ -4622,8 +3940,6 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Latino",
-      "Local Radio",
       "Pop"
     ],
     "stream_url": "http://play.wrhradios.com:8024/stream",
@@ -4636,11 +3952,8 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Dance Pop",
-      "Hit Music",
       "Hits",
-      "Pop",
-      "Pop Music"
+      "Pop"
     ],
     "stream_url": "http://live.crazyradio.ro:8024/stream",
     "active": true
@@ -4660,8 +3973,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Muzica",
-      "Știri"
+      "News"
     ],
     "stream_url": "https://stream.zeno.fm/7s5mmrtzmuhvv",
     "active": true
@@ -4682,13 +3994,9 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Dance Pop",
-      "Muzică Populară",
       "News",
       "Pop",
-      "Populară",
-      "Romanian Folk",
-      "Talks"
+      "Folk"
     ],
     "stream_url": "http://n01.radiojar.com/du8khw2d2wzuv",
     "active": true
@@ -4700,7 +4008,7 @@
     "continent": "Europe",
     "genre": [
       "Jazz",
-      "Lounge"
+      "Chillout"
     ],
     "stream_url": "https://radiodacia04.live.nt.ro/",
     "active": true
@@ -4710,9 +4018,7 @@
     "name": "Radio Dacia Clasic -Cluj Napoca",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Classic"
-    ],
+    "genre": [],
     "stream_url": "https://radiodacia05.live.nt.ro/",
     "active": true
   },
@@ -4723,8 +4029,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Deep House",
-      "Top40"
+      "Pop"
     ],
     "stream_url": "https://radiodacia01.live.nt.ro/",
     "active": true
@@ -4735,7 +4040,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
       "Pop"
     ],
     "stream_url": "https://radiodacia02.live.nt.ro/",
@@ -4747,7 +4051,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
       "Hits",
       "Pop"
     ],
@@ -4760,9 +4063,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Etno",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://radiodacia06.live.nt.ro/",
     "active": true
@@ -4773,10 +4074,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Fusion",
       "Jazz",
-      "Rock",
-      "Soft Rock"
+      "Rock"
     ],
     "stream_url": "https://live.laris.ro:8004/radiodada128.mp3",
     "active": true
@@ -4787,7 +4086,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Club",
       "Dance"
     ],
     "stream_url": "http://radiocdn.nxthost.com/radio-deea",
@@ -4800,8 +4098,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Electro",
-      "House"
+      "Electronic"
     ],
     "stream_url": "https://radiocdn.nxthost.com/radio-deea",
     "active": true
@@ -4812,9 +4109,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Deep",
-      "Deep House",
-      "House"
+      "Dance"
     ],
     "stream_url": "http://live.radiodeep.ro:7500/;",
     "active": true
@@ -4825,10 +4120,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Disco",
+      "Retro",
       "Hits",
-      "Pop",
-      "Retro"
+      "Pop"
     ],
     "stream_url": "https://play.discomix.ro/8002/stream",
     "active": true
@@ -4848,11 +4142,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Christian",
-      "Christian Talks",
-      "Church",
-      "News",
-      "Talks"
+      "Religious",
+      "News"
     ],
     "stream_url": "http://stream.arhivaradiodobrogea.ro:7000/dobrogea",
     "active": true
@@ -4862,9 +4153,7 @@
     "name": "Radio Domeldo",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Soundtrack"
-    ],
+    "genre": [],
     "stream_url": "https://radiodomeldo.ro/movie",
     "active": true
   },
@@ -4883,8 +4172,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classical",
-      "Opera"
+      "Classical"
     ],
     "stream_url": "https://www.radiodomeldo.ro/live",
     "active": true
@@ -4904,8 +4192,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classical",
-      "Soundtracks"
+      "Classical"
     ],
     "stream_url": "https://www.radiodomeldo.ro/movie",
     "active": true
@@ -4925,17 +4212,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Bisericesc",
-      "Christian",
-      "Christian Music",
-      "Christian Orthodox",
-      "Church",
-      "Crestin",
-      "Crestin-ortodox",
-      "Orthodox Christian",
-      "Orthodox Church",
-      "Orthodoxy",
-      "Ortodox"
+      "Religious"
     ],
     "stream_url": "http://rlive.doxologia.ro/stream.mp3",
     "active": true
@@ -4955,8 +4232,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Hip-hop",
-      "Rap"
+      "Hip-Hop"
     ],
     "stream_url": "https://stream.zeno.fm/cezx5b1nw98uv",
     "active": true
@@ -4968,8 +4244,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Local",
-      "Oldies",
+      "Retro",
       "Pop",
       "Rock"
     ],
@@ -4982,12 +4257,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Alternative",
-      "Classic Rock",
-      "News",
       "Rock",
-      "Romanian",
-      "Romanian Pop"
+      "News"
     ],
     "stream_url": "https://n0a.radiojar.com/fp5c3fgbyzzuv",
     "active": true
@@ -4998,12 +4269,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Christian",
-      "Christian Lounge",
-      "Christian Lounge Music",
-      "Christian Music",
-      "Lounge",
-      "Relax"
+      "Religious",
+      "Chillout"
     ],
     "stream_url": "http://91.213.11.102:8011/stream_high",
     "active": true
@@ -5014,8 +4281,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Christian",
-      "Christian Music"
+      "Religious"
     ],
     "stream_url": "http://91.213.11.102:8023/stream_high",
     "active": true
@@ -5026,8 +4292,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Christian",
-      "Christian Music"
+      "Religious"
     ],
     "stream_url": "http://91.213.11.102:8003/stream3",
     "active": true
@@ -5038,8 +4303,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Crestin",
-      "Religios"
+      "Religious"
     ],
     "stream_url": "https://cast6.my-control-panel.com/proxy/radio_emanuel_crestin/stream",
     "active": true
@@ -5050,31 +4314,13 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "00s",
-      "2000s",
-      "70s",
-      "80s",
-      "90s",
+      "Retro",
       "Chillout",
-      "Classic Rock",
-      "Club",
-      "Country",
+      "Rock",
       "Dance",
-      "Folclor",
       "Folk",
       "Hits",
-      "Latino",
-      "Lounge",
-      "Muzică Populară",
-      "Muzică Românească",
-      "Oldies",
-      "Pop",
-      "Relax",
-      "Retro",
-      "Rock",
-      "Romanian",
-      "Slow",
-      "Top40"
+      "Pop"
     ],
     "stream_url": "https://sonicssl.namehost.ro/8790/stream/;",
     "active": true
@@ -5085,16 +4331,11 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "00s",
-      "70s",
-      "80s",
-      "90s",
-      "Classic Rock",
+      "Retro",
+      "Rock",
       "Dance",
-      "Latino",
-      "Lounge",
-      "Oldies",
-      "Top40"
+      "Chillout",
+      "Pop"
     ],
     "stream_url": "https://sonicssl.namehost.ro/8790/stream",
     "active": true
@@ -5105,10 +4346,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Folk",
-      "Muzică Populară",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://radio.sonicpanel.ro:9300/",
     "active": true
@@ -5157,7 +4395,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Christian"
+      "Religious"
     ],
     "stream_url": "https://live.radiofiladelfia.ro/filadelfia_128.aac",
     "active": true
@@ -5168,11 +4406,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
       "Dance",
-      "Local Radio",
-      "Pop",
-      "Top Hits"
+      "Pop"
     ],
     "stream_url": "https://sonic1-rbx.cloud-center.ro:8060/stream",
     "active": true
@@ -5183,10 +4418,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
-      "Music",
       "News",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "http://89.137.76.149:8000/stream",
     "active": true
@@ -5196,10 +4429,7 @@
     "name": "Radio Flacăra Rusaliilor",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Evangelical",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "https://stream.radio-flacararusaliilor.ro/stream",
     "active": true
   },
@@ -5208,13 +4438,7 @@
     "name": "Radio Flo Manele",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Noi",
-      "Manele Vechi",
-      "Muzică De Petrecere",
-      "Petrecere"
-    ],
+    "genre": [],
     "stream_url": "https://live.radioflomanele.ro/8084/stream",
     "active": true
   },
@@ -5224,15 +4448,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Folclor",
-      "Folk",
-      "Muzică De Petrecere",
-      "Muzică Populară",
-      "Muzică Românească",
-      "Petrecere",
-      "Populară",
-      "Romanian",
-      "Romanian Music"
+      "Folk"
     ],
     "stream_url": "https://ssl.omegahost.ro/8092/stream",
     "active": true
@@ -5243,8 +4459,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://stream-178.surfernetwork.com/9gmprxrd6nhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI5Z21wcnhyZDZuaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InZTRVlwaXhkVGVDeEJQeUJaWTlzc0EiLCJpYXQiOjE3OTMxNTEwOTAsImV4cCI6MTc5MzE1MTE1MH0.z-_-gpXIkkRCOWiz05wVHy1_XYbEJKoDkbG3DnoVLG0",
     "active": true
@@ -5255,13 +4470,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Folk",
-      "Muzică De Petrecere",
-      "Muzică Populară",
-      "Petrecere",
-      "Populară",
-      "Romanian",
-      "Romanian Music"
+      "Folk"
     ],
     "stream_url": "https://live.radiofolclorbuzaufm.ro:8910/stream",
     "active": true
@@ -5272,8 +4481,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://live.radiofolclorbuzaufm.ro:8910/stream",
     "active": true
@@ -5284,14 +4492,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Folclor",
-      "Folk",
-      "Muzică De Petrecere",
-      "Muzică Populară",
-      "Petrecere",
-      "Populară",
-      "Romanian",
-      "Romanian Music"
+      "Folk"
     ],
     "stream_url": "https://live.radiofolclormuntenia.ro:8008/stream",
     "active": true
@@ -5303,12 +4504,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "House",
-      "Pop",
-      "Pop Dance",
-      "Pop Music",
-      "Romanian Pop",
-      "Tech House"
+      "Pop"
     ],
     "stream_url": "http://asculta.radiofxnet.ro:8458/;",
     "active": true
@@ -5327,10 +4523,7 @@
     "name": "Rádió GaGa Csíkszék",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "https://stream.igenbiza.com/csi",
     "active": true
   },
@@ -5339,10 +4532,7 @@
     "name": "Rádió GaGa Gyergyószék",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "https://stream.igenbiza.com/gye",
     "active": true
   },
@@ -5351,10 +4541,7 @@
     "name": "Rádió GaGa Háromszék",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "https://stream.igenbiza.com/sze",
     "active": true
   },
@@ -5363,11 +4550,7 @@
     "name": "Rádió GaGa Marosszék",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Talk & Speech",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "https://stream.igenbiza.com/vas",
     "active": true
   },
@@ -5377,8 +4560,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Rock",
-      "Pop Rock",
       "Rock"
     ],
     "stream_url": "https://stream.igenbiza.com/rck",
@@ -5389,10 +4570,7 @@
     "name": "Rádió GaGa Udvarhelyszék",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "https://stream.igenbiza.com/udv",
     "active": true
   },
@@ -5419,9 +4597,7 @@
     "name": "Radio Glasul Ortodoxiei",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Crestin-ortodox"
-    ],
+    "genre": [],
     "stream_url": "https://sonic.xservere.net:10884/stream",
     "active": true
   },
@@ -5430,10 +4606,7 @@
     "name": "Radio GMusic Colinde",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Christmas Songs",
-      "Colinde"
-    ],
+    "genre": [],
     "stream_url": "https://s9.webradio-hosting.com/proxy/rgmcolinde/stream",
     "active": true
   },
@@ -5451,9 +4624,7 @@
     "name": "Radio GMusic Funky",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Funky"
-    ],
+    "genre": [],
     "stream_url": "https://play.webradio-hosting.com:8036/stream",
     "active": true
   },
@@ -5462,9 +4633,7 @@
     "name": "Radio GMusic Relax",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Relax Music"
-    ],
+    "genre": [],
     "stream_url": "https://play.webradio-hosting.com:8002/stream",
     "active": true
   },
@@ -5473,9 +4642,7 @@
     "name": "Radio Gmusic Retro",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Retro Hits"
-    ],
+    "genre": [],
     "stream_url": "https://s9.webradio-hosting.com/proxy/rgmretro/stream",
     "active": true
   },
@@ -5493,9 +4660,7 @@
     "name": "Radio GMusic Soft",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Soft Music"
-    ],
+    "genre": [],
     "stream_url": "https://s9.webradio-hosting.com/proxy/rgmsoft/stream",
     "active": true
   },
@@ -5504,9 +4669,7 @@
     "name": "Radio GMusic Trap",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Trap"
-    ],
+    "genre": [],
     "stream_url": "https://s9.webradio-hosting.com/proxy/rgmtrap/stream",
     "active": true
   },
@@ -5525,12 +4688,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80s",
-      "90s",
+      "Retro",
       "Dance",
-      "Oldies",
-      "Pop",
-      "Retro"
+      "Pop"
     ],
     "stream_url": "https://s10.streamingcloud.online/stream/13664",
     "active": true
@@ -5540,10 +4700,7 @@
     "name": "Radio Gosen Romania - Sângeorz-Bai BN",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Cristian",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "https://sp.totalstreaming.net/8125/stream",
     "active": true
   },
@@ -5553,16 +4710,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Community",
       "Dance",
-      "Gaming",
-      "Gaming Community",
-      "Gta",
-      "House",
-      "Manele",
-      "Petrecere",
-      "Pop",
-      "Sa:mp"
+      "Pop"
     ],
     "stream_url": "https://stream.clever-host.ro/8018/stream",
     "active": true
@@ -5573,13 +4722,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Hip Hop",
-      "Hip-hop",
-      "Rap",
-      "Romanian",
-      "Romanian Hip-hop",
-      "Romanian Rap",
-      "Urban"
+      "Hip-Hop"
     ],
     "stream_url": "https://greudedifuzat.ro/stream/",
     "active": true
@@ -5607,9 +4750,7 @@
     "name": "Radio HIT Iasi",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Iasi"
-    ],
+    "genre": [],
     "stream_url": "http://live02.radiohit.ro:8000/hit.mp3",
     "active": true
   },
@@ -5620,10 +4761,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Dance Pop",
-      "Pop",
-      "Pop Music",
-      "Romanian Pop"
+      "Pop"
     ],
     "stream_url": "http://mp3.radiohot.ro:8000/stream",
     "active": true
@@ -5634,7 +4772,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Music",
       "News",
       "Talk"
     ],
@@ -5648,9 +4785,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Etno",
-      "Manele",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://radio.gazduirejocuri.ro/8014/stream",
     "active": true
@@ -5672,7 +4807,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Top40"
+      "Pop"
     ],
     "stream_url": "https://live.radio-impuls.ro/stream",
     "active": true
@@ -5712,9 +4847,8 @@
     "genre": [
       "Dance",
       "Hits",
-      "Oldies",
-      "Pop",
-      "Various"
+      "Retro",
+      "Pop"
     ],
     "stream_url": "https://s12.myradiostream.com/17492/listen.mp3",
     "active": true
@@ -5725,8 +4859,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "https://s47.myradiostream.com/16234/listen.mp3",
@@ -5737,13 +4869,7 @@
     "name": "Rádió KoKo",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Adult Contemporary",
-      "Classic Hits",
-      "Contemporary Hits Radio",
-      "Pop Music",
-      "Pop Rock"
-    ],
+    "genre": [],
     "stream_url": "https://az10.yesstreaming.net:8210/radiokoko.mp3",
     "active": true
   },
@@ -5753,8 +4879,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Alternative Rock",
-      "Classic Rock",
       "Rock"
     ],
     "stream_url": "https://nl1.streamingpulse.com/ssl/KPTV",
@@ -5766,12 +4890,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Etno",
-      "Muzică De Petrecere",
-      "Muzică Populară",
-      "Petrecere",
-      "Populară",
-      "Romanian Folk"
+      "Folk"
     ],
     "stream_url": "http://live.radiolautaru.ro:9000/;",
     "active": true
@@ -5781,9 +4900,7 @@
     "name": "Radio Liberty Colinde -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Colinde"
-    ],
+    "genre": [],
     "stream_url": "https://sonicssl.namehost.ro/7010/stream",
     "active": true
   },
@@ -5803,9 +4920,7 @@
     "name": "Radio Liberty Manele -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele"
-    ],
+    "genre": [],
     "stream_url": "https://sonicssl.namehost.ro/7770/stream",
     "active": true
   },
@@ -5815,8 +4930,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "Manele"
+      "Dance"
     ],
     "stream_url": "https://sonicpanel.namehost.ro:1989/stream",
     "active": true
@@ -5827,9 +4941,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "90s",
-      "Hits",
-      "Muzica Usoara Romaneasca"
+      "Retro",
+      "Hits"
     ],
     "stream_url": "https://sonicssl.namehost.ro/7060/stream",
     "active": true
@@ -5840,7 +4953,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "https://sonicssl.namehost.ro/7790/stream",
     "active": true
@@ -5851,8 +4964,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://sonicssl.namehost.ro/7780/stream",
     "active": true
@@ -5871,10 +4983,7 @@
     "name": "Radio Liberty Slagare -București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Slagare",
-      "Slagare Romanesti"
-    ],
+    "genre": [],
     "stream_url": "https://sonicssl.namehost.ro/7050/stream",
     "active": true
   },
@@ -5884,8 +4993,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "http://asculta.radiolipova.ro:1717/stream",
     "active": true
@@ -5914,12 +5022,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Blues",
-      "Country",
-      "Manele Și Petrecere",
-      "Muzica Inimii Tale",
-      "Muzica Usoara Romaneasca",
-      "Muzica Usoara Straina"
+      "Jazz"
     ],
     "stream_url": "https://a9.asurahosting.com:7030/radio.mp3",
     "active": true
@@ -5940,9 +5043,7 @@
     "name": "Radio Manele FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Folk Music"
-    ],
+    "genre": [],
     "stream_url": "http://a.fmradiomanele.ro:8054/;",
     "active": true
   },
@@ -5951,10 +5052,7 @@
     "name": "RADIO MANELE PETRECERE",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Petrecere"
-    ],
+    "genre": [],
     "stream_url": "https://ssl.servereradio.ro/8123/stream",
     "active": true
   },
@@ -5963,10 +5061,7 @@
     "name": "Radio Manele Premium",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Si Petrecere"
-    ],
+    "genre": [],
     "stream_url": "http://88.198.70.25:8894/;",
     "active": true
   },
@@ -5984,11 +5079,7 @@
     "name": "Radio Manele Vechi",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Si Petrecere",
-      "Manele Vechi"
-    ],
+    "genre": [],
     "stream_url": "https://mars.streamerr.co/radiomanelevechi",
     "active": true
   },
@@ -6007,9 +5098,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Catholic",
-      "Christian",
-      "Religion",
       "Religious",
       "Talk"
     ],
@@ -6022,8 +5110,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Crestin",
-      "Religios"
+      "Religious"
     ],
     "stream_url": "https://dreamsiteradiocp2.com/proxy/rmromania2?mp=/stream",
     "active": true
@@ -6033,10 +5120,7 @@
     "name": "RADIO MARIA ROMANIA HUNG.",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Catholic",
-      "Religion"
-    ],
+    "genre": [],
     "stream_url": "http://dreamsiteradiocp4.com:8026/stream",
     "active": true
   },
@@ -6047,9 +5131,7 @@
     "continent": "Europe",
     "genre": [
       "Electronic",
-      "House",
-      "Minimal",
-      "Tech House"
+      "Dance"
     ],
     "stream_url": "https://s31.radiolize.com/radio/8020/radio.mp3",
     "active": true
@@ -6060,8 +5142,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Rap",
-      "Trap"
+      "Hip-Hop"
     ],
     "stream_url": "https://s45.radiolize.com/radio/8060/radio.mp3",
     "active": true
@@ -6071,11 +5152,7 @@
     "name": "Radio Marketescu Reggae&Trip-Hop",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Reggae",
-      "Trip Hop",
-      "Trip-hop"
-    ],
+    "genre": [],
     "stream_url": "https://s37.radiolize.com/radio/8100/radio.mp3",
     "active": true
   },
@@ -6085,7 +5162,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Oldies",
+      "Retro",
       "Pop",
       "Rock"
     ],
@@ -6098,8 +5175,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "Manele"
+      "Dance"
     ],
     "stream_url": "https://asculta.muzicaok.de:10986/stream",
     "active": true
@@ -6110,8 +5186,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "House"
+      "Dance"
     ],
     "stream_url": "https://radio.sonicpanel.ro/8036/stream",
     "active": true
@@ -6122,7 +5197,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Populara"
+      "Folk"
     ],
     "stream_url": "http://argesmioveninr1.radi0.im:8000/stream",
     "active": true
@@ -6133,8 +5208,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "http://89.165.247.8:8989/;",
     "active": true
@@ -6162,12 +5236,7 @@
     "name": "Radio Mynele",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Mamele Și Petrecere",
-      "Manele",
-      "Muzică De Petrecere",
-      "Petrecere"
-    ],
+    "genre": [],
     "stream_url": "http://live.radiomynele.ro:8000/;",
     "active": true
   },
@@ -6195,7 +5264,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Music",
       "News",
       "Talk"
     ],
@@ -6208,8 +5276,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "Dj"
+      "Dance"
     ],
     "stream_url": "http://live.radionoise.ro:9100/;",
     "active": true
@@ -6228,9 +5295,7 @@
     "name": "Radio Noise 2010s",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "2010s"
-    ],
+    "genre": [],
     "stream_url": "https://2010slive.radionoise.ro:9124/stream",
     "active": true
   },
@@ -6312,12 +5377,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Explicit",
-      "Hip Hop",
-      "Hip-hop",
-      "R'n'b",
-      "Rap",
-      "Rnb"
+      "Hip-Hop"
     ],
     "stream_url": "https://radio.sonicpanel.ro:9110/stream",
     "active": true
@@ -6528,10 +5588,9 @@
     "genre": [
       "Dance",
       "Jazz",
-      "Latin",
-      "Oldies",
+      "Retro",
       "Pop",
-      "Relax",
+      "Chillout",
       "Rock"
     ],
     "stream_url": "http://s2.myradiostream.com:4520/listen.m4a",
@@ -6543,16 +5602,11 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "90s",
+      "Retro",
       "Dance",
-      "Deep House",
-      "Hiphop",
+      "Hip-Hop",
       "Hits",
-      "House",
-      "Rap",
-      "Rock",
-      "Techno",
-      "Trance"
+      "Rock"
     ],
     "stream_url": "https://radio.sonicpanel.ro/8058/stream",
     "active": true
@@ -6563,7 +5617,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "http://live.radiooldies.ro:9200/stream",
     "active": true
@@ -6574,11 +5628,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80's",
-      "80s",
-      "90's",
-      "90s",
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "http://listen.radiooldies.ro:9200/;",
     "active": true
@@ -6598,8 +5648,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Folk",
-      "Romanian Folk"
+      "Folk"
     ],
     "stream_url": "http://89.238.227.6:8370/",
     "active": true
@@ -6610,8 +5659,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "00s",
-      "90s",
+      "Retro",
       "Dance",
       "Pop"
     ],
@@ -6624,9 +5672,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local News",
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "https://cast.orionfm.ro/listen/orion/public.mp3",
@@ -6638,9 +5683,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Hiphop",
-      "Rap",
-      "Trap"
+      "Hip-Hop"
     ],
     "stream_url": "https://stream.zeno.fm/ucv7qkghkf9uv",
     "active": true
@@ -6650,12 +5693,7 @@
     "name": "Radio Party București",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Si Petrecere",
-      "Manele Și Petrecere",
-      "Petrecere Și Manele"
-    ],
+    "genre": [],
     "stream_url": "http://asculta.radiopartybucuresti.ro:8050/;",
     "active": true
   },
@@ -6665,12 +5703,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Etno",
-      "Muzică De Petrecere",
-      "Muzică Populară",
-      "Petrecere",
-      "Romanian",
-      "Romanian Folk"
+      "Folk"
     ],
     "stream_url": "http://live.radiopetrecaretzu.ro:8383/;",
     "active": true
@@ -6680,9 +5713,7 @@
     "name": "RADIO Petrecere",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele Si Petrecere"
-    ],
+    "genre": [],
     "stream_url": "https://ssl.servereradio.ro/8123/stream",
     "active": true
   },
@@ -6692,10 +5723,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Etno",
-      "Manele",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://radio.sonicpanel.ro/8220/stream",
     "active": true
@@ -6705,9 +5733,7 @@
     "name": "radio pitesti 1",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Petrecere"
-    ],
+    "genre": [],
     "stream_url": "https://ssl.radios.show/8050/stream",
     "active": true
   },
@@ -6718,9 +5744,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Etno",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://stream.zeno.fm/7zb4u1eewf9uv",
     "active": true
@@ -6753,9 +5777,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "House",
-      "Trance"
+      "Dance"
     ],
     "stream_url": "https://sonicssl.namehost.ro/8181/;",
     "active": true
@@ -6774,9 +5796,7 @@
     "name": "Radio Pro Manele Online 2026 -Buzău",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele"
-    ],
+    "genre": [],
     "stream_url": "http://live.radiopromanele.com:8000/",
     "active": true
   },
@@ -6807,10 +5827,7 @@
     "name": "Radio Renasterea",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Info",
-      "Religion"
-    ],
+    "genre": [],
     "stream_url": "https://cast1.asurahosting.com/proxy/arhiepis/stream",
     "active": true
   },
@@ -6820,9 +5837,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Crestin",
-      "Ortodox",
-      "Religios"
+      "Religious"
     ],
     "stream_url": "https://cast1.asurahosting.com/proxy/arhiepis/stream",
     "active": true
@@ -6833,8 +5848,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Crestin",
-      "Ortodox",
       "Religious"
     ],
     "stream_url": "https://cast1.asurahosting.com/proxy/arhiepis/stream",
@@ -6869,10 +5882,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80s",
-      "90s",
-      "Love Songs",
-      "Oldies",
+      "Retro",
       "Pop"
     ],
     "stream_url": "http://live.radioromance21.ro:9950/stream",
@@ -6885,10 +5895,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Dance Pop",
-      "Pop",
-      "Pop Music",
-      "Romanian Pop"
+      "Pop"
     ],
     "stream_url": "http://media.3netmedia.ro:8000/Live128",
     "active": true
@@ -6899,13 +5906,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Chr",
       "Dance",
-      "Fresh",
       "Hits",
-      "Pop",
-      "Romanian Music",
-      "Top40"
+      "Pop"
     ],
     "stream_url": "http://media.3netmedia.ro:8000/Live128",
     "active": true
@@ -6925,8 +5928,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local News",
-      "Music",
       "Talk"
     ],
     "stream_url": "http://stream2.srr.ro:8210/;",
@@ -6937,9 +5938,7 @@
     "name": "Radio România Cluj",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Romania"
-    ],
+    "genre": [],
     "stream_url": "http://89.238.227.6:8384/",
     "active": true
   },
@@ -6957,9 +5956,7 @@
     "name": "Radio România Cultural",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Cultural Programming"
-    ],
+    "genre": [],
     "stream_url": "http://stream2.srr.ro:8012/",
     "active": true
   },
@@ -6968,10 +5965,7 @@
     "name": "Radio România Iași",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local Programming",
-      "News Talk Music"
-    ],
+    "genre": [],
     "stream_url": "http://89.238.227.6:8202/",
     "active": true
   },
@@ -6992,9 +5986,7 @@
     "name": "Radio Romania International 3",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "International"
-    ],
+    "genre": [],
     "stream_url": "https://stream4.srr.ro:8443/romania-rri3",
     "active": true
   },
@@ -7014,13 +6006,7 @@
     "name": "Radio Romania Sighet",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Etnic",
-      "Local News",
-      "Local Radio",
-      "Music",
-      "National"
-    ],
+    "genre": [],
     "stream_url": "http://89.238.227.6:8390/%7CRadio",
     "active": true
   },
@@ -7050,8 +6036,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "News",
-      "Regional Radio"
+      "News"
     ],
     "stream_url": "http://streaming.radiomures.ro:8322/",
     "active": true
@@ -7071,11 +6056,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80's",
       "Dance",
-      "Oldies",
-      "Retro",
-      "Retro Music"
+      "Retro"
     ],
     "stream_url": "https://radio-romantic.ro/stream",
     "active": true
@@ -7094,9 +6076,7 @@
     "name": "Radio Romantic- Modern Talking",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Italo Disco"
-    ],
+    "genre": [],
     "stream_url": "https://stream.pcradio.ru/Modern_Talking-hi",
     "active": true
   },
@@ -7135,9 +6115,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Alternative",
       "Electronic",
-      "Oldies",
+      "Retro",
       "Pop",
       "Rock"
     ],
@@ -7159,9 +6138,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
       "News",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://radio.mediacp.eu/stream/radiosomes",
     "active": true
@@ -7172,12 +6150,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Drum And Bass",
       "Electronic",
-      "Hip Hop",
-      "House",
-      "Jungle\\",
-      "Reggae"
+      "Hip-Hop",
+      "Dance"
     ],
     "stream_url": "https://radio.radiosoundtm.online/listen/radio_sound_tm/radio.mp3",
     "active": true
@@ -7189,10 +6164,6 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Manele",
-      "Manele Noi",
-      "Manele Vechi",
-      "Petrecere",
       "Pop"
     ],
     "stream_url": "http://live.radiostres.com:8402/;",
@@ -7205,10 +6176,8 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Manele",
-      "Mix",
       "Pop",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://sonicpanel.namehost.ro:8402/stream",
     "active": true
@@ -7221,8 +6190,7 @@
     "genre": [
       "News",
       "Pop",
-      "Rock",
-      "Top40"
+      "Rock"
     ],
     "stream_url": "http://media.gds.ro:8500/128.mp3",
     "active": true
@@ -7233,9 +6201,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "Manele",
-      "Petrecere"
+      "Dance"
     ],
     "stream_url": "https://sonicpanel.namehost.ro:7824/stream",
     "active": true
@@ -7245,11 +6211,7 @@
     "name": "Radio Super Manele",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Noi",
-      "Manele Și Petrecere"
-    ],
+    "genre": [],
     "stream_url": "http://manele.capitalfm.ro:8020/stream",
     "active": true
   },
@@ -7259,13 +6221,10 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Blues",
-      "Classic Rock",
-      "Country",
+      "Jazz",
+      "Rock",
       "Folk",
-      "Pop",
-      "Rhythm",
-      "Soul"
+      "Pop"
     ],
     "stream_url": "https://s5.radio.co/s08e5c5875/listen",
     "active": true
@@ -7306,9 +6265,7 @@
     "name": "radio teatru romînia -Brăila",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Teatru"
-    ],
+    "genre": [],
     "stream_url": "https://stream-204.surfernetwork.com/cb4dyqnat4itv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJjYjRkeXFuYXQ0aXR2IiwiaG9zdCI6InN0cmVhbS0yMDQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImItV1UzNnB3U3R5c1FQQzhXVEF5WXciLCJpYXQiOjE3OTMxMzczNTQsImV4cCI6MTc5MzEzNzQxNH0.ZT9K4ICK_avDJta7HrhByN-JWg_pJFN-mqDuCfmNVj0",
     "active": true
   },
@@ -7329,12 +6286,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Explicit",
-      "Hip Hop",
-      "Hip-hop",
-      "Rap",
-      "Romanian Hip Hop",
-      "Trap"
+      "Hip-Hop"
     ],
     "stream_url": "http://necenzurat.radiotequila.ro:7000/;",
     "active": true
@@ -7344,11 +6296,7 @@
     "name": "Radio Tequila Manele",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Și Petrecere",
-      "Petrecere"
-    ],
+    "genre": [],
     "stream_url": "http://live.radiotequila.ro:7000/;",
     "active": true
   },
@@ -7367,13 +6315,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80's",
-      "80s",
-      "90's",
-      "90s",
-      "Disco",
-      "Eurodance",
-      "Oldies",
+      "Retro",
+      "Dance",
       "Pop"
     ],
     "stream_url": "https://stream.zeno.fm/5a1utt11fkhvv",
@@ -7385,11 +6328,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Etno",
-      "Muzică De Petrecere",
-      "Muzică Populară",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "http://petrecere.radiotequila.ro:7000/;",
     "active": true
@@ -7400,11 +6339,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance Pop",
-      "Oldies",
-      "Pop",
-      "Pop Music",
-      "Romanian Pop"
+      "Retro",
+      "Pop"
     ],
     "stream_url": "http://188.26.110.59:8000/terra_hq.mp3",
     "active": true
@@ -7414,10 +6350,7 @@
     "name": "Radio Timișoara",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Radio Romania",
-      "Timișoara"
-    ],
+    "genre": [],
     "stream_url": "http://89.238.227.6:8354/",
     "active": true
   },
@@ -7426,10 +6359,7 @@
     "name": "Radio Timișoara 630 AM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Radio Romania",
-      "Regional Radio"
-    ],
+    "genre": [],
     "stream_url": "http://89.238.227.6:8352/",
     "active": true
   },
@@ -7457,8 +6387,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://stream.zeno.fm/46mdd8ebdchvv",
     "active": true
@@ -7469,10 +6398,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
-      "Electronic",
-      "Pop Rock",
-      "Top Hits"
+      "Electronic"
     ],
     "stream_url": "https://stream2.radiotransilvania.ro/Cluj",
     "active": true
@@ -7483,8 +6409,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "https://stream2.radiotransilvania.ro/Cluj",
@@ -7496,8 +6420,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "https://stream2.radiotransilvania.ro/Cluj",
@@ -7509,13 +6431,10 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
-      "Entertainment",
       "Folk",
       "News",
       "Pop",
-      "Rock",
-      "Top40"
+      "Rock"
     ],
     "stream_url": "https://stream2.radiotransilvania.ro/Oradea",
     "active": true
@@ -7526,12 +6445,10 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
       "Folk",
       "News",
       "Pop",
-      "Rock",
-      "Top40"
+      "Rock"
     ],
     "stream_url": "https://stream2.radiotransilvania.ro/Bistrita",
     "active": true
@@ -7542,12 +6459,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
-      "Entertainment",
       "News",
       "Pop",
-      "Rock",
-      "Top40"
+      "Rock"
     ],
     "stream_url": "https://stream2.radiotransilvania.ro/Oradea",
     "active": true
@@ -7558,9 +6472,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Alternative",
-      "Classic Rock",
-      "Pop Rock",
       "Rock"
     ],
     "stream_url": "https://streams.radio.co/s78f983952/listen",
@@ -7572,8 +6483,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classical",
-      "Religion"
+      "Classical"
     ],
     "stream_url": "http://81.196.25.70:8000/",
     "active": true
@@ -7612,11 +6522,7 @@
     "name": "Radio Turda 107.7 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local",
-      "Mix",
-      "Pop Music"
-    ],
+    "genre": [],
     "stream_url": "https://live.aftech.ro/radio/8010/radio.mp3",
     "active": true
   },
@@ -7625,9 +6531,7 @@
     "name": "Radio Underland",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Pop Music"
-    ],
+    "genre": [],
     "stream_url": "https://radio.underland.team/radio/8000/radio.mp3",
     "active": true
   },
@@ -7655,10 +6559,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Fresh",
       "Hits",
-      "Pop",
-      "Top40"
+      "Pop"
     ],
     "stream_url": "https://stream4.srr.ro:8443/fresh_rv",
     "active": true
@@ -7669,11 +6571,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80s",
-      "90s",
-      "Gold",
-      "Nostalgia",
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "https://stream4.srr.ro:8443/gold_rv",
     "active": true
@@ -7692,9 +6590,7 @@
     "name": "Radio Valori Românești -Cluj Napoca",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Muzica Usoara Romaneasca"
-    ],
+    "genre": [],
     "stream_url": "https://securestreams6.autopo.st:2250/stream",
     "active": true
   },
@@ -7704,11 +6600,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Folk",
-      "Muzică De Petrecere",
-      "Muzică Populară",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "http://asculta.radioveseliafolclor.com:8232/;",
     "active": true
@@ -7719,7 +6611,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Christian"
+      "Religious"
     ],
     "stream_url": "http://c34.radioboss.fm:8175/autodj",
     "active": true
@@ -7729,12 +6621,7 @@
     "name": "Radio VIP",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele",
-      "Manele Și Petrecere",
-      "Muzică De Petrecere",
-      "Petrecere"
-    ],
+    "genre": [],
     "stream_url": "http://live1.radiovip.ro:8969/;",
     "active": true
   },
@@ -7744,8 +6631,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Crestin",
-      "Religios"
+      "Religious"
     ],
     "stream_url": "https://listen.radioking.com/radio/494884/stream/551902",
     "active": true
@@ -7755,10 +6641,7 @@
     "name": "Radio Vocea Evangheliei RVE Oradea",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Christian Music",
-      "Christian Talk"
-    ],
+    "genre": [],
     "stream_url": "http://162.244.80.32:6700/",
     "active": true
   },
@@ -7767,9 +6650,7 @@
     "name": "Radio Vocea Evangheliei Suceava - RVE",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Religous"
-    ],
+    "genre": [],
     "stream_url": "http://s9.yesstreaming.net:7014/stream",
     "active": true
   },
@@ -7791,9 +6672,7 @@
     "continent": "Europe",
     "genre": [
       "Hits",
-      "Manele",
-      "Pop",
-      "Romanian Pop"
+      "Pop"
     ],
     "stream_url": "http://vocescampi.ro:8001/;",
     "active": true
@@ -7805,7 +6684,6 @@
     "continent": "Europe",
     "genre": [
       "Hits",
-      "Manele",
       "Pop"
     ],
     "stream_url": "https://vocescampi.ro:8443/;",
@@ -7817,8 +6695,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Local Radio",
-      "Music",
       "News"
     ],
     "stream_url": "http://vocescampi.ro:8001/;",
@@ -7839,9 +6715,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Club",
-      "Dance",
-      "Manele"
+      "Dance"
     ],
     "stream_url": "https://asculta.radioxtream.com:8022/stream",
     "active": true
@@ -7852,9 +6726,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Club",
-      "Dance",
-      "Manele"
+      "Dance"
     ],
     "stream_url": "https://asculta.radioxtream.com/8022/stream",
     "active": true
@@ -7874,7 +6746,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "http://zuicast.digitalag.ro:9420/zu",
     "active": true
@@ -7905,9 +6777,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Oldies",
-      "Pop",
-      "Romantic"
+      "Retro",
+      "Pop"
     ],
     "stream_url": "https://stream.zeno.fm/qu8nargeashvv",
     "active": true
@@ -7927,10 +6798,9 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Disco",
+      "Retro",
       "Pop",
-      "Rap",
-      "Trap"
+      "Hip-Hop"
     ],
     "stream_url": "https://stream.zeno.fm/udoudast0y8vv",
     "active": true
@@ -7962,9 +6832,7 @@
     "name": "RadioPlay Colinde Romania -Cluj Napoca",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Colinde"
-    ],
+    "genre": [],
     "stream_url": "http://colinde2.radioplay.ro:9292/;",
     "active": true
   },
@@ -7985,9 +6853,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Oldies",
       "Retro",
-      "Top40"
+      "Pop"
     ],
     "stream_url": "https://mscp1.gazduireradio.ro:1360/stream",
     "active": true
@@ -7998,7 +6865,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Trance"
+      "Dance"
     ],
     "stream_url": "https://mscp1.gazduireradio.ro:1220/stream",
     "active": true
@@ -8017,10 +6884,7 @@
     "name": "RadioSON",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "http://89.33.243.3:8000/",
     "active": true
   },
@@ -8030,9 +6894,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Manele",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://stream.zeno.fm/46mdd8ebdchvv",
     "active": true
@@ -8055,9 +6917,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "News",
-      "Online Radio",
-      "Regional"
+      "News"
     ],
     "stream_url": "https://stream.regioradio.info:8000/radio.mp3",
     "active": true
@@ -8090,11 +6950,7 @@
     "name": "Reménység Hangja Rádió -Cluj Napoca",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Aventist",
-      "Etnic Maghiar",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "https://live.rvs.ro/mg",
     "active": true
   },
@@ -8115,12 +6971,10 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Disco",
+      "Retro",
       "Folk",
-      "Funk",
       "Pop",
-      "Rock",
-      "Soul"
+      "Rock"
     ],
     "stream_url": "https://securestreams.autopo.st:2490/",
     "active": true
@@ -8131,11 +6985,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Ambient",
-      "Fusion",
+      "Chillout",
       "Jazz",
-      "Jazz-rock",
-      "Progressive Rock",
       "Rock"
     ],
     "stream_url": "https://securestreams.autopo.st:2496/",
@@ -8147,8 +6998,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Oldies",
-      "Pop Rock",
       "Retro"
     ],
     "stream_url": "http://online.radioretro.ro:8002/RetroRadio.mp3",
@@ -8161,7 +7010,7 @@
     "continent": "Europe",
     "genre": [
       "News",
-      "Oldies",
+      "Retro",
       "Pop",
       "Rock"
     ],
@@ -8194,8 +7043,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Ballads",
-      "Classic Rock",
       "Rock"
     ],
     "stream_url": "https://live.rockfm.ro/ballads.rock",
@@ -8207,7 +7054,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Blues"
+      "Jazz"
     ],
     "stream_url": "https://live.rockfm.ro/blues",
     "active": true
@@ -8218,8 +7065,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Rock",
-      "Hard Rock",
       "Rock"
     ],
     "stream_url": "https://live.rockfm.ro/hard.rock",
@@ -8240,7 +7085,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Classic Rock",
       "Rock"
     ],
     "stream_url": "https://listen.rocknowradio.ro/",
@@ -8263,9 +7107,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Metal",
-      "Rock",
-      "Rock Hits"
+      "Rock"
     ],
     "stream_url": "https://online.webcastradio.ro/rock-u.aac",
     "active": true
@@ -8276,10 +7118,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Alternative",
-      "Alternative Rock",
-      "Hard Rock",
-      "Heavy Metal",
       "Rock"
     ],
     "stream_url": "https://a5.asurahosting.com:7120/radio.mp3",
@@ -8291,8 +7129,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Crestin",
-      "Religios"
+      "Religious"
     ],
     "stream_url": "https://streaming.radioholydoctor.com/radio/8000/radio.mp3",
     "active": true
@@ -8303,8 +7140,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Crestin",
-      "Religios"
+      "Religious"
     ],
     "stream_url": "https://streaming.radioholydoctor.com/radio/8010/radio.mp3",
     "active": true
@@ -8316,11 +7152,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Dance Pop",
-      "Pop",
-      "Pop Dance",
-      "Pop Music",
-      "Top 40"
+      "Pop"
     ],
     "stream_url": "https://live.romanfm.ro:8000/;rfm",
     "active": true
@@ -8331,8 +7163,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Music",
-      "National",
       "News"
     ],
     "stream_url": "http://stream2.srr.ro:8052/",
@@ -8345,7 +7175,6 @@
     "continent": "Europe",
     "genre": [
       "Folk",
-      "National",
       "News",
       "Pop",
       "Talk"
@@ -8359,9 +7188,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Music",
-      "Muzică Populară",
-      "National",
       "News"
     ],
     "stream_url": "https://stream4.srr.ro:8443/antena-satelor",
@@ -8372,10 +7198,7 @@
     "name": "ROMÂNIA  Cultural",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Cultural Programming",
-      "National"
-    ],
+    "genre": [],
     "stream_url": "https://stream4.srr.ro:8443/romania-cultural",
     "active": true
   },
@@ -8394,9 +7217,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "Manele",
-      "Petrecere"
+      "Dance"
     ],
     "stream_url": "http://157.90.35.96:8211/stream",
     "active": true
@@ -8407,9 +7228,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Goldies",
-      "Oldies",
-      "Romantic"
+      "Retro"
     ],
     "stream_url": "http://zuicast.digitalag.ro:9420/romanticfm",
     "active": true
@@ -8420,13 +7239,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Golden Oldies",
-      "Music",
-      "Oldies",
-      "Pop Dance",
-      "Pop Rock",
-      "Retro Hits",
-      "Romantic"
+      "Retro"
     ],
     "stream_url": "https://radio-romantic.ro/stream",
     "active": true
@@ -8437,7 +7250,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Evangelical",
       "Religious"
     ],
     "stream_url": "https://stream.rve-brasov.ro/rvebv.mp3",
@@ -8448,10 +7260,7 @@
     "name": "RVE Cluj (Radio Vocea Evangheliei) -Cluj Napoca 88,3 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Evangelical",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "https://cj.rve.ro/rvecj.mp3",
     "active": true
   },
@@ -8460,10 +7269,7 @@
     "name": "RVE Internațional -Oradea",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Evangelical Christian",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "http://162.244.80.34:9648/;stream.mp3",
     "active": true
   },
@@ -8472,11 +7278,7 @@
     "name": "RVE Muzică -Oradea",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Evangelical Christian",
-      "Music",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "http://162.244.80.32:9470/;stream.mp3",
     "active": true
   },
@@ -8485,10 +7287,7 @@
     "name": "RVE Oradea Live -Oradea 92,1 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Evangelical Christian",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "http://162.244.80.32:6700/;stream.mp3",
     "active": true
   },
@@ -8497,10 +7296,7 @@
     "name": "RVE Predici -Oradea",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Evangelical Christian",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "http://162.244.80.32:9468/;stream.mp3",
     "active": true
   },
@@ -8509,10 +7305,7 @@
     "name": "RVE Satu Mare",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Evangelical Christian",
-      "Religios"
-    ],
+    "genre": [],
     "stream_url": "http://162.244.80.37:7560/;stream.mp3",
     "active": true
   },
@@ -8522,19 +7315,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Bisericesc",
-      "Byzantine",
-      "Christian Orthodox",
-      "Church",
-      "Crestin",
-      "Crestin-ortodox",
-      "Liturgical",
-      "Monastery",
-      "Orthodox",
-      "Orthodox Christian",
-      "Orthodox Church",
-      "Orthodoxy",
-      "Ortodox"
+      "Religious"
     ],
     "stream_url": "https://radio.schitulvladestiarges.uk/live",
     "active": true
@@ -8545,19 +7326,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Bisericesc",
-      "Byzantine",
-      "Christian Orthodox",
-      "Church",
-      "Crestin",
-      "Crestin-ortodox",
-      "Liturgical",
-      "Monastery",
-      "Orthodox",
-      "Orthodox Christian",
-      "Orthodox Church",
-      "Orthodoxy",
-      "Ortodox"
+      "Religious"
     ],
     "stream_url": "https://radio.schitulvladestiarges.uk/live",
     "active": true
@@ -8568,19 +7337,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Bisericesc",
-      "Byzantine",
-      "Christian Orthodox",
-      "Church",
-      "Crestin",
-      "Crestin-ortodox",
-      "Liturgical",
-      "Monastery",
-      "Orthodox",
-      "Orthodox Christian",
-      "Orthodox Church",
-      "Orthodoxy",
-      "Ortodox"
+      "Religious"
     ],
     "stream_url": "https://radio.schitulvladestiarges.uk/live",
     "active": true
@@ -8590,10 +7347,7 @@
     "name": "Sepsi Rádió",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Top Hits"
-    ],
+    "genre": [],
     "stream_url": "https://stream.sepsiradio.ro:8001/SepsiRadio",
     "active": true
   },
@@ -8602,13 +7356,7 @@
     "name": "SHAMANU",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Deep Techno",
-      "Microhouse",
-      "Minimal",
-      "Minimal Techno",
-      "Rominimal"
-    ],
+    "genre": [],
     "stream_url": "https://shamanu.live/stream",
     "active": true
   },
@@ -8628,7 +7376,6 @@
     "continent": "Europe",
     "genre": [
       "Hits",
-      "Local Radio",
       "Pop"
     ],
     "stream_url": "http://46.214.17.202:8000/radioac3",
@@ -8639,12 +7386,7 @@
     "name": "Siculus Rádió -Kézdivásárhely/Târgu Secuiesc 95.0 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Etnic",
-      "Local News",
-      "Local Radio",
-      "Music"
-    ],
+    "genre": [],
     "stream_url": "http://46.214.17.202:8000/radioac3",
     "active": true
   },
@@ -8653,11 +7395,7 @@
     "name": "Sighet FM -Sighetu Marmației 89.3 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local News",
-      "Local Radio",
-      "Music"
-    ],
+    "genre": [],
     "stream_url": "https://radio.zifer.ro/SighetFM",
     "active": true
   },
@@ -8667,8 +7405,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
-      "Local",
       "News",
       "Pop"
     ],
@@ -8681,9 +7417,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "Manele",
-      "Music"
+      "Dance"
     ],
     "stream_url": "http://asculta.radiosimplu.ro:7500/stream",
     "active": true
@@ -8695,9 +7429,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Etno",
-      "Manele",
-      "Petrecere"
+      "Folk"
     ],
     "stream_url": "https://ssl.asculta.live/8006/stream",
     "active": true
@@ -8708,9 +7440,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Alternative",
       "Electronic",
-      "Oldies",
+      "Retro",
       "Pop",
       "Rock"
     ],
@@ -8723,7 +7454,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
       "Pop"
     ],
     "stream_url": "https://20593.live.streamtheworld.com/KNEIFM_SC",
@@ -8735,7 +7465,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Pop Rock",
       "Rock"
     ],
     "stream_url": "https://puma.streemlion.com:1705/stream",
@@ -8746,13 +7475,7 @@
     "name": "Sláger Rádió -Slager FM Sepsiszentgyörgy/Sfântu Gheorghe 105.9 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Etnic",
-      "Local News",
-      "Local Radio",
-      "Music",
-      "Talk Radio"
-    ],
+    "genre": [],
     "stream_url": "https://slagerfm.netregator.hu:7813/slagerfm320.mp3",
     "active": true
   },
@@ -8762,7 +7485,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "http://live.smartradio.ro:9128/live",
     "active": true
@@ -8781,9 +7504,7 @@
     "name": "Smart Radio",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Modern"
-    ],
+    "genre": [],
     "stream_url": "https://live.smartradio.ro:8443/live",
     "active": true
   },
@@ -8815,9 +7536,7 @@
     "name": "Smart Radio -Smart and Groovy",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Funky"
-    ],
+    "genre": [],
     "stream_url": "https://web.smartradio.ro:8443/smartgroovy",
     "active": true
   },
@@ -8827,8 +7546,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Dance",
-      "Rave"
+      "Dance"
     ],
     "stream_url": "https://web.smartradio.ro:8443/smartrave",
     "active": true
@@ -8838,9 +7556,7 @@
     "name": "Smart Radio -Smart Champs-Elysees",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "France"
-    ],
+    "genre": [],
     "stream_url": "https://web.smartradio.ro:8443/smartchampselysees",
     "active": true
   },
@@ -8849,10 +7565,7 @@
     "name": "Smart Radio -Smart for Christmas",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Christmas Music",
-      "Colinde"
-    ],
+    "genre": [],
     "stream_url": "https://web.smartradio.ro:8443/smartforchristmas",
     "active": true
   },
@@ -8862,7 +7575,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Lounge"
+      "Chillout"
     ],
     "stream_url": "https://web.smartradio.ro:8443/smartlounge",
     "active": true
@@ -8872,9 +7585,7 @@
     "name": "Smart Radio -Smart Move",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Film Music"
-    ],
+    "genre": [],
     "stream_url": "https://web.smartradio.ro:8443/smartmove",
     "active": true
   },
@@ -8894,9 +7605,7 @@
     "name": "Smart Radio -Smart on Soundtrack",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Soundtracks"
-    ],
+    "genre": [],
     "stream_url": "https://web.smartradio.ro:8443/smartsoundtrack",
     "active": true
   },
@@ -8906,9 +7615,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Hits",
-      "New Music",
-      "Top"
+      "Hits"
     ],
     "stream_url": "https://web.smartradio.ro:8443/smartontrend",
     "active": true
@@ -8918,9 +7625,7 @@
     "name": "Smart Radio -Smart Oxford Street",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Music"
-    ],
+    "genre": [],
     "stream_url": "https://web.smartradio.ro:8443/smartoxfordstreet",
     "active": true
   },
@@ -8930,8 +7635,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Rap",
-      "Street"
+      "Hip-Hop"
     ],
     "stream_url": "https://web.smartradio.ro:8443/smartstreet",
     "active": true
@@ -8942,9 +7646,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Adult Contemporary",
       "Dance",
-      "Indie",
       "Pop",
       "Rock"
     ],
@@ -8956,9 +7658,7 @@
     "name": "Smile FM Romania -Călărași-Oltenița",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Manele"
-    ],
+    "genre": [],
     "stream_url": "https://stream.zeno.fm/eexnxpddu0hvv",
     "active": true
   },
@@ -8968,7 +7668,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Contemporary",
       "News",
       "Pop"
     ],
@@ -8981,9 +7680,6 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "70s Soft Rock",
-      "80s Rock",
-      "Classic Rock",
       "Rock"
     ],
     "stream_url": "https://gold.streamguys1.com/softrock.mp3",
@@ -8994,11 +7690,7 @@
     "name": "Someș Radio -Bistrițai 96.6 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local News",
-      "Local Radio",
-      "Muzică Populară"
-    ],
+    "genre": [],
     "stream_url": "https://radio.mediacp.eu/stream/radiosomes",
     "active": true
   },
@@ -9009,9 +7701,7 @@
     "continent": "Europe",
     "genre": [
       "Hits",
-      "Local Radio",
-      "Pop",
-      "Top"
+      "Pop"
     ],
     "stream_url": "http://89.33.243.3:8000/;",
     "active": true
@@ -9023,9 +7713,7 @@
     "continent": "Europe",
     "genre": [
       "Hits",
-      "Local Radio",
-      "Pop",
-      "Top"
+      "Pop"
     ],
     "stream_url": "http://89.33.243.3:8000/;",
     "active": true
@@ -9037,9 +7725,7 @@
     "continent": "Europe",
     "genre": [
       "Hits",
-      "Local Radio",
-      "Pop",
-      "Top"
+      "Pop"
     ],
     "stream_url": "http://89.33.243.3:8000/;",
     "active": true
@@ -9051,9 +7737,7 @@
     "continent": "Europe",
     "genre": [
       "Hits",
-      "Local Radio",
-      "Pop",
-      "Top"
+      "Pop"
     ],
     "stream_url": "http://89.33.243.3:8000/;",
     "active": true
@@ -9065,9 +7749,7 @@
     "continent": "Europe",
     "genre": [
       "Hits",
-      "Local Radio",
-      "Pop",
-      "Top"
+      "Pop"
     ],
     "stream_url": "http://89.33.243.3:8000/;",
     "active": true
@@ -9079,9 +7761,7 @@
     "continent": "Europe",
     "genre": [
       "Hits",
-      "Local Radio",
-      "Pop",
-      "Top"
+      "Pop"
     ],
     "stream_url": "http://89.33.243.3:8000/;",
     "active": true
@@ -9091,9 +7771,7 @@
     "name": "Sonic România",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Contemporary"
-    ],
+    "genre": [],
     "stream_url": "https://ssl.omegahost.ro:10958/;",
     "active": true
   },
@@ -9103,12 +7781,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Club Dance Electronic House Trance",
       "Dance",
-      "EDM",
-      "Electronic",
-      "House",
-      "Progressive House"
+      "Electronic"
     ],
     "stream_url": "https://stream.zeno.fm/xhqytayiq3ftv",
     "active": true
@@ -9119,9 +7793,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "80's",
-      "90's",
-      "Oldies",
+      "Retro",
       "Pop"
     ],
     "stream_url": "https://ssl.asculta.live/8222/stream",
@@ -9133,11 +7805,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Afro House",
-      "Deep House",
-      "Electronic",
-      "Melodic House",
-      "Organic House"
+      "Dance",
+      "Electronic"
     ],
     "stream_url": "https://s4.radio.co/s599dc3645/listen",
     "active": true
@@ -9160,10 +7829,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Dj",
-      "EDM",
-      "Electronic",
-      "House"
+      "Electronic"
     ],
     "stream_url": "https://spacefm.live/radio/8000/spacefm128",
     "active": true
@@ -9175,8 +7841,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Hits",
-      "House"
+      "Hits"
     ],
     "stream_url": "https://spacefm.live/listen/spacefm_romania/spacefm192",
     "active": true
@@ -9200,12 +7865,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "70's",
-      "80's",
-      "90's",
       "Hits",
-      "Oldies",
-      "Retro Hits"
+      "Retro"
     ],
     "stream_url": "https://retro.spacefm.live/listen/spacefm_retro/retro128",
     "active": true
@@ -9216,10 +7877,8 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Just Music No Talking",
       "Rock",
-      "Sports",
-      "Sports Talk"
+      "Sport"
     ],
     "stream_url": "https://livesptfm.com/SPTFM/Live/chunklist.m3u8",
     "active": true
@@ -9231,7 +7890,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Oldies"
+      "Retro"
     ],
     "stream_url": "https://eu3.fastcast4u.com/proxy/ioflorin",
     "active": true
@@ -9242,9 +7901,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Alternative",
-      "News",
-      "Pop Rock"
+      "News"
     ],
     "stream_url": "https://a7.asurahosting.com:8190/radio.mp3",
     "active": true
@@ -9255,9 +7912,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Alternative",
-      "News",
-      "Pop-rock"
+      "News"
     ],
     "stream_url": "https://a7.asurahosting.com:8190/radio.mp3",
     "active": true
@@ -9267,10 +7922,7 @@
     "name": "Squad Radio Cluj-Napoca",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Alternative",
-      "Pop Rock"
-    ],
+    "genre": [],
     "stream_url": "https://a7.asurahosting.com/listen/squad_radio_floresti_/radio.mp3",
     "active": true
   },
@@ -9280,9 +7932,7 @@
     "country": "Romania",
     "continent": "Europe",
     "genre": [
-      "Manele",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://live.radiostabilpitesti.eu/9986/stream",
     "active": true
@@ -9292,12 +7942,7 @@
     "name": "Star Fm -Făgăraș 90.2 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Adult Contemporary",
-      "Local News",
-      "Local Radio",
-      "Music"
-    ],
+    "genre": [],
     "stream_url": "https://ssl.asculta.live:8310/;",
     "active": true
   },
@@ -9306,11 +7951,7 @@
     "name": "Star Fm -Sebeș 90.1 FM",
     "country": "Romania",
     "continent": "Europe",
-    "genre": [
-      "Local News",
-      "Local Radio",
-      "Music"
-    ],
+    "genre": [],
     "stream_url": "http://s6.myradiostream.com:47330/;",
     "active": true
   },
@@ -9321,9 +7962,7 @@
     "continent": "Europe",
     "genre": [
       "Dance",
-      "Manele",
-      "Petrecere",
-      "Populară"
+      "Folk"
     ],
     "stream_url": "https://asculta.muzicaok.de:8060/stream",
     "active": true
