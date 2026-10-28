@@ -1,0 +1,90 @@
+name: Update Translations
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-json-files:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Update locale JSON files
+        run: |
+          cat << 'EOF' > script.py
+          import json, os
+
+          NEW_KEYS = {
+              "en": {"search_placeholder": "Search station or country...", "all_formats": "All audio formats", "only_active": "Active stations only"},
+              "ro": {"search_placeholder": "Caută un post radio sau o țară...", "all_formats": "Toate formatele audio", "only_active": "Doar posturi active"},
+              "hu": {"search_placeholder": "Keresés rádióállomás vagy ország szerint...", "all_formats": "Minden hangformátum", "only_active": "Csak aktív állomások"},
+              "pl": {"search_placeholder": "Szukaj stacji lub kraju...", "all_formats": "Wszystkie formaty audio", "only_active": "Tylko aktywne stacje"},
+              "de": {"search_placeholder": "Sender oder Land suchen...", "all_formats": "Alle Audioformate", "only_active": "Nur aktive Sender"},
+              "fr": {"search_placeholder": "Rechercher une station ou un pays...", "all_formats": "Tous les formats audio", "only_active": "Stations actives uniquement"},
+              "es": {"search_placeholder": "Buscar emisora o país...", "all_formats": "Todos los formatos de audio", "only_active": "Solo emisoras activas"},
+              "it": {"search_placeholder": "Cerca stazione o paese...", "all_formats": "Tutti i formati audio", "only_active": "Solo stazioni attive"},
+              "nl": {"search_placeholder": "Zoek zender of land...", "all_formats": "Alle audioformaten", "only_active": "Alleen actieve zenders"},
+              "pt": {"search_placeholder": "Pesquisar estação ou país...", "all_formats": "Todos os formatos de áudio", "only_active": "Apenas estações ativas"},
+              "cs": {"search_placeholder": "Hledat stanici nebo zemi...", "all_formats": "Všechny audio formáty", "only_active": "Pouze aktivní stanice"},
+              "sv": {"search_placeholder": "Sök station eller land...", "all_formats": "Alla ljudformat", "only_active": "Endast aktiva stationer"},
+              "da": {"search_placeholder": "Søg station eller land...", "all_formats": "Alle lydformater", "only_active": "Kun aktive stationer"},
+              "uk": {"search_placeholder": "Пошук станції або країни...", "all_formats": "Усі аудіоформати", "only_active": "Лише активні станції"},
+              "sk": {"search_placeholder": "Hľadať stanicu alebo krajinu...", "all_formats": "Všetky audio formáty", "only_active": "Iba aktívne stanice"},
+              "bg": {"search_placeholder": "Търсене на станция или държава...", "all_formats": "Всички аудио формати", "only_active": "Само активни станции"},
+              "hr": {"search_placeholder": "Traži postaju ili državu...", "all_formats": "Svi audio formati", "only_active": "Samo aktivne postaje"},
+              "fi": {"search_placeholder": "Etsi kanavaa tai maata...", "all_formats": "Kaikki äänimuodot", "only_active": "Vain aktiiviset kanavat"},
+              "el": {"search_placeholder": "Αναζήτηση σταθμού ή χώρας...", "all_formats": "Όλες οι μορφές ήχου", "only_active": "Μόνο ενεργοί σταθμοί"},
+              "no": {"search_placeholder": "Søk stasjon eller land...", "all_formats": "Alle lydformater", "only_active": "Kun aktive stasjoner"},
+              "sl": {"search_placeholder": "Išči postajo ali državo...", "all_formats": "Vse zvokovne oblike", "only_active": "Samo aktivne postaje"},
+              "lt": {"search_placeholder": "Iškoti stoties ar šalies...", "all_formats": "Visi garso formatai", "only_active": "Tik aktyvios stotys"},
+              "lv": {"search_placeholder": "Meklēt staciju vai valsti...", "all_formats": "Visi audio formāti", "only_active": "Tikai aktīvās stacijas"},
+              "et": {"search_placeholder": "Otsi jaama või riiki...", "all_formats": "Kõik helivormingud", "only_active": "Ainult aktiivsed jaamad"},
+              "sq": {"search_placeholder": "Kërko stacion ose shtet...", "all_formats": "Të gjitha formatet audio", "only_active": "Vetëm stacionet aktive"},
+              "is": {"search_placeholder": "Leita að stöð eða landi...", "all_formats": "Öll hljóðsnið", "only_active": "Aðeins virkar stöðvar"},
+              "sr": {"search_placeholder": "Traži stanicu ili zemlju...", "all_formats": "Svi audio formati", "only_active": "Samo aktivne stanice"},
+              "mk": {"search_placeholder": "Пребарај станица или земја...", "all_formats": "Сите аудио формати", "only_active": "Само активни станици"},
+              "mt": {"search_placeholder": "Fittex stazzjon jew pajjiż...", "all_formats": "Il-formati kollha tal-awdjo", "only_active": "Stazzjonijiet attivi biss"},
+              "ga": {"search_placeholder": "Cúil stáisiún nó tír...", "all_formats": "Gach formáid fuaime", "only_active": "Stáisiúin ghníomhacha amháin"},
+              "bs": {"search_placeholder": "Traži stanicu ili zemlju...", "all_formats": "Svi audio formati", "only_active": "Samo aktivne stanice"},
+              "be": {"search_placeholder": "Пошук станцыі або краіны...", "all_formats": "Усе аўдыяфарматы", "only_active": "Толькі актыўныя станцыі"},
+              "lb": {"search_placeholder": "Sich no Statioun oder Land...", "all_formats": "All Audioformater", "only_active": "Nëmme meiglech aktiv Statiounen"},
+              "tr": {"search_placeholder": "İstasyon veya ülke ara...", "all_formats": "Tüm ses formatları", "only_active": "Yalnızca aktif istasyonlar"},
+              "ru": {"search_placeholder": "Поиск станции или страны...", "all_formats": "Все аудиоформаты", "only_active": "Только активные станции"},
+              "ka": {"search_placeholder": "სადგურის ან ქვეყნის ძიება...", "all_formats": "ყველა აუდიო ფორმატი", "only_active": "მხოლოდ აქტიური სადგურები"},
+              "tt": {"search_placeholder": "Станция яки илне эзләү...", "all_formats": "Барлык аудиоформатлар", "only_active": "Тек актив станцияләр"},
+              "ba": {"search_placeholder": "Станция йәки илде эҙләү...", "all_formats": "Бөтә аудиоформаттар", "only_active": "Тик әүҙем станциялар"},
+              "ja": {"search_placeholder": "放送局や国を検索...", "all_formats": "すべての音声フォーマット", "only_active": "配信中の局のみ"},
+              "zh": {"search_placeholder": "搜索电台或国家...", "all_formats": "所有音频格式", "only_active": "仅在线电台"},
+              "ar": {"search_placeholder": "البحث عن محطة أو دولة...", "all_formats": "جميع صيغ الصوت", "only_active": "المحطات النشطة فقط"},
+              "hi": {"search_placeholder": "स्टेशन या देश खोजें...", "all_formats": "सभी ऑडियो प्रारूप", "only_active": "केवल सक्रिय स्टेशन"},
+              "ko": {"search_placeholder": "방송국 또는 국가 검색...", "all_formats": "모든 오디오 형식", "only_active": "활성 방송국만"},
+              "id": {"search_placeholder": "Cari stasiun atau negara...", "all_formats": "Semua format audio", "only_active": "Hanya stasiun aktif"},
+              "vi": {"search_placeholder": "Tìm kiếm đài hoặc quốc gia...", "all_formats": "Tất cả định dạng âm thanh", "only_active": "Chỉ đài đang hoạt động"},
+              "sw": {"search_placeholder": "Tafuta kituo au nchi...", "all_formats": "Mifumo yote ya sauti", "only_active": "Vituo vinavyofanya kazi tu"}
+          }
+
+          locales_dir = "locales"
+          for code, keys in NEW_KEYS.items():
+              path = os.path.join(locales_dir, f"{code}.json")
+              if os.path.exists(path):
+                  with open(path, "r", encoding="utf-8") as f:
+                      data = json.load(f)
+                  data.update(keys)
+                  with open(path, "w", encoding="utf-8") as f:
+                      json.dump(data, f, ensure_ascii=False, indent=2)
+          EOF
+          python script.py
+          rm script.py
+
+      - name: Commit & Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "auto: update translations with new keys"
