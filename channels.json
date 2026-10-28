@@ -449,19 +449,6 @@
     "active": true
   },
   {
-    "id": "best-love-2019-ro",
-    "name": "Best Love 2019",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Etno",
-      "Manele",
-      "Populară"
-    ],
-    "stream_url": "https://ssl.kenhost.ro:8010/stream",
-    "active": false
-  },
-  {
     "id": "biblia-audio-radio-calea-spre-cer-ro",
     "name": "Biblia Audio - Radio Calea Spre Cer",
     "country": "Romania",
