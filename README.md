@@ -1,8 +1,8 @@
 # 📻 Radio Directory - Global Stream Database for yoRadio
 
-A modern, fast, and open-source web directory built to collect, filter, and manage online radio streams from around the globe. This platform is tailored specifically for DIY audio enthusiasts and ESP32-based internet radios.
+An interactive web application to browse, filter, add radio stream links, and export customized playlist files tailored specifically for yoRadio devices and DIY audio projects.
 
-🌐 **Live Demo:** [https://daradicilevente.github.io/radio-directory/index.html](https://daradicilevente.github.io/radio-directory/index.html)
+🌐 **Web Directory & Playlist Generator:** [https://daradicilevente.github.io/radio-directory/index.html](https://daradicilevente.github.io/radio-directory/index.html)
 
 ---
 
@@ -14,12 +14,12 @@ A modern, fast, and open-source web directory built to collect, filter, and mana
   - **Audio Formats:** Quick selection by codec/protocol (`MP3`, `AAC / AAC+`, `HLS / M3U8`, `OGG / Opus`, `FLAC`).
   - **Music Genres:** Multi-select checkboxes (Pop, Rock, Dance, News, Retro, Electronic, Jazz, Classical, Folk, Sport, and more).
   - **Status Filter:** Option to display active, verified stations only.
-- **▶ Quick Play & Copy:**
-  - Dedicated **Play (▶)** button to open and test the stream directly in a new browser tab.
-  - One-click stream URL copying to clipboard.
-- **💾 100% yoRadio Compatible Playlist Export:**
-  - Generates and downloads a custom `playlist.csv` file ready for your hardware player.
-- **🌐 Multilingual Support:** Adaptable interface supporting multiple languages (English, Romanian, etc.).
+- **▶ Stream Testing & Quick Copy:**
+  - Direct **Play (▶)** button to launch and test any station stream in a new browser tab.
+  - One-click copying of stream links directly to your clipboard.
+- **💾 Tailored Playlist Export:**
+  - Export your exact **filtered and sorted selection** into a `playlist.csv` file ready for hardware players.
+- **🌐 Multilingual Interface:** Easily switch languages (English, Romanian, etc.) for smooth navigation.
 
 ---
 
@@ -27,15 +27,15 @@ A modern, fast, and open-source web directory built to collect, filter, and mana
 
 This project is built from the ground up to integrate seamlessly with the **[yoRadio](https://github.com/eav1980/yoRadio)** ecosystem (the popular ESP32 / ESP32-S3 internet radio project).
 
-When you click the **📥 Download playlist.csv** button, the app exports your **currently filtered and sorted list** in the exact tab-separated format required by yoRadio (`Station_Name\tStream_URL\t0`). Just save the file onto your radio's SD card or upload it via the yoRadio web interface!
+When you click the **📥 Download playlist.csv** button, the app generates a CSV containing **only your current filtered selection** formatted precisely for yoRadio (`Station_Name\tStream_URL\t0`). Simply upload the exported file to your radio's SD card or load it directly through the yoRadio web control panel!
 
 ---
 
 ## 🌍 Let's Build the Largest Radio Database Together!
 
-Music brings DIY communities together! Our mission is to build a rich, reliable, and clean directory of radio streams ideal for microcontroller-based radios worldwide.
+Music brings the DIY maker community together! Our goal is to maintain a comprehensive, reliable, and clean catalog of radio streams suitable for microcontroller-powered receivers worldwide.
 
-Found a working radio stream that isn't in our database yet? **We would love your contribution!**
+Found a functional radio stream that is missing from the directory? **We welcome your contributions!**
 
 ### 🛠️ How to Add a New Station:
 
@@ -43,8 +43,8 @@ Found a working radio stream that isn't in our database yet? **We would love you
 2. Fill in the station details (Name, Stream URL, Country, Continent, Genres, Format).
 3. Submit your changes via a GitHub **Pull Request (PR)**.
 
-> ⏳ **Validation Notice:**  
-> To maintain database quality and prevent broken links or duplicates, every submitted Pull Request undergoes a quick review. Once the stream playback is verified by `@DaradiciLevente`, it will be merged into `channels.json` and become live for everyone!
+> ⏳ **Verification & Approval Notice:**  
+> To ensure high playlist reliability and avoid duplicate or broken streams, every submitted Pull Request is manually reviewed. Once the stream link is verified by `@DaradiciLevente`, it will be merged into `channels.json` and immediately available in the public directory!
 
 ---
 
