@@ -8598,21 +8598,6 @@
     "active": true
   },
   {
-    "id": "sfinx-radio-ro",
-    "name": "Sfinx Radio",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Blues",
-      "Jazz",
-      "Latino",
-      "Pop",
-      "Rock"
-    ],
-    "stream_url": "http://89.39.189.22:2222/;",
-    "active": false
-  },
-  {
     "id": "shamanu-ro",
     "name": "SHAMANU",
     "country": "Romania",
