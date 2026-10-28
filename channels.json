@@ -383,20 +383,6 @@
     "active": true
   },
   {
-    "id": "atlas21-atlas-fm-alba-iulia-99-7-fm-ro",
-    "name": "Atlas21 (Atlas FM) -Alba Iulia 99,7 FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Local Radio",
-      "Pop",
-      "Rock",
-      "Top40"
-    ],
-    "stream_url": "https://radio.nerapo.com/listen/atlas21/atl21",
-    "active": false
-  },
-  {
     "id": "atmospheric-dnb-s0urce-ro",
     "name": "Atmospheric dnb s0urce",
     "country": "Romania",
