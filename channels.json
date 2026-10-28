@@ -5335,19 +5335,6 @@
     "active": true
   },
   {
-    "id": "radio-gaga-dance-ro",
-    "name": "Rádió GaGa Dance",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Dance Music",
-      "Party"
-    ],
-    "stream_url": "https://a2.asurahosting.com:7030/radio.mp3?1741449982",
-    "active": false
-  },
-  {
     "id": "radio-gaga-disco-classic-ro",
     "name": "Rádió GaGa Disco Classic",
     "country": "Romania",
