@@ -6172,19 +6172,6 @@
     "active": true
   },
   {
-    "id": "radio-napoca-fm-live-cluj-napoca-102-2-fm-ro",
-    "name": "Radio Napoca FM live -Cluj Napoca 102,2 FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Dance",
-      "Local Radio",
-      "Pop"
-    ],
-    "stream_url": "https://streaming.napocalive.ro/napoca-fm",
-    "active": false
-  },
-  {
     "id": "radio-napoca-rock-cluj-napoca-ro",
     "name": "Radio Napoca Rock -Cluj Napoca",
     "country": "Romania",
