@@ -1519,19 +1519,6 @@
     "active": true
   },
   {
-    "id": "ebs-radio-cantece-de-petrecere-cluj-napoca-ro",
-    "name": "EBS Radio Cântece de petrecere -Cluj Napoca",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Etno",
-      "Petrecere",
-      "Populară"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/petrecere/petrecere128.mp3?refresh=1779029453833",
-    "active": false
-  },
-  {
     "id": "ebs-radio-country-cluj-napoca-ro",
     "name": "EBS Radio Country -Cluj Napoca",
     "country": "Romania",
