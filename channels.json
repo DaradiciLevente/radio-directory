@@ -1531,15 +1531,6 @@
     "active": true
   },
   {
-    "id": "electric-castle-ro",
-    "name": "Electric Castle",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://electriccastle.out.airtime.pro/electriccastle_a",
-    "active": false
-  },
-  {
     "id": "elektrik-brasov-ro",
     "name": "ElekTrik Brasov",
     "country": "Romania",
