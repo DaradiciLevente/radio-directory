@@ -1000,17 +1000,6 @@
     "active": true
   },
   {
-    "id": "ebs-magyar-zene-ro",
-    "name": "EBS Magyar Zene",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "Hungarian Pop Music"
-    ],
-    "stream_url": "https://azura.ebsmedia.ro/listen/hungarian/hungarian128.mp3",
-    "active": true
-  },
-  {
     "id": "ebs-romanian-gold-ro",
     "name": "EBS Romanian Gold",
     "country": "Romania",
