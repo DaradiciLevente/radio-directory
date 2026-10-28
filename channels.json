@@ -522,19 +522,6 @@
     "active": true
   },
   {
-    "id": "bucuresti-fm-ro",
-    "name": "București FM",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "News",
-      "Public",
-      "Talk"
-    ],
-    "stream_url": "https://stream4.srr.ro:8443/bucuresti-fm",
-    "active": true
-  },
-  {
     "id": "buzz-fm-buzau-ro",
     "name": "Buzz FM Buzău 87.9 FM",
     "country": "Romania",
