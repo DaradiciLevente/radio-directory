@@ -3356,22 +3356,6 @@
     "active": true
   },
   {
-    "id": "nicecream-fm-blue-ro",
-    "name": "Nicecream.fm - Blue",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [
-      "50s",
-      "60s",
-      "Ad Free",
-      "Music",
-      "Retro",
-      "Surf Rock"
-    ],
-    "stream_url": "https://play.nicecream.fm/radio/8020/blue.mp3",
-    "active": false
-  },
-  {
     "id": "nicecream-fm-green-ro",
     "name": "Nicecream.fm - Green",
     "country": "Romania",
