@@ -3083,15 +3083,6 @@
     "active": true
   },
   {
-    "id": "mas-vibe-radio-romania-ro",
-    "name": "MAS VIBE RADIO ROMANIA!",
-    "country": "Romania",
-    "continent": "Europe",
-    "genre": [],
-    "stream_url": "https://s-eu1.srv-control.com/listen/mas_vibe_radio_romania/radio.mp3",
-    "active": false
-  },
-  {
     "id": "mb-music-radio-ro",
     "name": "MB MUSIC RADIO",
     "country": "Romania",
