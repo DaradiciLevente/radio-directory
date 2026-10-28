@@ -37,11 +37,15 @@ Music brings the DIY maker community together! Our goal is to maintain a compreh
 
 Found a functional radio stream that is missing from the directory? **We welcome your contributions!**
 
+### 🔑 Requirement to Contribute:
+> **Note:** You must be **logged in to your GitHub account** to add new channels and submit changes.
+
 ### 🛠️ How to Add a New Station:
 
-1. Open the web interface and click **[➕ Add Radio Station](https://daradicilevente.github.io/radio-directory/add.html)**.
-2. Fill in the station details (Name, Stream URL, Country, Continent, Genres, Format).
-3. Submit your changes via a GitHub **Pull Request (PR)**.
+1. Make sure you are **signed in to GitHub**.
+2. Open the web interface and click **[➕ Add Radio Station](https://daradicilevente.github.io/radio-directory/add.html)**.
+3. Fill in the station details (Name, Stream URL, Country, Continent, Genres, Format).
+4. Submit your entry to generate a **Pull Request (PR)** in the repository.
 
 > ⏳ **Verification & Approval Notice:**  
 > To ensure high playlist reliability and avoid duplicate or broken streams, every submitted Pull Request is manually reviewed. Once the stream link is verified by `@DaradiciLevente`, it will be merged into `channels.json` and immediately available in the public directory!
