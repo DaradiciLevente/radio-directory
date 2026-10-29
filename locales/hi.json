@@ -31,5 +31,6 @@
   "btn_submit": "प्रस्ताव भेजें (Pull Request)",
   "search_placeholder": "स्टेशन या देश खोजें...",
   "all_formats": "सभी ऑडियो प्रारूप",
-  "only_active": "केवल सक्रिय स्टेशन"
+  "only_active": "केवल सक्रिय स्टेशन",
+  "footer_credits": "मेकर्स और ऑनलाइन रेडियो प्रेमियों के लिए Daradics Levente द्वारा जुनून के साथ विकसित किया गया"
 }

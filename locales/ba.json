@@ -31,5 +31,6 @@
   "btn_submit": "Тәҡдимде ебәрергә (Pull Request)",
   "search_placeholder": "Станция йәки илде эҙләү...",
   "all_formats": "Бөтә аудиоформаттар",
-  "only_active": "Тик әүҙем станциялар"
+  "only_active": "Тик әүҙем станциялар",
+  "footer_credits": "Ижадсылар һәм онлайн радио яратыусылар өсөн илһам менән эшләнде Daradics Levente"
 }

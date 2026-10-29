@@ -31,5 +31,6 @@
   "btn_submit": "Dërgo Propozimin (Pull Request)",
   "search_placeholder": "Kërko stacion ose shtet...",
   "all_formats": "Të gjitha formatet audio",
-  "only_active": "Vetëm stacionet aktive"
+  "only_active": "Vetëm stacionet aktive",
+  "footer_credits": "Zhvilluar me pasion për krijuesit dhe dashamirët e radios online nga Daradics Levente"
 }

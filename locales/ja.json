@@ -31,5 +31,6 @@
   "btn_submit": "提案を送信 (Pull Request)",
   "search_placeholder": "放送局や国を検索...",
   "all_formats": "すべての音声フォーマット",
-  "only_active": "配信中の局のみ"
+  "only_active": "配信中の局のみ",
+  "footer_credits": "メーカーやオンライン ラジオ愛好家のために情熱を込めて開発されました：Daradics Levente"
 }

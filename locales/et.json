@@ -31,5 +31,6 @@
   "btn_submit": "Esita ettepanek (Pull Request)",
   "search_placeholder": "Otsi jaama või riiki...",
   "all_formats": "Kõik helivormingud",
-  "only_active": "Ainult aktiivsed jaamad"
+  "only_active": "Ainult aktiivsed jaamad",
+  "footer_credits": "Arendatud kirega tegijatele ja veebiraadio armastajatele Daradics Levente poolt"
 }

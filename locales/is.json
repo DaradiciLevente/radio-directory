@@ -31,5 +31,6 @@
   "btn_submit": "Senda tillögu (Pull Request)",
   "search_placeholder": "Leita að stöð eða landi...",
   "all_formats": "Öll hljóðsnið",
-  "only_active": "Aðeins virkar stöðvar"
+  "only_active": "Aðeins virkar stöðvar",
+  "footer_credits": "Þróað af ástríðu fyrir hönnuði og útvarpsáhugamenn á netinu af Daradics Levente"
 }

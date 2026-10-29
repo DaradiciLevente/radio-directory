@@ -31,5 +31,6 @@
   "btn_submit": "Trimite Propunerea (Pull Request)",
   "search_placeholder": "Caută un post radio sau o țară...",
   "all_formats": "Toate formatele audio",
-  "only_active": "Doar posturi active"
+  "only_active": "Doar posturi active",
+  "footer_credits": "Dezvoltat cu pasiune pentru creatori și iubitorii de radio online de Daradics Levente"
 }

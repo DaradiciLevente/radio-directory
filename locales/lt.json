@@ -31,5 +31,6 @@
   "btn_submit": "Pateikti pasiūlymą (Pull Request)",
   "search_placeholder": "Iškoti stoties ar šalies...",
   "all_formats": "Visi garso formatai",
-  "only_active": "Tik aktyvios stotys"
+  "only_active": "Tik aktyvios stotys",
+  "footer_credits": "Sukurta su aistra kūrėjams ir internetinio radijo mėgėjams: Daradics Levente"
 }

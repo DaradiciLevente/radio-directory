@@ -31,5 +31,6 @@
   "btn_submit": "Pošalji predlog (Pull Request)",
   "search_placeholder": "Traži stanicu ili zemlju...",
   "all_formats": "Svi audio formati",
-  "only_active": "Samo aktivne stanice"
+  "only_active": "Samo aktivne stanice",
+  "footer_credits": "Развијено са страшћу за креаторе и љубитеље онлајн радија од стране Дарадича Левентеа"
 }

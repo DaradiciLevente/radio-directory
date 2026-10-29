@@ -31,5 +31,6 @@
   "btn_submit": "Iesniegt priekšlikumu (Pull Request)",
   "search_placeholder": "Meklēt staciju vai valsti...",
   "all_formats": "Visi audio formāti",
-  "only_active": "Tikai aktīvās stacijas"
+  "only_active": "Tikai aktīvās stacijas",
+  "footer_credits": "Izstrādāts ar kaislību radiotehniķiem un tiešsaistes radio mīļotājiem, autors Daradics Levente"
 }

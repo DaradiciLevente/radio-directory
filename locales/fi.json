@@ -31,5 +31,6 @@
   "btn_submit": "Lähetä ehdotus (Pull Request)",
   "search_placeholder": "Etsi kanavaa tai maata...",
   "all_formats": "Kaikki äänimuodot",
-  "only_active": "Vain aktiiviset kanavat"
+  "only_active": "Vain aktiiviset kanavat",
+  "footer_credits": "Kehitetty suurella sydämellä tekijöille ja nettiradion ystäville: Daradics Levente"
 }

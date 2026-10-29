@@ -20,5 +20,6 @@
   "loading": "A carregar dados...",
   "search_placeholder": "Pesquisar estação ou país...",
   "all_formats": "Todos os formatos de áudio",
-  "only_active": "Apenas estações ativas"
+  "only_active": "Apenas estações ativas",
+  "footer_credits": "Desenvolvido com paixão para criadores e amantes de rádio online por Daradics Levente"
 }

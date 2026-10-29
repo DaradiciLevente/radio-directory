@@ -31,5 +31,6 @@
   "btn_submit": "Submit Proposal (Pull Request)",
   "search_placeholder": "Search station or country...",
   "all_formats": "All audio formats",
-  "only_active": "Active stations only"
+  "only_active": "Active stations only",
+  "footer_credits": "Developed with passion for makers and online radio lovers by Daradics Levente"
 }

@@ -20,5 +20,6 @@
   "loading": "Laddar data...",
   "search_placeholder": "Sök station eller land...",
   "all_formats": "Alla ljudformat",
-  "only_active": "Endast aktiva stationer"
+  "only_active": "Endast aktiva stationer",
+  "footer_credits": "Utvecklat med passion för makare och onlineradioälskare av Daradics Levente"
 }

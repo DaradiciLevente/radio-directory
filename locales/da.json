@@ -20,5 +20,6 @@
   "loading": "Indlæser data...",
   "search_placeholder": "Søg station eller land...",
   "all_formats": "Alle lydformater",
-  "only_active": "Kun aktive stationer"
+  "only_active": "Kun aktive stationer",
+  "footer_credits": "Udviklet med passion for skabere og onlineradio-elskere af Daradics Levente"
 }

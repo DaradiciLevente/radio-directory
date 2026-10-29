@@ -31,5 +31,6 @@
   "btn_submit": "Öneriyi Gönder (Pull Request)",
   "search_placeholder": "İstasyon veya ülke ara...",
   "all_formats": "Tüm ses formatları",
-  "only_active": "Yalnızca aktif istasyonlar"
+  "only_active": "Yalnızca aktif istasyonlar",
+  "footer_credits": "Üreticiler ve çevrimiçi radyo severler için tutkuyla geliştirilmiştir: Daradics Levente"
 }

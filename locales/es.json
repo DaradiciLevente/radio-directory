@@ -31,5 +31,6 @@
   "btn_submit": "Enviar propuesta (Pull Request)",
   "search_placeholder": "Buscar emisora o país...",
   "all_formats": "Todos los formatos de audio",
-  "only_active": "Solo emisoras activas"
+  "only_active": "Solo emisoras activas",
+  "footer_credits": "Desarrollado con pasión para creadores y amantes de la radio online por Daradics Levente"
 }

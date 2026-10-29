@@ -31,5 +31,6 @@
   "btn_submit": "Kirim Usulan (Pull Request)",
   "search_placeholder": "Cari stasiun atau negara...",
   "all_formats": "Semua format audio",
-  "only_active": "Hanya stasiun aktif"
+  "only_active": "Hanya stasiun aktif",
+  "footer_credits": "Dikembangkan dengan penuh semangat untuk para *maker* dan pencinta radio online oleh Daradics Levente"
 }

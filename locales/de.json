@@ -31,5 +31,6 @@
   "btn_submit": "Vorschlag einreichen (Pull Request)",
   "search_placeholder": "Sender oder Land suchen...",
   "all_formats": "Alle Audioformate",
-  "only_active": "Nur aktive Sender"
+  "only_active": "Nur aktive Sender",
+  "footer_credits": "Mit Leidenschaft für Maker und Online-Radio-Liebhaber entwickelt von Daradics Levente"
 }

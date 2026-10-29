@@ -31,5 +31,6 @@
   "btn_submit": "Send inn forslag (Pull Request)",
   "search_placeholder": "Søk stasjon eller land...",
   "all_formats": "Alle lydformater",
-  "only_active": "Kun aktive stasjoner"
+  "only_active": "Kun aktive stasjoner",
+  "footer_credits": "Utviklet med lidenskap for skapere og onlineradio-elskere av Daradics Levente"
 }

@@ -31,5 +31,6 @@
   "btn_submit": "Wyślij Propozycję (Pull Request)",
   "search_placeholder": "Szukaj stacji lub kraju...",
   "all_formats": "Wszystkie formaty audio",
-  "only_active": "Tylko aktywne stacje"
+  "only_active": "Tylko aktywne stacje",
+  "footer_credits": "Opracowane z pasją dla twórców i miłośników radia internetowego przez Daradicsa Levente"
 }

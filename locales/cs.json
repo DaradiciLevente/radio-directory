@@ -20,5 +20,6 @@
   "loading": "Načítání dat...",
   "search_placeholder": "Hledat stanici nebo zemi...",
   "all_formats": "Všechny audio formáty",
-  "only_active": "Pouze aktivní stanice"
+  "only_active": "Pouze aktivní stanice",
+  "footer_credits": "Vyvinuto s vášní pro tvůrce a milovníky online rádia od Daradicse Levente"
 }
