@@ -24,7 +24,7 @@
         .top-lang-bar {
             display: flex;
             justify-content: flex-end;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
         .lang-select {
             padding: 6px 10px;
@@ -33,6 +33,14 @@
             font-size: 13px;
             background: #fff;
             cursor: pointer;
+        }
+        /* Stil pentru textul din partea superioară */
+        .page-header-credits {
+            text-align: center;
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 15px;
+            font-style: italic;
         }
         h1 {
             text-align: center;
@@ -208,6 +216,11 @@
         <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)"></select>
     </div>
 
+    <!-- Textul mutat în partea superioară, deasupra titlului -->
+    <div class="page-header-credits" data-i18n="footer_credits">
+        Developed with passion for makers and online radio lovers by Daradics Levente
+    </div>
+
     <h1 id="mainHeading" data-i18n="title_index">Radio Directory - Stream Database</h1>
     
     <div class="header-actions">
@@ -293,14 +306,16 @@
             'all_formats': 'Toate formatele audio',
             'only_active': 'Doar posturi active',
             'table_play': 'Play',
-            'btn_play': '▶ Play'
+            'btn_play': '▶ Play',
+            'footer_credits': 'Dezvoltat cu pasiune pentru creatori și iubitorii de radio online de Daradics Levente'
         },
         'en': {
             'search_placeholder': 'Search station or country...',
             'all_formats': 'All audio formats',
             'only_active': 'Active stations only',
             'table_play': 'Play',
-            'btn_play': '▶ Play'
+            'btn_play': '▶ Play',
+            'footer_credits': 'Developed with passion for makers and online radio lovers by Daradics Levente'
         }
     };
 
@@ -346,7 +361,7 @@
             applyTranslations();
         } catch (error) {
             console.error('Eroare la încărcarea traducerilor:', error);
-            applyTranslations(); // Aplica fallback-ul chiar daca fetch-ul esueaza
+            applyTranslations();
         }
     }
 
@@ -410,17 +425,14 @@
 
     async function initApp() {
         try {
-            // 1. Incărcăm canalele mai întâi
             let response = await fetch(`channels.json?t=` + new Date().getTime());
             allChannels = await response.json();
             currentFilteredChannels = allChannels;
             populateContinents();
 
-            // 2. Incărcăm limbile și traducerea curentă
             await fetchAvailableLanguages();
             await loadLanguage(currentLang);
 
-            // 3. Afișăm canalele
             displayChannels(allChannels);
         } catch (error) {
             console.error('Eroare la inițializarea aplicației:', error);
