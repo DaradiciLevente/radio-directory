@@ -34,13 +34,27 @@
             background: #fff;
             cursor: pointer;
         }
-        /* Stil pentru textul din partea superioară */
+        /* Stil pentru textul și linkurile din partea superioară */
         .page-header-credits {
             text-align: center;
             font-size: 13px;
             color: #666;
             margin-bottom: 15px;
             font-style: italic;
+        }
+        .social-links {
+            margin-top: 5px;
+            font-size: 12px;
+            font-weight: 500;
+            font-style: normal;
+        }
+        .social-links a {
+            color: #1a73e8;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
         }
         h1 {
             text-align: center;
@@ -216,9 +230,15 @@
         <select id="langSelector" class="lang-select" onchange="changeLanguage(this.value)"></select>
     </div>
 
-    <!-- Textul mutat în partea superioară, deasupra titlului -->
-    <div class="page-header-credits" data-i18n="footer_credits">
-        Developed with passion for makers and online radio lovers by Daradics Levente
+    <!-- Textul de credit și linkurile sociale -->
+    <div class="page-header-credits">
+        <div data-i18n="footer_credits">Developed with passion for makers and online radio lovers by Daradics Levente</div>
+        <div class="social-links">
+            <a href="https://github.com/DaradiciLevente?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a> • 
+            <a href="https://www.youtube.com/@LeventeDaradici/videos" target="_blank" rel="noopener noreferrer">YouTube</a> • 
+            <a href="https://www.facebook.com/AndrewStudios.hu" target="_blank" rel="noopener noreferrer">Facebook</a> • 
+            <a href="https://www.instagram.com/daradics_levente/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
     </div>
 
     <h1 id="mainHeading" data-i18n="title_index">Radio Directory - Stream Database</h1>
